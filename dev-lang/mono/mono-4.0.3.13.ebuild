@@ -16,7 +16,8 @@ SLOT="0"
 
 KEYWORDS="~amd64 ~ppc ~ppc64 ~x86 ~amd64-linux"
 
-IUSE="nls minimal pax_kernel xen doc debug"
+#IUSE="nls minimal pax_kernel xen doc debug sgen llvm"
+IUSE="nls minimal pax_kernel xen doc debug sgen"
 
 COMMONDEPEND="
 	!minimal? ( >=dev-dotnet/libgdiplus-2.10 )
@@ -33,7 +34,7 @@ DEPEND="${COMMONDEPEND}
 "
 
 MAKEOPTS="${MAKEOPTS} -j1" #nowarn
-S="${WORKDIR}/${PN}-4.0.1"
+S="${WORKDIR}/${PN}-4.0.3"
 
 pkg_pretend() {
 	# If CONFIG_SYSVIPC is not set in your kernel .config, mono will hang while compiling.
@@ -58,6 +59,10 @@ src_prepare() {
 		sed '/exec "/ i\paxctl-ng -mr "$r/@mono_runtime@"' -i "${S}"/runtime/mono-wrapper.in || die "Failed to sed mono-wrapper.in"
 	fi
 
+	# strip-flags and append-flags are from
+	# https://devmanual.gentoo.org/eclass-reference/flag-o-matic.eclass/index.html
+	# (common functions to manipulate and query toolchain flags)
+
 	# mono build system can fail otherwise
 	strip-flags
 
@@ -68,9 +73,16 @@ src_prepare() {
 	epatch "${FILESDIR}/add_missing_vb_portable_targets.patch"
 
 	autotools-utils_src_prepare
+	epatch "${FILESDIR}/systemweb3.patch"
 }
 
 src_configure() {
+	# Very handy to specify ./configure argument without modifying .ebuild:
+	# EXTRA_ECONF="--enable-foo ......" emerge package
+	# see also
+	# https://devmanual.gentoo.org/ebuild-writing/functions/src_configure/configuring/index.html
+	# https://devmanual.gentoo.org/eclass-reference/autotools.eclass/
+
 	# NOTE: We need the static libs for now so mono-debugger works.
 	# See http://bugs.gentoo.org/show_bug.cgi?id=256264 for details
 	#
@@ -98,6 +110,29 @@ src_configure() {
 		$(use_enable nls)
 	)
 
+#	# "included" is default option - https://github.com/mono/mono#configuration-options
+#	if use boehm-gc; then
+#		myeconfargs+=(
+#			--with-gc=included
+#		)
+#	fi
+
+# this will lead to error
+# make[3]: *** No rule to make target '../../mono/metadata/libmonoruntime-static.a', needed by 'monodis'.  Stop.
+#	if ! use sgen; then
+#		myeconfargs+=(
+#			--with-sgen=no
+#		)
+#	fi
+
+#	if use llvm; then
+#		myeconfargs+=(
+#			--enable-llvm
+#			--enable-loadedllvm
+#		)
+#	fi
+
+	elog "myeconfargs=${myeconfargs}"
 	autotools-utils_src_configure
 
 	# FIX for uncompilable 3.4.0 sources
@@ -120,4 +155,17 @@ src_compile() {
 src_test() {
 	cd mcs/tests || die
 	emake check
+}
+
+src_install() {
+	autotools-utils_src_install
+
+	elog "Rewriting symlink"
+	# you have mono-boehm and mono-sgen executables
+	# mono is just a symlink to mono-sgen
+	if use sgen; then
+		dosym mono-sgen /usr/bin/mono
+	else
+		dosym mono-boehm /usr/bin/mono
+	fi
 }
