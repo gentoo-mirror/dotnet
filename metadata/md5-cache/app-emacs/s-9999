@@ -1,0 +1,11 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	elisp-common	9a16929c1a6aec7e1c903289983e114c	elisp	d13b0507622afb8ac9e3f54e91d58614	multilib	62927b3db3a589b0806255f3a002d5d3	git-2	e28f0d8a9b321431b1e699782851b827	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=f9270dabc487d36c705b5a17c970102c
+SLOT=0
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+EAPI=5
+DEPEND=dev-vcs/git >=virtual/emacs-23
+DESCRIPTION=The long lost Emacs string manipulation library
+LICENSE=GPL-3+
+KEYWORDS=~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~x86 ~x86-fbsd ~x86-freebsd ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
+HOMEPAGE=https://github.com/magnars/s.el
+RDEPEND=>=virtual/emacs-23

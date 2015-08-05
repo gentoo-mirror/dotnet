@@ -1,0 +1,12 @@
+_eclasses_=mono-env	3d65a3cdee6a3e25b7f620603af5e741	toolchain-funcs	42408102d713fbad60ca21349865edb4	flag-o-matic	c9602887773166fe300444712fc7ff98	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	git-2	e28f0d8a9b321431b1e699782851b827	base	87f7447ccfc06fd0729ff4684e11e0d6	libtool	52d0e17251d04645ffaa61bfdd858944	dotnet	cdf73b21914ac36f812fc3022cb45ee0	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=5ecd9ba5fb52c2c38bc2e3787c12915
+SLOT=0
+DEFINED_PHASES=compile configure install prepare setup unpack
+EAPI=5
+DEPEND=>=dev-libs/glib-2.16:2 >=media-libs/freetype-2.3.7 >=media-libs/fontconfig-2.6 >=media-libs/libpng-1.4:0 x11-libs/libXrender x11-libs/libX11 x11-libs/libXt >=x11-libs/cairo-1.8.4[X] media-libs/libexif >=media-libs/giflib-4.1.3 virtual/jpeg:0 media-libs/tiff:0 !cairo? ( >=x11-libs/pango-1.20 ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 dev-lang/mono dev-vcs/git
+DESCRIPTION=Library for using System.Drawing with mono
+LICENSE=MIT
+IUSE=cairo
+RESTRICT=test
+HOMEPAGE=http://www.mono-project.com
+RDEPEND=>=dev-libs/glib-2.16:2 >=media-libs/freetype-2.3.7 >=media-libs/fontconfig-2.6 >=media-libs/libpng-1.4:0 x11-libs/libXrender x11-libs/libX11 x11-libs/libXt >=x11-libs/cairo-1.8.4[X] media-libs/libexif >=media-libs/giflib-4.1.3 virtual/jpeg:0 media-libs/tiff:0 !cairo? ( >=x11-libs/pango-1.20 )

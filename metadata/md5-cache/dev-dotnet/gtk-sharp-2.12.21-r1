@@ -1,0 +1,14 @@
+_eclasses_=mono-env	3d65a3cdee6a3e25b7f620603af5e741	toolchain-funcs	42408102d713fbad60ca21349865edb4	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	base	87f7447ccfc06fd0729ff4684e11e0d6	libtool	52d0e17251d04645ffaa61bfdd858944	dotnet	cdf73b21914ac36f812fc3022cb45ee0	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=d71cee7f4926aabd90f9adfe50c9cfd5
+SLOT=2
+DEFINED_PHASES=compile configure install prepare setup unpack
+EAPI=5
+DEPEND=>=dev-lang/mono-3.0 x11-libs/pango >=dev-libs/glib-2.31 dev-libs/atk x11-libs/gtk+:2 gnome-base/libglade dev-perl/XML-LibXML !dev-dotnet/gtk-sharp-gapi !dev-dotnet/gtk-sharp-docs !dev-dotnet/gtk-dotnet-sharp !dev-dotnet/gdk-sharp !dev-dotnet/glib-sharp !dev-dotnet/glade-sharp !dev-dotnet/pango-sharp !dev-dotnet/atk-sharp virtual/pkgconfig sys-devel/automake:1.11 dev-lang/mono !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=gtk bindings for mono
+LICENSE=GPL-2
+IUSE=debug
+RESTRICT=test
+SRC_URI=http://download.mono-project.com/sources/gtk-sharp212/gtk-sharp-2.12.21.tar.gz
+KEYWORDS=~amd64 ~x86 ~ppc
+HOMEPAGE=http://www.mono-project.com/GtkSharp
+RDEPEND=>=dev-lang/mono-3.0 x11-libs/pango >=dev-libs/glib-2.31 dev-libs/atk x11-libs/gtk+:2 gnome-base/libglade dev-perl/XML-LibXML !dev-dotnet/gtk-sharp-gapi !dev-dotnet/gtk-sharp-docs !dev-dotnet/gtk-dotnet-sharp !dev-dotnet/gdk-sharp !dev-dotnet/glib-sharp !dev-dotnet/glade-sharp !dev-dotnet/pango-sharp !dev-dotnet/atk-sharp

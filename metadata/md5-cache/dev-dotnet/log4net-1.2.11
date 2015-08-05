@@ -1,0 +1,12 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	mono-env	3d65a3cdee6a3e25b7f620603af5e741	multilib	62927b3db3a589b0806255f3a002d5d3	versionator	cd0bcdb170807e4a1984115e9d53a26f	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=583215f1313ea6efb03ac1e7836c276b
+SLOT=0
+DEFINED_PHASES=compile install setup
+EAPI=5
+DEPEND=>=dev-lang/mono-2.0
+DESCRIPTION=tool to help the programmer output log statements to a variety of output targets.
+LICENSE=Apache-2.0
+SRC_URI=mirror://apache/logging/log4net/source/log4net-1.2.11-src.zip http://dev.gentoo.org/~pacho/dotnet/log4net.snk
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://logging.apache.org/log4net/
+RDEPEND=>=dev-lang/mono-2.0

@@ -1,0 +1,11 @@
+_eclasses_=mono-env	3d65a3cdee6a3e25b7f620603af5e741	toolchain-funcs	42408102d713fbad60ca21349865edb4	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	git-2	e28f0d8a9b321431b1e699782851b827	dotnet	cdf73b21914ac36f812fc3022cb45ee0	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=6d609d62683f092355a7b83464ff564d
+SLOT=0
+DEFINED_PHASES=compile install prepare setup unpack
+EAPI=5
+DEPEND=dev-lang/mono dev-lang/fsharp dev-vcs/git dev-lang/mono
+DESCRIPTION=FAKE - F# Make
+LICENSE=MS-PL
+IUSE=heather net40
+HOMEPAGE=https://github.com/fsharp/FAKE
+RDEPEND=dev-lang/mono dev-lang/fsharp

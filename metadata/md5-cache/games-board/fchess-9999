@@ -1,0 +1,12 @@
+_eclasses_=mono-env	3d65a3cdee6a3e25b7f620603af5e741	toolchain-funcs	42408102d713fbad60ca21349865edb4	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	git-2	e28f0d8a9b321431b1e699782851b827	fake	7fc0f2590d0b92018752a8db756a5818	dotnet	cdf73b21914ac36f812fc3022cb45ee0	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=916396b9b9ad9b1967479a50755bddaa
+SLOT=0
+DEFINED_PHASES=compile configure install setup unpack
+EAPI=5
+DEPEND=dev-lang/mono dev-dotnet/shelly dev-vcs/git dev-lang/mono dev-lang/mono
+DESCRIPTION=FAKE - F# Make
+LICENSE=GPL-2
+IUSE=net40 net45 net40 net45
+KEYWORDS=~x86 ~amd64
+HOMEPAGE=https://github.com/Heather/FChess
+RDEPEND=dev-lang/mono dev-dotnet/shelly

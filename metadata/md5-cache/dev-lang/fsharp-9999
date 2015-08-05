@@ -1,0 +1,11 @@
+_eclasses_=mono-env	3d65a3cdee6a3e25b7f620603af5e741	toolchain-funcs	42408102d713fbad60ca21349865edb4	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	git-2	e28f0d8a9b321431b1e699782851b827	libtool	52d0e17251d04645ffaa61bfdd858944	dotnet	cdf73b21914ac36f812fc3022cb45ee0	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=174823807337535829ab3c91e666ad29
+SLOT=0
+DEFINED_PHASES=install prepare setup unpack
+EAPI=5
+DEPEND=|| ( >dev-lang/mono-3.0.6 <dev-lang/mono-3.0.5 ) dev-vcs/git !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 dev-lang/mono
+DESCRIPTION=The F# Compiler
+LICENSE=Apache-2.0
+IUSE=-unicode -fsharp4 net40
+HOMEPAGE=https://github.com/fsharp/fsharp
+RDEPEND=|| ( >dev-lang/mono-3.0.6 <dev-lang/mono-3.0.5 )
