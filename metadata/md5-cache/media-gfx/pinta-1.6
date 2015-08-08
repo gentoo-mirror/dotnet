@@ -1,0 +1,12 @@
+_eclasses_=mono-env	3d65a3cdee6a3e25b7f620603af5e741	toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	gnome2-utils	5cdfd22a2163c9d3a891648bd19453a7	libtool	52d0e17251d04645ffaa61bfdd858944	fdo-mime	acfe1a88fd8751a1d5dc671168219fa	autotools	2264f05fbbbaaf83d34ec81e72b38ffd
+_md5_=657374b4aeab9a4f896b1b07efec3fc4
+SLOT=0
+DEFINED_PHASES=postinst postrm preinst prepare setup
+EAPI=5
+DEPEND=>=dev-lang/mono-4.0.2 >=dev-dotnet/gtk-sharp-2.12.21:2 >=dev-dotnet/mono-addins-1.0-r1[gtk] dev-util/intltool virtual/pkgconfig !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=sys-apps/sed-4
+DESCRIPTION=Simple Painting for Gtk
+LICENSE=MIT CC-BY-3.0
+SRC_URI=https://github.com/PintaProject/Pinta/archive/1.6.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://pinta-project.com
+RDEPEND=>=dev-lang/mono-4.0.2 >=dev-dotnet/gtk-sharp-2.12.21:2 >=dev-dotnet/mono-addins-1.0-r1[gtk] x11-libs/cairo[X] x11-libs/gdk-pixbuf[X,jpeg,tiff] x11-themes/gnome-icon-theme
