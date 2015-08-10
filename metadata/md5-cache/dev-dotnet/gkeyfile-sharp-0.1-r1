@@ -3,10 +3,10 @@ DEPEND=>=dev-dotnet/gtk-sharp-2.12.21 virtual/pkgconfig !<sys-devel/gettext-0.18
 DESCRIPTION=C# binding for gkeyfile
 EAPI=5
 HOMEPAGE=http://launchpad.net/gkeyfile-sharp http://github.com/mono/gkeyfile-sharp
-KEYWORDS=amd64 x86
+KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2.1
 RDEPEND=>=dev-dotnet/gtk-sharp-2.12.21
 SLOT=0
 SRC_URI=http://github.com/mono/gkeyfile-sharp/tarball/GKEYFILE_SHARP_0_1 -> gkeyfile-sharp-0.1.tar.gz
 _eclasses_=autotools	8056957fdccf2b3cd6e282a4b4551d1a	dotnet	cdf73b21914ac36f812fc3022cb45ee0	eutils	351a78113be5b393c09a2c948701ad36	libtool	7f78cd7d403808a350c9ae23f5821fb4	mono-env	3d65a3cdee6a3e25b7f620603af5e741	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=4123ac2d7570e783497a6e1b0024cd15
+_md5_=a66f00732ac122d548aab6a7f01f871f

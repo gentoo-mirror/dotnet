@@ -1,0 +1,12 @@
+DEFINED_PHASES=install setup
+DEPEND=dev-dotnet/gtk-sharp:3 virtual/udev virtual/libgudev virtual/pkgconfig
+DESCRIPTION=GUDEV API C# binding
+EAPI=5
+HOMEPAGE=https://github.com/mono/gudev-sharp
+KEYWORDS=~x86 ~amd64
+LICENSE=LGPL-2.1
+RDEPEND=dev-dotnet/gtk-sharp:3 virtual/udev virtual/libgudev
+SLOT=0
+SRC_URI=https://github.com/mono/gudev-sharp/releases/download/3.0.0/gudev-sharp-3.0.tar.gz
+_eclasses_=mono-env	3d65a3cdee6a3e25b7f620603af5e741
+_md5_=d2c815706c28878ce479dab28a9ea88f

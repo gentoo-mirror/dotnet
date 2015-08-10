@@ -3,10 +3,10 @@ DEPEND=>=dev-lang/mono-4.0.2.5 sys-fs/fuse virtual/pkgconfig
 DESCRIPTION=Multi-threaded and thread-safe IRC library written in C#
 EAPI=5
 HOMEPAGE=http://www.smuxi.org/page/Download
-KEYWORDS=amd64 x86
+KEYWORDS=~amd64 ~x86
 LICENSE=|| ( LGPL-2.1 LGPL-3 )
 RDEPEND=>=dev-lang/mono-4.0.2.5 sys-fs/fuse
 SLOT=0
 SRC_URI=https://github.com/meebey/SmartIrc4net/archive/1.0.tar.gz
 _eclasses_=mono-env	3d65a3cdee6a3e25b7f620603af5e741
-_md5_=bdc6a6ac809559d98830b6578bebf181
+_md5_=37216dde1ff3675e768ee63e4aeb6855
