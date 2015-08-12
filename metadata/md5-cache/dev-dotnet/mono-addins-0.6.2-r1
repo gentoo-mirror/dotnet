@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=dev-lang/mono-2 gtk? ( >=dev-dotnet/gtk-sharp-2.0:2 )
 SLOT=0
 SRC_URI=http://download.mono-project.com/sources/mono-addins/mono-addins-0.6.2.tar.bz2
-_eclasses_=eutils	351a78113be5b393c09a2c948701ad36	mono-env	3d65a3cdee6a3e25b7f620603af5e741	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
-_md5_=629ce2f1525fe85fb55046178d019f21
+_eclasses_=eutils	351a78113be5b393c09a2c948701ad36	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=74b1ba1dce5d9ba03fb5cd5ba89c55fd
