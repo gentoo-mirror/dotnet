@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=dev-db/sqlite:3 dev-lang/mono
+DESCRIPTION=XSP is a small web server that can host ASP.NET pages
+EAPI=5
+HOMEPAGE=http://www.mono-project.com/ASP.NET
+IUSE=net35 net40 net45
+KEYWORDS=amd64 ppc x86
+LICENSE=MIT
+RDEPEND=dev-db/sqlite:3
+SLOT=0
+SRC_URI=http://download.mono-project.com/sources/xsp/xsp-2.10.2.tar.bz2
+_eclasses_=base	84d9f879f57a8316ff02be0373a3d6f9	dotnet	0e6e7553edacb59ed215c5e3f9d39739	eutils	351a78113be5b393c09a2c948701ad36	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	user	906f3c8eb3a2350a4f1191a89baa3e46	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=69ba83fa3cf7c16c687313a8b478d29f
