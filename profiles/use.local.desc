@@ -1,0 +1,28 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml. Please add
+# your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+app-shells/pash:debug - Create .mdb files for release configuration
+dev-dotnet/fake:heather - Heather fork
+dev-dotnet/gnome-desktop-sharp:gtksourceview - Build with support for gtksourceview
+dev-dotnet/gnome-desktop-sharp:print - Build with support for gnomeprint
+dev-dotnet/gnome-desktop-sharp:rsvg - Build with support for rsvg
+dev-dotnet/gnome-desktop-sharp:vte - Build with support for vte
+dev-dotnet/gnome-desktop-sharp:wnck - Build with support for wnck
+dev-lang/fsharp:fsharp4 - build F# 4 branch
+dev-lang/mono:pax_kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
+dev-lang/mono:xen - Make mono generate code that is considerably faster on xen VMs but slightly slower on for normal systems.
+dev-lang/nemerle:binary - Using binary bootstrap
+dev-lang/nemerle:indent - Eperimental branch with indent by default
+dev-util/fsharpbinding:monodevelop - Install monodevelop binding
+dev-util/mono-docbrowser:gtkhtml - HTK HTML
+dev-util/monodevelop:git - Enable Git version control support
+dev-util/monodevelop:gnome - Enable support gnome support (unsetting this flag is unsupported)
+dev-util/monodevelop:qtcurve - Remove qtcurve check (unsupported)
+media-sound/banshee:bpm - Build beats per minute detection extension
+media-sound/banshee:cdda - Build with audio CD support
+media-sound/banshee:daap - Build with Daap support
+media-sound/banshee:karma - Build with karma support
+media-sound/banshee:web - Enable support for plugins that access web-based services such as Amazon and wikipedia (requires net-libs/webkit-gtk)
+media-sound/banshee:youtube - Enable the Youtube plugin
+www-servers/xsp:developer - creates .mdb files for either Release and Debug
