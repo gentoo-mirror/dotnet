@@ -7,5 +7,5 @@ IUSE=doc test
 LICENSE=GPL-2
 RDEPEND=>=dev-lang/mono-3.2.8 >=dev-dotnet/gnome-sharp-2.24.2-r1 >=dev-dotnet/gtk-sharp-2.12.21:2 >=dev-dotnet/mono-addins-1.0[gtk] doc? ( dev-util/mono-docbrowser ) >=dev-dotnet/xsp-2 dev-util/ctags sys-apps/dbus[X] !<dev-util/monodevelop-boo-9999 !<dev-util/monodevelop-java-9999 !<dev-util/monodevelop-database-9999 !<dev-util/monodevelop-debugger-gdb-9999 !<dev-util/monodevelop-debugger-mdb-9999 !<dev-util/monodevelop-vala-9999
 SLOT=0
-_eclasses_=dotnet	0e6e7553edacb59ed215c5e3f9d39739	eutils	351a78113be5b393c09a2c948701ad36	fdo-mime	92d07846ea8ea54172f8c0112a47ae3d	git-2	1bb87192831f668cd20d93ffb1689c94	gnome2-utils	ba8b66b446cac0566ae76d6e5bf2f914	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=dotnet	ca6f75851a2a0b9ca99db5bb96f8186f	eutils	351a78113be5b393c09a2c948701ad36	fdo-mime	92d07846ea8ea54172f8c0112a47ae3d	git-2	1bb87192831f668cd20d93ffb1689c94	gnome2-utils	ba8b66b446cac0566ae76d6e5bf2f914	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=b2137b1bde8113cb4c79d21fbd7a29ee
