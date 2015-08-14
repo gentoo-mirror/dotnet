@@ -11,4 +11,4 @@ RESTRICT=test
 SLOT=0
 SRC_URI=http://download.mono-project.com/sources/libgdiplus/libgdiplus-3.12.tar.gz
 _eclasses_=base	84d9f879f57a8316ff02be0373a3d6f9	dotnet	ca6f75851a2a0b9ca99db5bb96f8186f	eutils	351a78113be5b393c09a2c948701ad36	flag-o-matic	02090c5a622458303e6bf68837ac6b96	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=cd5b8b97cc8e472c6e6ed18ce66991e8
+_md5_=29af7f633094cd344e1474a246c670de
