@@ -23,7 +23,6 @@ dev-dotnet/nuget 2.8.1 2.8.3: Nuget - .NET Package Manager
 dev-dotnet/nuget-codeplex 2015.01 9999: Nuget - .NET Package Manager
 dev-dotnet/smartirc4net 1.0: Multi-threaded and thread-safe IRC library written in C#
 dev-dotnet/xdt-for-monodevelop 2.8.1 2.8.3: Microsoft's Xml Document Transformation library
-dev-dotnet/xsp 2.10.2-r3 2013.07 2013.07-r1 2014.11 9999: XSP is a small web server that can host ASP.NET pages
 dev-lang/fsharp 4.0.0.3 9999: The F# Compiler
 dev-lang/ironscheme 0.9.99659: R6RS conforming Scheme-like implementation based on the Microsoft DLR
 dev-lang/mono 3.10.0 3.12.1 4.0.2.5 4.0.3.20 9999: Mono runtime and class libraries, a C# compiler/interpreter
