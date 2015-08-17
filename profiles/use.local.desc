@@ -9,6 +9,8 @@ dev-dotnet/gnome-desktop-sharp:print - Build with support for gnomeprint
 dev-dotnet/gnome-desktop-sharp:rsvg - Build with support for rsvg
 dev-dotnet/gnome-desktop-sharp:vte - Build with support for vte
 dev-dotnet/gnome-desktop-sharp:wnck - Build with support for wnck
+dev-dotnet/nant:developer - enables debug information for any of debug and release builds
+dev-dotnet/nant:nupkg - creates local nuget package
 dev-dotnet/slntools:developer - enables debug information for any of debug and release builds
 dev-dotnet/slntools:nupkg - creates local nuget package
 dev-lang/fsharp:fsharp4 - build F# 4 branch

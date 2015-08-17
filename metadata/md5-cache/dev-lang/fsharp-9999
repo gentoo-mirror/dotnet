@@ -7,5 +7,5 @@ IUSE=-unicode -fsharp4 net40
 LICENSE=Apache-2.0
 RDEPEND=|| ( >dev-lang/mono-3.0.6 <dev-lang/mono-3.0.5 )
 SLOT=0
-_eclasses_=autotools	8056957fdccf2b3cd6e282a4b4551d1a	dotnet	6ba2ea4b1e6670f21fa0442ba77452dd	eutils	351a78113be5b393c09a2c948701ad36	git-2	1bb87192831f668cd20d93ffb1689c94	libtool	7f78cd7d403808a350c9ae23f5821fb4	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=autotools	8056957fdccf2b3cd6e282a4b4551d1a	dotnet	777ae0a703306c12b8db2342266c9c57	eutils	351a78113be5b393c09a2c948701ad36	git-2	1bb87192831f668cd20d93ffb1689c94	libtool	7f78cd7d403808a350c9ae23f5821fb4	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=f2d507c46ccad41549b3cf7ea3f762e1
