@@ -101,6 +101,8 @@ case ${GTK_SHARP_MODULE} in
 					"${WORKDIR}/${TARBALL}-2.12.11.patch"
 				)
 				;;
+		esac
+		case ${PVR} in
 			2.12.1*)
 				EAUTORECONF="YES"
 				add_bdepend "=sys-devel/automake-1.10*"
@@ -283,7 +285,7 @@ S="${WORKDIR}/${TARBALL}-${PV}"
 # @ECLASS-VARIABLE: SRC_URI
 # @DESCRIPTION:
 # Default value: mirror://gnome/sources/${TARBALL}/${PV_MAJOR}/${TARBALL}-${PV}.tar.bz2
-if TARBALL="gtk-sharp"; then
+if [[ ${TARBALL} == "gtk-sharp" ]]; then
 	SRC_URI="${SRC_URI}
 		http://download.mono-project.com/sources/gtk-sharp212/${TARBALL}-${PV}.tar.bz2"
 else
