@@ -22,6 +22,7 @@ dev-dotnet/nini 1.1.0-r3: Nini - A configuration library for .NET
 dev-dotnet/notify-sharp 0.4.1 3.0.3: a C# client implementation for Desktop Notifications
 dev-dotnet/nuget 2.8.1 2.8.3: Nuget - .NET Package Manager
 dev-dotnet/nuget-codeplex 2015.01 9999: Nuget - .NET Package Manager
+dev-dotnet/nunit 3.0.0-r201508180: NUnit test suite for mono applications
 dev-dotnet/slntools 1.1.3-r201508170: Validator.nu HTML Parser, a HTML5 parser, port from Java Version 1.4 to C#
 dev-dotnet/smartirc4net 1.0: Multi-threaded and thread-safe IRC library written in C#
 dev-dotnet/xdt-for-monodevelop 2.8.1 2.8.3: Microsoft's Xml Document Transformation library

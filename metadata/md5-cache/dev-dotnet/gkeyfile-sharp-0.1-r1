@@ -8,5 +8,5 @@ LICENSE=LGPL-2.1
 RDEPEND=>=dev-dotnet/gtk-sharp-2.12.21:2
 SLOT=0
 SRC_URI=http://github.com/mono/gkeyfile-sharp/tarball/GKEYFILE_SHARP_0_1 -> gkeyfile-sharp-0.1.tar.gz
-_eclasses_=autotools	8056957fdccf2b3cd6e282a4b4551d1a	dotnet	777ae0a703306c12b8db2342266c9c57	eutils	351a78113be5b393c09a2c948701ad36	libtool	7f78cd7d403808a350c9ae23f5821fb4	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=autotools	8056957fdccf2b3cd6e282a4b4551d1a	dotnet	fca86c59832754752e80f683cf4eb86b	eutils	351a78113be5b393c09a2c948701ad36	libtool	7f78cd7d403808a350c9ae23f5821fb4	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=c67d36d8ad77dbd0e3eeefde49fd99f9

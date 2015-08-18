@@ -9,5 +9,5 @@ LICENSE=MIT
 RDEPEND=>=dev-lang/mono-4.0.2.5
 SLOT=0
 SRC_URI=mirror://sourceforge/nini/Nini-1.1.0.zip
-_eclasses_=dotnet	777ae0a703306c12b8db2342266c9c57	eutils	351a78113be5b393c09a2c948701ad36	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=dotnet	fca86c59832754752e80f683cf4eb86b	eutils	351a78113be5b393c09a2c948701ad36	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=c7094bc16e19285ac88a627047f8fc5e
