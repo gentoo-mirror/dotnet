@@ -12,6 +12,7 @@ dev-dotnet/gtk-sharp 2.12.21 2.99.1 2.99.3: gtk bindings for mono
 dev-dotnet/gtk-sharp-beans 2.14.0-r2: GTK+ API C# binding
 dev-dotnet/gudev-sharp 3.0-r1: GUDEV API C# binding
 dev-dotnet/hyena 0.5: Library used to make awesome applications.
+dev-dotnet/icsharpcodetexteditor 3.2.2-r20150630: ICSharpCode.TextEditor library
 dev-dotnet/ikvm 7.2.4630.5: Java VM for .NET
 dev-dotnet/ikvm-bin 7.2.4630.5: Java VM for .NET
 dev-dotnet/libgdiplus 2.10.9-r2 3.12 9999: Library for using System.Drawing with mono
