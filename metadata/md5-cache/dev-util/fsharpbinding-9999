@@ -7,5 +7,5 @@ IUSE=-emacs +monodevelop debug developer
 LICENSE=Apache-2.0
 RDEPEND=dev-lang/fsharp monodevelop? ( dev-util/monodevelop ) emacs? ( >=virtual/emacs-21 app-emacs/s app-emacs/dash app-emacs/auto-complete )
 SLOT=0
-_eclasses_=autotools	7feb275d850f45095537e76c5aa80494	dotnet	1f324dc11a8144e7ef838c976a8a7e52	elisp-common	73c48c11ad6a6494eda0d0cca848c8fa	eutils	351a78113be5b393c09a2c948701ad36	git-2	1bb87192831f668cd20d93ffb1689c94	libtool	7f78cd7d403808a350c9ae23f5821fb4	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=autotools	7feb275d850f45095537e76c5aa80494	dotnet	955741c84d414d34c9fdb13daf3082a0	elisp-common	73c48c11ad6a6494eda0d0cca848c8fa	eutils	351a78113be5b393c09a2c948701ad36	git-2	1bb87192831f668cd20d93ffb1689c94	libtool	7f78cd7d403808a350c9ae23f5821fb4	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=45e4f064b8611c99d6045c25a24e9c84

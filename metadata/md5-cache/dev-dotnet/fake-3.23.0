@@ -9,5 +9,5 @@ LICENSE=MS-PL
 RDEPEND=dev-lang/mono dev-lang/fsharp nuget? ( dev-dotnet/nuget )
 SLOT=0
 SRC_URI=https://github.com/fsharp/FAKE/archive/3.23.0.tar.gz
-_eclasses_=dotnet	1f324dc11a8144e7ef838c976a8a7e52	eutils	351a78113be5b393c09a2c948701ad36	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	nuget	7294536b5117baa8aec80040ebee71dd	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=dotnet	955741c84d414d34c9fdb13daf3082a0	eutils	351a78113be5b393c09a2c948701ad36	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	nuget	7294536b5117baa8aec80040ebee71dd	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=e49f75092baaf3bdb1c39085ad730631
