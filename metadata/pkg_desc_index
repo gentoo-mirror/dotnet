@@ -3,6 +3,7 @@ app-emacs/s 9999: The long lost Emacs string manipulation library
 app-shells/pash 0.0-r20150618: An Open Source reimplementation of Windows PowerShell
 dev-dotnet/dbus-sharp 0.7.0-r2 0.8.1: D-Bus for .NET
 dev-dotnet/dbus-sharp-glib 0.6: D-Bus for .NET: GLib integration module
+dev-dotnet/eto-parse 1.4.0-r20150907: Recursive descent LL(k) parser for .NET with Fluent API, BNF, EBNF and Gold Grammars
 dev-dotnet/fake 3.23.0 9999: FAKE - F# Make
 dev-dotnet/gio-sharp 0.3-r1: GIO API C# binding
 dev-dotnet/gkeyfile-sharp 0.1-r1: C# binding for gkeyfile
@@ -36,6 +37,7 @@ dev-lang/nemerle 1.1b-r1 1.2-r1 9999: A hybrid programming language for .NET / M
 dev-util/fsharpbinding 9999: The F# Compiler
 dev-util/mono-debugger 9999: Debugger for .NET managed and unmanaged applications
 dev-util/mono-docbrowser 2.20130821-r1 9999: monodoc stripped from mono-tools
+dev-util/mono-packaging-tools 0.1.1-r20150918: mono packaging helpers
 dev-util/mono-tools 9999: Set of useful Mono related utilities
 dev-util/monodevelop 5.9.5.9 9999: Integrated Development Environment for .NET
 media-gfx/pinta 1.6: Simple Painting for Gtk
