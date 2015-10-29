@@ -9,63 +9,7 @@
 # introduce nuget IUSE flag for packages that are on nuget to download them from nuget. (if sources fails with some reason or dependies is complicated or if user just want binaries).
 # or maybe even introduce few packages that just downloads and instulls from nuget, reason is obviously - easy maintaince
 
-inherit dotnet
-
-# @FUNCTION: enuget_restore
-# @DESCRIPTION: run nuget restore
-# accepts path to .sln or .proj or .csproj file to restore as parameter
-enuget_restore() {
-	nuget restore "$@" || die
-}
-
-# @FUNCTION: enuspec
-# @DESCRIPTION: run nuget pack
-# accepts path to .nuspec file as parameter
-enuspec() {
-	if use nupkg; then
-		if use debug; then
-			PROPS=Configuration=Debug
-		else
-			PROPS=Configuration=Release
-		fi
-		nuget pack -Properties "${PROPS}" -BasePath "${S}" -OutputDirectory "${WORKDIR}" -NonInteractive -Verbosity detailed "$@" || die
-	fi
-}
-
-# @FUNCTION: enupkg
-# @DESCRIPTION: installs .nupkg into local repository
-# accepts path to .nupkg file as parameter
-enupkg() {
-	if use nupkg; then
-		if [ -d "/var/calculate/remote/distfiles" ]; then
-			# Control will enter here if the directory exist.
-			# this is necessary to handle calculate linux profiles feature (for corporate users)
-			elog "Installing .nupkg into /var/calculate/remote/packages/NuGet"
-			insinto /var/calculate/remote/packages/NuGet
-		else
-			# this is for all normal gentoo-based distributions
-			elog "Installing .nupkg into /usr/local/nuget/nupkg"
-			insinto /usr/local/nuget/nupkg
-		fi
-		doins "$@"
-	fi
-}
-
-# @ECLASS_VARIABLE: NUGET_DEPEND
-# @DESCRIPTION Set false to net depend on nuget
-: ${NUGET_NO_DEPEND:=}
-
-if [[ -n $NUGET_NO_DEPEND ]]; then
-	DEPEND+=" dev-dotnet/nuget"
-fi
-
-NPN=${PN/_/.}
-if [[ $PV == *_alpha* ]]
-then
-	NPV=${PVR/_/-}
-else
-	NPV=${PVR}
-fi
+inherit nupkg
 
 # @FUNCTION: nuget_src_unpack
 # @DESCRIPTION: Runs nuget
