@@ -5,6 +5,7 @@
 app-shells/pash:debug - Create .mdb files for release configuration
 dev-dotnet/NLog:developer - enables debug information for any of debug and release builds
 dev-dotnet/NLog:nupkg - creates local nuget package
+dev-dotnet/Open-NAT:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-dotnet/fake:heather - Heather fork
 dev-dotnet/gnome-desktop-sharp:gtksourceview - Build with support for gtksourceview
 dev-dotnet/gnome-desktop-sharp:print - Build with support for gnomeprint
