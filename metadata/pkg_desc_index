@@ -1,6 +1,7 @@
 app-emacs/dash 9999: A modern list api for Emacs. No 'cl required.
 app-emacs/s 9999: The long lost Emacs string manipulation library
 app-shells/pash 0.0-r20150618: An Open Source reimplementation of Windows PowerShell
+dev-dotnet/NLog 4.1.3_pre-r201510280: NLog - Advanced .NET and Silverlight Logging http://nlog-project.org
 dev-dotnet/dbus-sharp 0.7.0-r2 0.8.1: D-Bus for .NET
 dev-dotnet/dbus-sharp-glib 0.6: D-Bus for .NET: GLib integration module
 dev-dotnet/eto-parse 1.4.0-r20150907: Recursive descent LL(k) parser for .NET with Fluent API, BNF, EBNF and Gold Grammars
@@ -19,6 +20,7 @@ dev-dotnet/ikvm-bin 7.2.4630.5: Java VM for .NET
 dev-dotnet/libgdiplus 2.10.9-r2 3.12 9999: Library for using System.Drawing with mono
 dev-dotnet/log4net 1.2.11 1.2.11-r1: tool to help the programmer output log statements to a variety of output targets.
 dev-dotnet/mono-addins 0.6.2-r1 1.0-r1: A generic framework for creating extensible applications
+dev-dotnet/monotorrent 1.0.0-r201510130: Monotorrent is an open source C# bittorrent library
 dev-dotnet/nant 0.93.5019-r201504210: .NET build tool
 dev-dotnet/newtonsoftjson 7.0.1-r20150831: NewtonSoft.JSon library
 dev-dotnet/nini 1.1.0-r3: Nini - A configuration library for .NET

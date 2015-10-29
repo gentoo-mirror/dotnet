@@ -3,12 +3,15 @@
 # * generated automatically using pmaint *
 
 app-shells/pash:debug - Create .mdb files for release configuration
+dev-dotnet/NLog:developer - enables debug information for any of debug and release builds
+dev-dotnet/NLog:nupkg - creates local nuget package
 dev-dotnet/fake:heather - Heather fork
 dev-dotnet/gnome-desktop-sharp:gtksourceview - Build with support for gtksourceview
 dev-dotnet/gnome-desktop-sharp:print - Build with support for gnomeprint
 dev-dotnet/gnome-desktop-sharp:rsvg - Build with support for rsvg
 dev-dotnet/gnome-desktop-sharp:vte - Build with support for vte
 dev-dotnet/gnome-desktop-sharp:wnck - Build with support for wnck
+dev-dotnet/monotorrent:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-dotnet/nant:developer - enables debug information for any of debug and release builds
 dev-dotnet/nant:nupkg - creates local nuget package
 dev-dotnet/nunit:developer - enables debug information for any of debug and release builds

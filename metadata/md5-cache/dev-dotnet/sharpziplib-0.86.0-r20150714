@@ -9,5 +9,5 @@ LICENSE=MIT
 RDEPEND=|| ( >=dev-lang/mono-4.2 <dev-lang/mono-9999 )
 SLOT=0
 SRC_URI=https://github.com/icsharpcode/SharpZipLib/archive/e01215507cf25a5978a0bd850c9e67dbabf515b7.zip -> sharpziplib-0.86.0-r20150714.zip
-_eclasses_=dotnet	955741c84d414d34c9fdb13daf3082a0	eutils	43da5163ba106e87d22d2e7d6d67537f	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	nuget	08d9412adf074c3fe7d810e4ca792df8	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=dotnet	955741c84d414d34c9fdb13daf3082a0	eutils	43da5163ba106e87d22d2e7d6d67537f	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	nuget	03e2ddf821788a731e33dc41819f4490	nupkg	2fffa5ed1fe90eb767988ace6044709e	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=8434b61eb4ed665e51406334e0e4ad32
