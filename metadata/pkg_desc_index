@@ -32,10 +32,12 @@ dev-dotnet/nunit 2.6.4-r201501110 3.0.0_beta3-r201508190: NUnit test suite for m
 dev-dotnet/sharpziplib 0.86.0-r20150714: Zip, GZip, Tar and BZip2 library written entirely in C# for the .NET platform
 dev-dotnet/slntools 1.1.3-r201508170: Validator.nu HTML Parser, a HTML5 parser, port from Java Version 1.4 to C#
 dev-dotnet/smartirc4net 1.0: Multi-threaded and thread-safe IRC library written in C#
+dev-dotnet/soup-sharp 2.42.2: C# Bindings for libsoup2.4
+dev-dotnet/webkitgtk-sharp 2.0.0: C# bindings for WebKitGTK+ 3.0 using GObject Introspection
 dev-dotnet/xdt-for-monodevelop 2.8.1 2.8.3: Microsoft's Xml Document Transformation library
 dev-lang/fsharp 4.0.0.4 9999: The F# Compiler
 dev-lang/ironscheme 0.9.99659: R6RS conforming Scheme-like implementation based on the Microsoft DLR
-dev-lang/mono 3.10.0 3.12.1 4.0.2.5 4.0.3.20 4.2.0.179 4.2.1.36 4.2.1.91 4.2.1.102 9999: Mono runtime and class libraries, a C# compiler/interpreter
+dev-lang/mono 3.10.0 3.12.1 4.0.2.5 4.0.3.20 4.2.0.179 4.2.1.36 4.2.1.60-r1 4.2.1.91-r1 4.2.1.102-r1 4.2.1.124 9999: Mono runtime and class libraries, a C# compiler/interpreter
 dev-lang/nemerle 1.1b-r1 1.2-r1 9999: A hybrid programming language for .NET / Mono platforms
 dev-util/fsharpbinding 9999: The F# Compiler
 dev-util/mono-debugger 9999: Debugger for .NET managed and unmanaged applications
@@ -46,4 +48,5 @@ dev-util/monodevelop 5.9.5.9 9999: Integrated Development Environment for .NET
 media-gfx/pinta 1.6: Simple Painting for Gtk
 media-sound/banshee 2.6.1-r1: Import, organize, play, and share your music using a simple and powerful interface.
 net-irc/smuxi 1.0 9999: A flexible, irssi-like and user-friendly IRC client for the Gnome Desktop
+net-misc/sparkleshare 1.4: Git-based collaboration and file sharing tool
 www-servers/xsp 2014.12-r2014120900 9999: XSP is a small web server that can host ASP.NET pages
