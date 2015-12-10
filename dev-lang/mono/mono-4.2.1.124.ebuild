@@ -75,9 +75,11 @@ src_prepare() {
 	# https://github.com/mono/mono/compare/f967c79926900343f399c75624deedaba460e544^...8f379f0c8f98493180b508b9e68b9aa76c0c5bdf
 	epatch "${FILESDIR}/${PN}-4.0.2.5-fix-ppc-atomic-add-i4.patch"
 
-	autotools-utils_src_prepare
-
 	epatch "${FILESDIR}/systemweb3.patch"
+	epatch "${FILESDIR}/fix-for-GitExtensions-issue-2710.patch"
+	epatch "${FILESDIR}/fix-for-bug36724.patch"
+
+	autotools-utils_src_prepare
 }
 
 src_configure() {
