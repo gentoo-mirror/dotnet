@@ -3,6 +3,7 @@ app-emacs/s 9999: The long lost Emacs string manipulation library
 app-shells/pash 0.0-r20150618: An Open Source reimplementation of Windows PowerShell
 dev-dotnet/NLog 4.1.3_pre-r201510280: NLog - Advanced .NET and Silverlight Logging http://nlog-project.org
 dev-dotnet/Open-NAT 1.0.0-r201510290: Lightweight and easy-to-use class library to use port forwarding in NAT devices with UPNP and/or PMP
+dev-dotnet/X-PagedList 1.24.0.23549-r201512120: Nugget for easily paging through any IEnumerable/IQueryable in Asp.Net MVC
 dev-dotnet/dbus-sharp 0.7.0-r2 0.8.1: D-Bus for .NET
 dev-dotnet/dbus-sharp-glib 0.6: D-Bus for .NET: GLib integration module
 dev-dotnet/eto-parse 1.4.0-r20150907: Recursive descent LL(k) parser for .NET with Fluent API, BNF, EBNF and Gold Grammars
@@ -37,7 +38,7 @@ dev-dotnet/webkitgtk-sharp 2.0.0: C# bindings for WebKitGTK+ 3.0 using GObject I
 dev-dotnet/xdt-for-monodevelop 2.8.1 2.8.3: Microsoft's Xml Document Transformation library
 dev-lang/fsharp 4.0.0.4 9999: The F# Compiler
 dev-lang/ironscheme 0.9.99659: R6RS conforming Scheme-like implementation based on the Microsoft DLR
-dev-lang/mono 3.10.0 3.12.1 4.0.2.5 4.0.3.20 4.2.0.179 4.2.1.102-r1 4.2.2.10 9999: Mono runtime and class libraries, a C# compiler/interpreter
+dev-lang/mono 3.10.0 3.12.1 4.0.2.5 4.0.3.20 4.2.0.179 4.2.1.102-r1 4.2.2.10 4.2.2.10-r1 9999: Mono runtime and class libraries, a C# compiler/interpreter
 dev-lang/nemerle 1.1b-r1 1.2-r1 9999: A hybrid programming language for .NET / Mono platforms
 dev-util/fsharpbinding 9999: The F# Compiler
 dev-util/mono-debugger 9999: Debugger for .NET managed and unmanaged applications

@@ -1,14 +1,14 @@
-DEFINED_PHASES=compile configure install prepare setup
+DEFINED_PHASES=compile configure install prepare setup unpack
 DEPEND=>=dev-lang/mono-4.0.2.5 virtual/pkgconfig dev-lang/mono dev-lang/mono
-DESCRIPTION=Lightweight and easy-to-use class library to use port forwarding in NAT devices with UPNP and/or PMP
+DESCRIPTION=Nugget for easily paging through any IEnumerable/IQueryable in Asp.Net MVC
 EAPI=5
-HOMEPAGE=https://lontivero.github.io/Open.NAT
+HOMEPAGE=https://github.com/kpi-ua/X.PagedList/
 IUSE=net45 +gac +nupkg +pkg-config debug developer debug developer debug developer
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=>=dev-lang/mono-4.0.2.5
 SLOT=0
-SRC_URI=https://github.com/ArsenShnurkov/Open.NAT/archive/gentoo-mono4/8b1120fa0f2d457fa2c703718bbf3ce079ac5aae.zip -> Open-NAT-1.0.0-r201510290.zip mirror://gentoo/mono.snk.bz2
-_eclass_exported_funcs=pkg_setup:dotnet src_prepare:- src_configure:- src_compile:- src_install:-
+SRC_URI=https://github.com/ArsenShnurkov/X.PagedList/archive/master/48bc7da1bc3b6b294c69796bd9573e670edd3c64.zip -> X-PagedList-1.24.0.23549-r201512120.zip mirror://gentoo/mono.snk.bz2
+_eclass_exported_funcs=pkg_setup:dotnet src_unpack:- src_prepare:- src_configure:- src_compile:- src_install:-
 _eclasses_=dotnet	955741c84d414d34c9fdb13daf3082a0	eutils	d9bd2ddd85a58e470b49ca997e255a4c	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	3972ca401cf7dbb430df9995f5d8d580	nupkg	dd9b7df4e9da6be54becffaa7dd794a6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=a59ff2b2aec3458158ecf5adcc4b6396
+_md5_=988a972f4a7cb5a76730998fa2fcc6e0
