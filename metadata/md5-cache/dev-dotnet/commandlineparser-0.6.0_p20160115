@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare setup test unpack
+DEPEND=|| ( >=dev-lang/mono-4.2 <dev-lang/mono-9999 ) dev-lang/mono
+DESCRIPTION=command line parser on System.ComponentModel.DataAnnotations
+EAPI=6
+HOMEPAGE=https://github.com/mgrosperrin/commandlineparser/releases
+IUSE=net45 debug test +developer +aot +nupkg +gac +pkg-config debug developer net45
+KEYWORDS=~x86 ~amd64
+LICENSE=MIT
+RDEPEND=|| ( >=dev-lang/mono-4.2 <dev-lang/mono-9999 )
+SLOT=0
+SRC_URI=https://github.com/ArsenShnurkov/commandlineparser/archive/2203477397a68885fdf004ae4eb2300a2d271347.zip -> commandlineparser-0.6.0_p20160115.zip mirror://gentoo/mono.snk.bz2
+_eclass_exported_funcs=pkg_setup:- src_unpack:- src_prepare:- src_configure:- src_compile:- src_test:- src_install:-
+_eclasses_=dotnet	955741c84d414d34c9fdb13daf3082a0	eutils	d9bd2ddd85a58e470b49ca997e255a4c	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	3972ca401cf7dbb430df9995f5d8d580	nupkg	840b20eabcd0657e9450ab9b735b8957	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=257fec807607bf83171e1336d72dc2e6

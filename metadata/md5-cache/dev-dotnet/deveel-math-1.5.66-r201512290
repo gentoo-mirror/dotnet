@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare setup test unpack
+DEPEND=>=dev-lang/mono-4.0.2.5 test? ( dev-dotnet/nunit:2[nupkg] ) virtual/pkgconfig dev-lang/mono dev-lang/mono
+DESCRIPTION=A library for handling big numbers and decimals under Mono/.NET frameworks
+EAPI=5
+HOMEPAGE=https://github.com/deveel/deveel-math/
+IUSE=net45 debug developer test +nupkg +gac +pkg-config debug developer debug developer
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=>=dev-lang/mono-4.0.2.5
+SLOT=0
+SRC_URI=https://github.com/ArsenShnurkov/deveel-math/archive/portage-packaging/4635fb321ac931d0b381547d06ca6625a57ea343.zip -> deveel-math-1.5.66-r201512290.zip mirror://gentoo/mono.snk.bz2
+_eclass_exported_funcs=pkg_setup:dotnet src_unpack:- src_prepare:- src_configure:- src_compile:- src_test:- src_install:-
+_eclasses_=dotnet	955741c84d414d34c9fdb13daf3082a0	eutils	d9bd2ddd85a58e470b49ca997e255a4c	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	3972ca401cf7dbb430df9995f5d8d580	nupkg	840b20eabcd0657e9450ab9b735b8957	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=805ed8757adf727104c2f20f560a8b2f
