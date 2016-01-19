@@ -24,7 +24,7 @@ dev-dotnet/icsharpcodetexteditor 3.2.2-r20150630: ICSharpCode.TextEditor library
 dev-dotnet/ikvm 7.2.4630.5: Java VM for .NET
 dev-dotnet/ikvm-bin 7.2.4630.5: Java VM for .NET
 dev-dotnet/irony-framework 1.0.0_p20131212-r1: parsing framework for C# on LALR(1)
-dev-dotnet/libgdiplus 2.10.9-r2 3.12 9999: Library for using System.Drawing with mono
+dev-dotnet/libgdiplus 2.10.9-r2 3.12 4.2 9999: Library for using System.Drawing with mono
 dev-dotnet/log4net 1.2.11 1.2.11-r1: tool to help the programmer output log statements to a variety of output targets.
 dev-dotnet/mono-addins 0.6.2-r1 1.0-r1: A generic framework for creating extensible applications
 dev-dotnet/monotorrent 1.0.0-r201510130: Monotorrent is an open source C# bittorrent library
@@ -44,7 +44,7 @@ dev-dotnet/x-pagedlist 1.24.0.23549-r201512120: Nugget for easily paging through
 dev-dotnet/xdt-for-monodevelop 2.8.1 2.8.3: Microsoft's Xml Document Transformation library
 dev-lang/fsharp 4.0.0.4 9999: The F# Compiler
 dev-lang/ironscheme 0.9.99659: R6RS conforming Scheme-like implementation based on the Microsoft DLR
-dev-lang/mono 3.10.0 3.12.1 4.0.2.5 4.0.3.20 4.2.0.179 4.2.1.102-r1 4.2.2.10 4.2.2.10-r1 9999: Mono runtime and class libraries, a C# compiler/interpreter
+dev-lang/mono 3.10.0 3.12.1 4.0.2.5 4.0.3.20 4.2.0.179 4.2.1.102-r1 4.2.2.10 4.2.2.10-r1 4.2.2.29 9999: Mono runtime and class libraries, a C# compiler/interpreter
 dev-lang/nemerle 1.1b-r1 1.2-r1 9999: A hybrid programming language for .NET / Mono platforms
 dev-util/fsharpbinding 9999: The F# Compiler
 dev-util/mono-debugger 9999: Debugger for .NET managed and unmanaged applications
