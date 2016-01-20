@@ -10,5 +10,5 @@ RDEPEND=|| ( >=dev-lang/mono-4.2 <dev-lang/mono-9999 )
 SLOT=0
 SRC_URI=https://github.com/JamesNK/Newtonsoft.Json/archive/865c08d95d89565b4f6b463b57da8f5324f6ce7c.zip -> newtonsoft-json-8.0.1_p20151229.zip mirror://gentoo/mono.snk.bz2
 _eclass_exported_funcs=pkg_setup:dotnet src_prepare:- src_compile:- src_install:-
-_eclasses_=dotnet	955741c84d414d34c9fdb13daf3082a0	eutils	d9bd2ddd85a58e470b49ca997e255a4c	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	3972ca401cf7dbb430df9995f5d8d580	nupkg	840b20eabcd0657e9450ab9b735b8957	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=dotnet	955741c84d414d34c9fdb13daf3082a0	eutils	7332d4dd366dcd51c0014dde21f21897	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	3972ca401cf7dbb430df9995f5d8d580	nupkg	840b20eabcd0657e9450ab9b735b8957	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=7899721d930a6e76953facc1416e05c1
