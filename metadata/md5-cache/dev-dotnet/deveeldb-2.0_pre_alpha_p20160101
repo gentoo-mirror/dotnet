@@ -1,6 +1,6 @@
 DEFINED_PHASES=compile configure install prepare setup test unpack
 DEPEND=>=dev-lang/mono-4.0.2.5 test? ( dev-dotnet/nunit:2[nupkg] ) dev-dotnet/deveel-irony[nupkg] dev-dotnet/deveel-math[nupkg] dev-dotnet/dryioc[nupkg] virtual/pkgconfig dev-lang/mono dev-lang/mono
-DESCRIPTION=DeveelDB is a complete SQL database system, primarly developed for .NET/Mono frameworks
+DESCRIPTION=DeveelDB is a complete SQL DBMS, primarly developed for CLR/CLI frameworks
 EAPI=6
 HOMEPAGE=http://deveel.github.io/deveeldb/
 IUSE=net45 debug developer test +nupkg +gac +pkg-config debug developer debug developer
@@ -11,4 +11,4 @@ SLOT=0
 SRC_URI=https://github.com/ArsenShnurkov/deveeldb/archive/7ad0b1563ae111535715dbf6d1f25034887720c5.zip -> deveeldb-2.0_pre_alpha_p20160101.zip mirror://gentoo/mono.snk.bz2
 _eclass_exported_funcs=pkg_setup:dotnet src_unpack:- src_prepare:- src_configure:- src_compile:- src_test:- src_install:-
 _eclasses_=dotnet	955741c84d414d34c9fdb13daf3082a0	eutils	7332d4dd366dcd51c0014dde21f21897	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	3972ca401cf7dbb430df9995f5d8d580	nupkg	840b20eabcd0657e9450ab9b735b8957	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=e4608e83b3ab9a41067bafb2aafd0766
+_md5_=f3e4d0d30a1f97ebd847a56ef2f097b5
