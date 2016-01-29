@@ -10,5 +10,5 @@ RDEPEND=>=dev-lang/mono-4.0.2.5
 SLOT=0
 SRC_URI=https://github.com/ArsenShnurkov/NLog/archive/MONO_4_0/c3eb07ff89523154dc2385c7db0ba9437bff3362.zip -> NLog-4.1.3_pre-r201510280.zip
 _eclass_exported_funcs=pkg_setup:dotnet src_prepare:- src_compile:- src_install:-
-_eclasses_=dotnet	955741c84d414d34c9fdb13daf3082a0	eutils	8982475656ba7ade9b3201397efbd612	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	3972ca401cf7dbb430df9995f5d8d580	nupkg	840b20eabcd0657e9450ab9b735b8957	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=dotnet	955741c84d414d34c9fdb13daf3082a0	eutils	28fb3e5852485af1c348d446b0b98389	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	3972ca401cf7dbb430df9995f5d8d580	nupkg	840b20eabcd0657e9450ab9b735b8957	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=b1e529c287d93871531b812f2069fcfa
