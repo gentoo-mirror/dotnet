@@ -6,9 +6,9 @@
 		<description>Gentoo Dotnet Project</description>
 	</maintainer>
 	<longdescription lang="en">
-		NuGet - .NET Package Manager
-	</longdescription>
-	<longdescription lang="ru-RU">
-		NuGet - пакетный менеджер, чистый C#
-	</longdescription>
+		.NET Portable Class Library reference assemblies
+    </longdescription>
+	<longdescription lang="ru">
+        переносимые библиотеки классов (PCL) собранные Microsoft-ом
+    </longdescription>
 </pkgmetadata>
