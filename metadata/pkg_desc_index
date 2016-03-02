@@ -3,6 +3,7 @@ app-emacs/s 9999: The long lost Emacs string manipulation library
 app-shells/pash 0.0-r20150618: An Open Source reimplementation of Windows PowerShell
 dev-dotnet/NLog 4.1.3_pre-r201510280: NLog - Advanced .NET and Silverlight Logging http://nlog-project.org
 dev-dotnet/Open-NAT 1.0.0-r201510290: Class library to use port forwarding in NAT devices with UPNP and/or PMP
+dev-dotnet/cecil 0.9.6_p20160209: System.Reflection alternative to generate and inspect .NET executables/libraries
 dev-dotnet/commandlineparser 0.6.0_p20160115: command line parser on System.ComponentModel.DataAnnotations
 dev-dotnet/dbus-sharp 0.7.0-r2 0.8.1: D-Bus for .NET
 dev-dotnet/dbus-sharp-glib 0.6: D-Bus for .NET: GLib integration module
