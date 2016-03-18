@@ -39,6 +39,8 @@ dev-util/mono-docbrowser:gtkhtml - HTK HTML
 dev-util/monodevelop:git - Enable Git version control support
 dev-util/monodevelop:gnome - Enable support gnome support (unsetting this flag is unsupported)
 dev-util/monodevelop:qtcurve - Remove qtcurve check (unsupported)
+dev-util/nant:developer - enables debug information for any of debug and release builds
+dev-util/nant:nupkg - creates local nuget package
 media-sound/banshee:bpm - Build beats per minute detection extension
 media-sound/banshee:cdda - Build with audio CD support
 media-sound/banshee:daap - Build with Daap support
