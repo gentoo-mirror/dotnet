@@ -33,7 +33,7 @@ dev-dotnet/nant 0.93.5019-r201504210: .NET build tool
 dev-dotnet/newtonsoft-json 7.0.1_p20150831 8.0.1_p20151229: Json.NET is a popular high-performance JSON framework for .NET
 dev-dotnet/nini 1.1.0-r3: Nini - A configuration library for .NET
 dev-dotnet/notify-sharp 0.4.1 3.0.3: a C# client implementation for Desktop Notifications
-dev-dotnet/nuget 2.8.1 2.8.3: Nuget - .NET Package Manager
+dev-dotnet/nuget 2.8.1 2.8.3 2.8.7: Nuget - .NET Package Manager
 dev-dotnet/nuget-codeplex 2015.01 9999: Nuget - .NET Package Manager
 dev-dotnet/nunit 2.6.4-r201501110 3.0.0_beta3-r201508190: NUnit test suite for mono applications
 dev-dotnet/referenceassemblies-pcl 4.6: .NET Portable Class Library reference assemblies
