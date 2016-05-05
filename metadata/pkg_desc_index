@@ -12,7 +12,7 @@ dev-dotnet/deveel-math 1.5.66-r201512290: A library for handling big numbers and
 dev-dotnet/deveeldb 2.0_pre_alpha_p20160101: DeveelDB is a complete SQL DBMS, primarly developed for CLR/CLI frameworks
 dev-dotnet/dryioc 2.1.0-r201512110: fast, small, full-featured IoC Container for .NET
 dev-dotnet/eto-parse 1.4.0-r20150907: CLI parser with API, recursive descent, LL(k), for BNF, EBNF and Gold Grammars
-dev-dotnet/fake 3.23.0 9999: FAKE - F# Make
+dev-dotnet/fake 3.23.0: FAKE - F# Make
 dev-dotnet/gio-sharp 0.3-r1: GIO API C# binding
 dev-dotnet/gkeyfile-sharp 0.1-r1: C# binding for gkeyfile
 dev-dotnet/gnome-desktop-sharp 2.26.0-r3: gnome-desktop mono bindings
@@ -44,10 +44,10 @@ dev-dotnet/soup-sharp 2.42.2: C# Bindings for libsoup2.4
 dev-dotnet/webkitgtk-sharp 2.0.0: C# bindings for WebKitGTK+ 3.0 using GObject Introspection
 dev-dotnet/x-pagedlist 1.24.0.23549-r201512120: Nugget for easily paging through any IEnumerable/IQueryable in Asp.Net MVC
 dev-dotnet/xdt-for-monodevelop 2.8.1 2.8.3: Microsoft's Xml Document Transformation library
-dev-lang/fsharp 4.0.0.4 9999: The F# Compiler
+dev-lang/fsharp 4.0.0.4: The F# Compiler
 dev-lang/ironscheme 0.9.99659: R6RS conforming Scheme-like implementation based on the Microsoft DLR
 dev-lang/mono 3.12.1 4.2.2.30 4.3.2.467 4.4.0.40 4.4.0.122 4.4.0.148 9999: Mono runtime and class libraries, a C# compiler/interpreter
-dev-lang/nemerle 1.1b-r1 1.2-r1 9999: A hybrid programming language for .NET / Mono platforms
+dev-lang/nemerle 1.1b-r1 1.2-r1: A hybrid programming language for .NET / Mono platforms
 dev-util/fsharpbinding 9999: The F# Compiler
 dev-util/mono-debugger 9999: Debugger for .NET managed and unmanaged applications
 dev-util/mono-docbrowser 2.20130821-r1 9999: monodoc stripped from mono-tools
