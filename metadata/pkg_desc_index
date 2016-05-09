@@ -53,7 +53,7 @@ dev-util/mono-debugger 9999: Debugger for .NET managed and unmanaged application
 dev-util/mono-docbrowser 2.20130821-r1 9999: monodoc stripped from mono-tools
 dev-util/mono-packaging-tools 0.1.1-r20150918: mono packaging helpers
 dev-util/mono-tools 9999: Set of useful Mono related utilities
-dev-util/monodevelop 5.9.5.9 5.9.5.9-r1 9999: Integrated Development Environment for .NET
+dev-util/monodevelop 5.9.5.9 5.9.5.9-r1 5.10.3.51 9999: Integrated Development Environment for .NET
 dev-util/nant 0.93.5019_p201511150: .NET build tool
 media-gfx/pinta 1.6: Simple Painting for Gtk
 media-sound/banshee 2.6.1-r1: Import, organize, play, and share your music in a simple and powerful interface
