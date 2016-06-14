@@ -46,7 +46,7 @@ dev-dotnet/x-pagedlist 1.24.0.23549-r201512120: Nugget for easily paging through
 dev-dotnet/xdt-for-monodevelop 2.8.1 2.8.3: Microsoft's Xml Document Transformation library
 dev-lang/fsharp 4.0.0.4 9999: The F# Compiler
 dev-lang/ironscheme 0.9.99659: R6RS conforming Scheme-like implementation based on the Microsoft DLR
-dev-lang/mono 3.12.1 4.2.2.30 4.3.2.467 4.4.0.40 4.4.0.122 4.4.0.148 9999: Mono runtime and class libraries, a C# compiler/interpreter
+dev-lang/mono 3.12.1 4.2.2.30 4.3.2.467 4.4.0.40 4.4.0.148 4.4.0.182 9999: Mono runtime and class libraries, a C# compiler/interpreter
 dev-lang/nemerle 1.1b-r1 1.2-r1 9999: A hybrid programming language for .NET / Mono platforms
 dev-util/fsharpbinding 9999: The F# Compiler
 dev-util/mono-debugger 9999: Debugger for .NET managed and unmanaged applications
