@@ -1,3 +1,4 @@
+app-editors/mypad 1.0.3_p201606130: mypad text editor
 app-emacs/dash 9999: A modern list api for Emacs. No 'cl required.
 app-emacs/s 9999: The long lost Emacs string manipulation library
 app-shells/pash 0.0-r20150618: An Open Source reimplementation of Windows PowerShell
