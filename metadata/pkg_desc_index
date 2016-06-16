@@ -58,6 +58,6 @@ dev-util/monodevelop 5.10.3.51 6.0.0.4761 9999: Integrated Development Environme
 dev-util/nant 0.93.5019_p201511150: .NET build tool
 media-gfx/pinta 1.6: Simple Painting for Gtk
 media-sound/banshee 2.6.1-r1: Import, organize, play, and share your music in a simple and powerful interface
-net-irc/smuxi 1.0 1.0.5 9999: A flexible, irssi-like and user-friendly IRC client for the Gnome Desktop
+net-irc/smuxi 1.0 1.0.5 1.1_p201605280 9999: A flexible, irssi-like and user-friendly IRC client for the Gnome Desktop
 net-misc/sparkleshare 1.4: Git-based collaboration and file sharing tool
 www-servers/xsp 2014.12-r2014120900 9999: XSP is a small web server that can host ASP.NET pages
