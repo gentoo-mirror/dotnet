@@ -32,8 +32,6 @@ dev-dotnet/x-pagedlist:pkg-config - create .pc file(s) for .dll(s) installed to 
 dev-lang/fsharp:fsharp4 - build F# 4 branch
 dev-lang/mono:pax_kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
 dev-lang/mono:xen - Make mono generate code that is considerably faster on xen VMs but slightly slower on for normal systems.
-dev-lang/nemerle:binary - Using binary bootstrap
-dev-lang/nemerle:indent - Eperimental branch with indent by default
 dev-util/fsharpbinding:monodevelop - Install monodevelop binding
 dev-util/mono-docbrowser:gtkhtml - HTK HTML
 dev-util/monodevelop:git - Enable Git version control support
