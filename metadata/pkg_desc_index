@@ -31,13 +31,12 @@ dev-dotnet/libgdiplus 2.10.9-r2 3.12 4.2-r2 9999: Library for using System.Drawi
 dev-dotnet/log4net 1.2.11 1.2.11-r1: tool to help the programmer output log statements to a variety of output targets
 dev-dotnet/mono-addins 0.6.2-r1 1.0-r1: A generic framework for creating extensible applications
 dev-dotnet/monotorrent 1.0.0-r201510130: Monotorrent is an open source C# bittorrent library
-dev-dotnet/nant 0.93.5019-r201504210: .NET build tool
 dev-dotnet/newtonsoft-json 6.0.8 7.0.1_p20150831 8.0.1_p20151229: Json.NET is a popular high-performance JSON framework for .NET
 dev-dotnet/nini 1.1.0-r3: Nini - A configuration library for .NET
 dev-dotnet/notify-sharp 0.4.1 3.0.3: a C# client implementation for Desktop Notifications
 dev-dotnet/nuget 2.8.1 2.8.3 2.8.7: Nuget - .NET Package Manager
 dev-dotnet/nuget-codeplex 2015.01 9999: Nuget - .NET Package Manager
-dev-dotnet/nunit 2.6.4-r201501110 3.0.0_beta3-r201508190: NUnit test suite for mono applications
+dev-dotnet/nunit 3.0.0_beta3-r201508190: NUnit test suite for mono applications
 dev-dotnet/referenceassemblies-pcl 4.6: .NET Portable Class Library reference assemblies
 dev-dotnet/sharpziplib 0.86.0-r20150714: Zip, GZip, Tar and BZip2 library written entirely in C# for the .NET platform
 dev-dotnet/slntools 1.1.3-r201508170: Validator.nu HTML Parser, a HTML5 parser, port from Java Version 1.4 to C#
@@ -56,6 +55,7 @@ dev-util/mono-packaging-tools 0.1.1-r20150918: mono packaging helpers
 dev-util/mono-tools 9999: Set of useful Mono related utilities
 dev-util/monodevelop 5.10.3.51 6.0.0.4761 9999: Integrated Development Environment for .NET
 dev-util/nant 0.93.5019_p201511150: .NET build tool
+dev-util/nunit 2.6.4_p2015011102-r1: NUnit test suite for mono applications
 media-gfx/pinta 1.6: Simple Painting for Gtk
 media-sound/banshee 2.6.1-r1: Import, organize, play, and share your music in a simple and powerful interface
 net-irc/smuxi 1.0 1.0.5 1.1_p201605280 9999: A flexible, irssi-like and user-friendly IRC client for the Gnome Desktop

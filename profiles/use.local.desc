@@ -21,8 +21,6 @@ dev-dotnet/gnome-desktop-sharp:vte - Build with support for vte
 dev-dotnet/gnome-desktop-sharp:wnck - Build with support for wnck
 dev-dotnet/irony-framework:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-dotnet/monotorrent:pkg-config - create .pc file(s) for .dll(s) installed to gac
-dev-dotnet/nant:developer - enables debug information for any of debug and release builds
-dev-dotnet/nant:nupkg - creates local nuget package
 dev-dotnet/newtonsoft-json:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-dotnet/nunit:developer - enables debug information for any of debug and release builds
 dev-dotnet/nunit:nupkg - creates local nuget package
@@ -38,6 +36,8 @@ dev-util/monodevelop:gnome - Enable support gnome support (unsetting this flag i
 dev-util/monodevelop:qtcurve - Remove qtcurve check (unsupported)
 dev-util/nant:developer - enables debug information for any of debug and release builds
 dev-util/nant:nupkg - creates local nuget package
+dev-util/nunit:developer - enables debug information for any of debug and release builds
+dev-util/nunit:nupkg - creates local nuget package
 media-sound/banshee:bpm - Build beats per minute detection extension
 media-sound/banshee:cdda - Build with audio CD support
 media-sound/banshee:daap - Build with Daap support

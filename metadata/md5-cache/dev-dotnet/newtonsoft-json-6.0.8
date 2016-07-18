@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile install prepare setup
-DEPEND=|| ( >=dev-lang/mono-4.2 <dev-lang/mono-9999 ) >=dev-dotnet/nunit-2.6.4-r201501110:2[nupkg] dev-lang/mono
+DEPEND=|| ( >=dev-lang/mono-4.2 <dev-lang/mono-9999 ) dev-util/nunit:2[nupkg] dev-lang/mono
 DESCRIPTION=Json.NET is a popular high-performance JSON framework for .NET
 EAPI=6
 HOMEPAGE=https://github.com/JamesNK/Newtonsoft.Json
 IUSE=net45 debug developer test +nupkg +gac +pkg-config debug developer net45
-KEYWORDS=~amd64 ~ppc ~x86
+KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=|| ( >=dev-lang/mono-4.2 <dev-lang/mono-9999 )
 SLOT=0
 SRC_URI=https://github.com/JamesNK/Newtonsoft.Json/archive/1497343173a181d678b4c9bbf60250a12f783f1c.zip -> newtonsoft-json-6.0.8.zip mirror://gentoo/mono.snk.bz2
 _eclass_exported_funcs=pkg_setup:dotnet src_prepare:- src_compile:- src_install:-
 _eclasses_=dotnet	955741c84d414d34c9fdb13daf3082a0	eutils	792f83d5ec9536cb5ccef375469d8bde	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	d062ae4ba2fc40a19c11de2ad89b6616	nupkg	840b20eabcd0657e9450ab9b735b8957	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=510364fec81ac5620af9785e2fcc289d
+_md5_=4615b6cacb2e0822f9a3b4550cff4333
