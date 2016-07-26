@@ -13,7 +13,6 @@ dev-dotnet/deveel-irony:pkg-config - create .pc file(s) for .dll(s) installed to
 dev-dotnet/deveel-math:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-dotnet/deveeldb:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-dotnet/dryioc:pkg-config - create .pc file(s) for .dll(s) installed to gac
-dev-dotnet/fake:heather - Heather fork
 dev-dotnet/gnome-desktop-sharp:gtksourceview - Build with support for gtksourceview
 dev-dotnet/gnome-desktop-sharp:print - Build with support for gnomeprint
 dev-dotnet/gnome-desktop-sharp:rsvg - Build with support for rsvg
@@ -29,6 +28,9 @@ dev-dotnet/slntools:nupkg - creates local nuget package
 dev-dotnet/x-pagedlist:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-lang/mono:pax_kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
 dev-lang/mono:xen - Make mono generate code that is considerably faster on xen VMs but slightly slower on for normal systems.
+dev-libs/libgit2:gssapi - Enable GSSAPI support for SPNEGO auth
+dev-libs/libgit2:ssh - Enable SSH transport support
+dev-libs/libgit2:trace - Enable tracing support
 dev-util/fsharpbinding:monodevelop - Install monodevelop binding
 dev-util/mono-docbrowser:gtkhtml - HTK HTML
 dev-util/monodevelop:git - Enable Git version control support
