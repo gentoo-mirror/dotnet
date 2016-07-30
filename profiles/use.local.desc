@@ -21,8 +21,6 @@ dev-dotnet/gnome-desktop-sharp:wnck - Build with support for wnck
 dev-dotnet/irony-framework:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-dotnet/monotorrent:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-dotnet/newtonsoft-json:pkg-config - create .pc file(s) for .dll(s) installed to gac
-dev-dotnet/nunit:developer - enables debug information for any of debug and release builds
-dev-dotnet/nunit:nupkg - creates local nuget package
 dev-dotnet/slntools:developer - enables debug information for any of debug and release builds
 dev-dotnet/slntools:nupkg - creates local nuget package
 dev-dotnet/x-pagedlist:pkg-config - create .pc file(s) for .dll(s) installed to gac

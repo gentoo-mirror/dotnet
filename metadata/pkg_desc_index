@@ -37,7 +37,6 @@ dev-dotnet/nini 1.1.0-r3: Nini - A configuration library for .NET
 dev-dotnet/notify-sharp 0.4.1 3.0.3: a C# client implementation for Desktop Notifications
 dev-dotnet/nuget 2.8.1 2.8.3 2.8.7 2.8.7-r1: Nuget - .NET Package Manager
 dev-dotnet/nuget-codeplex 2015.01 9999: Nuget - .NET Package Manager
-dev-dotnet/nunit 3.0.0_beta3-r201508190: NUnit test suite for mono applications
 dev-dotnet/referenceassemblies-pcl 4.6: .NET Portable Class Library reference assemblies
 dev-dotnet/sharpziplib 0.86.0-r20150714: Zip, GZip, Tar and BZip2 library written entirely in C# for the .NET platform
 dev-dotnet/slntools 1.1.3-r201508170: Validator.nu HTML Parser, a HTML5 parser, port from Java Version 1.4 to C#
@@ -57,7 +56,7 @@ dev-util/mono-packaging-tools 0.1.1-r20150918: mono packaging helpers
 dev-util/mono-tools 9999: Set of useful Mono related utilities
 dev-util/monodevelop 5.10.3.51 6.0.0.4761 9999: Integrated Development Environment for .NET
 dev-util/nant 0.93.5019_p201511150: .NET build tool
-dev-util/nunit 2.6.4_p2015011102-r1: NUnit test suite for mono applications
+dev-util/nunit 2.6.4_p2015011102-r1 3.0.1-r1: NUnit test suite for mono applications
 media-gfx/pinta 1.6: Simple Painting for Gtk
 media-sound/banshee 2.6.1-r1: Import, organize, play, and share your music in a simple and powerful interface
 net-irc/smuxi 1.0 1.0.5 1.1_p201605280 9999: A flexible, irssi-like and user-friendly IRC client for the Gnome Desktop
