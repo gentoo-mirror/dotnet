@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install postinst prepare prerm setup test unpack
+DEPEND=|| ( >=dev-lang/mono-4.2 <dev-lang/mono-9999 ) nupkg? ( dev-dotnet/nuget ) nupkg? ( dev-util/nunit:2[nupkg] ) !nupkg? ( dev-util/nunit:2 ) dev-lang/mono dev-lang/mono >=dev-util/mono-packaging-tools-0.1.2 dev-lang/mono dev-dotnet/nuget
+DESCRIPTION=allows any program developed for .NET framework to access a PostgreSQL database
+EAPI=6
+HOMEPAGE=https://github.com/npgsql/npgsql
+IUSE=net45 debug developer test +pkg-config +gac +gac +machine debug developer net45 +nupkg
+KEYWORDS=~amd64
+LICENSE=npgsql
+RDEPEND=|| ( >=dev-lang/mono-4.2 <dev-lang/mono-9999 ) nupkg? ( dev-dotnet/nuget ) dev-lang/mono dev-lang/mono >=dev-util/mono-packaging-tools-0.1.2 dev-dotnet/nuget
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/npgsql/npgsql/archive/a7e147759c3756b6d22f07f5602aacd21f93d48d.tar.gz -> npgsql-3.1.6.tar.gz nupkg? ( http://www.npgsql.org/css/img/postgresql-header.png ) gac? ( mirror://gentoo/mono.snk.bz2 )
+_eclass_exported_funcs=pkg_prerm:- pkg_postinst:- pkg_setup:dotnet src_unpack:- src_prepare:- src_compile:- src_test:- src_install:-
+_eclasses_=dotnet	aa2d59a0b484df76bebc9a183cca2ba0	eutils	792f83d5ec9536cb5ccef375469d8bde	gac	ede0b507dcc250624641d78bfe79a467	machine	e015205c29c6ce770e9377d841b5450c	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	d062ae4ba2fc40a19c11de2ad89b6616	nupkg	b77181c344a9f9032d22bb46ddff632b	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=089d9f8069988a54dc2f213a7c1233b7

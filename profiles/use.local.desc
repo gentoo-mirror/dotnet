@@ -24,6 +24,8 @@ dev-dotnet/mono-options:gac - n/a
 dev-dotnet/mono-options:nupkg - n/a
 dev-dotnet/monotorrent:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-dotnet/newtonsoft-json:pkg-config - create .pc file(s) for .dll(s) installed to gac
+dev-dotnet/npgsql:machine - регистрирует фабрику ADO .NET провайдера в файле machine.config
+dev-dotnet/npgsql:pkg-config - создаёт .pc файл для .dll-ки, устанавливаемой в gac
 dev-dotnet/slntools:developer - enables debug information for any of debug and release builds
 dev-dotnet/slntools:nupkg - creates local nuget package
 dev-dotnet/x-pagedlist:pkg-config - create .pc file(s) for .dll(s) installed to gac

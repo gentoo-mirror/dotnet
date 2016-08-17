@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install prepare setup unpack
+DEPEND=>=dev-lang/mono-4.2 dev-dotnet/mono-options[gac] >=dev-dotnet/eto-parse-1.4.0[nupkg] dev-lang/mono dev-dotnet/nuget dev-lang/mono
+DESCRIPTION=mono packaging helpers
+EAPI=6
+HOMEPAGE=https://github.com/ArsenShnurkov/mono-packaging-tools
+IUSE=developer nupkg debug debug developer +nupkg debug developer
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/mono-4.2 dev-dotnet/mono-options[gac] >=dev-dotnet/eto-parse-1.4.0[nupkg] dev-dotnet/nuget
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/ArsenShnurkov/mono-packaging-tools/archive/50b799d3bcfd12fd4d1c651f55f8dcf81d6ac2d2.tar.gz -> mono-packaging-tools-0.1.2_p20160816.tar.gz
+_eclass_exported_funcs=pkg_setup:dotnet src_unpack:nuget src_prepare:- src_configure:nuget src_compile:- src_install:-
+_eclasses_=dotnet	aa2d59a0b484df76bebc9a183cca2ba0	eutils	792f83d5ec9536cb5ccef375469d8bde	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	d062ae4ba2fc40a19c11de2ad89b6616	nuget	03e2ddf821788a731e33dc41819f4490	nupkg	b77181c344a9f9032d22bb46ddff632b	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=ddfa296ad5b1df04f922553671c731d0

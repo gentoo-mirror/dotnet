@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile configure install setup unpack
-DEPEND=>=dev-lang/mono-4.4.0.40 !dev-dotnet/nant nupkg? ( dev-dotnet/nuget ) virtual/pkgconfig dev-lang/mono dev-lang/mono
+DEPEND=>=dev-lang/mono-4.4.0.40 !dev-dotnet/nant nupkg? ( dev-dotnet/nuget ) virtual/pkgconfig dev-lang/mono dev-dotnet/nuget dev-lang/mono
 DESCRIPTION=.NET build tool
 EAPI=6
 HOMEPAGE=https://github.com/nant/
-IUSE=+net45 developer nupkg debug debug developer debug developer
+IUSE=+net45 developer nupkg debug debug developer +nupkg debug developer
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-RDEPEND=>=dev-lang/mono-4.4.0.40 !dev-dotnet/nant nupkg? ( dev-dotnet/nuget )
+RDEPEND=>=dev-lang/mono-4.4.0.40 !dev-dotnet/nant nupkg? ( dev-dotnet/nuget ) dev-dotnet/nuget
 SLOT=0
 SRC_URI=https://api.github.com/repos/nant/nant/zipball/19bec6eca205af145e3c176669bbd57e1712be2a -> nant-nant-0.93.5019_p201511150-19bec6eca205af145e3c176669bbd57e1712be2a.zip mirror://gentoo/mono.snk.bz2
 _eclass_exported_funcs=pkg_setup:dotnet src_unpack:- src_configure:nuget src_compile:- src_install:-
-_eclasses_=dotnet	955741c84d414d34c9fdb13daf3082a0	eutils	792f83d5ec9536cb5ccef375469d8bde	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	d062ae4ba2fc40a19c11de2ad89b6616	nuget	03e2ddf821788a731e33dc41819f4490	nupkg	840b20eabcd0657e9450ab9b735b8957	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=dotnet	aa2d59a0b484df76bebc9a183cca2ba0	eutils	792f83d5ec9536cb5ccef375469d8bde	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	d062ae4ba2fc40a19c11de2ad89b6616	nuget	03e2ddf821788a731e33dc41819f4490	nupkg	b77181c344a9f9032d22bb46ddff632b	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=36556dbb7c3f5f6a096dfcb30c04abee

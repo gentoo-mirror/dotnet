@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile install prepare setup unpack
-DEPEND=>=dev-lang/mono-4.0.2.5 test? ( dev-util/nunit:2[nupkg] ) virtual/pkgconfig dev-lang/mono dev-lang/mono
+DEPEND=>=dev-lang/mono-4.0.2.5 test? ( dev-util/nunit:2[nupkg] ) virtual/pkgconfig dev-lang/mono dev-lang/mono dev-dotnet/nuget dev-lang/mono
 DESCRIPTION=parsing framework for C# on LALR(1)
 EAPI=6
 HOMEPAGE=https://github.com/deveel/irony
-IUSE=net45 debug +developer test +nupkg +gac +pkg-config debug developer net45 debug developer net45
+IUSE=net45 debug +developer test +nupkg +gac +pkg-config debug developer net45 debug developer net45 +nupkg +gac
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=>=dev-lang/mono-4.0.2.5
+RDEPEND=>=dev-lang/mono-4.0.2.5 dev-dotnet/nuget dev-lang/mono
 SLOT=0
 SRC_URI=https://github.com/deveel/irony/archive/7bc3f3e70af5bdd6a095ba06de31e0929751b48e.zip -> deveel-irony-1.0.0_p20150328.zip mirror://gentoo/mono.snk.bz2
 _eclass_exported_funcs=pkg_setup:dotnet src_unpack:- src_prepare:- src_compile:- src_install:-
-_eclasses_=dotnet	955741c84d414d34c9fdb13daf3082a0	eutils	792f83d5ec9536cb5ccef375469d8bde	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	d062ae4ba2fc40a19c11de2ad89b6616	nupkg	840b20eabcd0657e9450ab9b735b8957	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=94aea2d1a9b011c737315d2d9288f355
+_eclasses_=dotnet	aa2d59a0b484df76bebc9a183cca2ba0	eutils	792f83d5ec9536cb5ccef375469d8bde	gac	ede0b507dcc250624641d78bfe79a467	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	d062ae4ba2fc40a19c11de2ad89b6616	nupkg	b77181c344a9f9032d22bb46ddff632b	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=8fea16268e0dd097a80ed609c3497192
