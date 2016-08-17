@@ -15,7 +15,7 @@ SLOT="0"
 SRC_URI="https://github.com/mrward/xdt/archive/Release-NuGet-${PV}-Mono.tar.gz -> xdt-for-monodevelop-${PV}.tar.gz"
 S=${WORKDIR}/xdt-Release-NuGet-${PV}-Mono
 
-KEYWORDS="x86 amd64"
+KEYWORDS="~amd64 ~x86 ~ppc"
 IUSE=""
 
 DEPEND="|| ( dev-lang/mono )"
@@ -26,10 +26,11 @@ pkg_setup() {
 }
 
 src_prepare() {
-	epatch "${FILESDIR}/disable-testproject-build-in-sln.patch"
+	eapply "${FILESDIR}/disable-testproject-build-in-sln-r1.patch"
 	cp "${FILESDIR}/rsa-4096.snk" "${S}/XmlTransform" || die
-	epatch "${FILESDIR}/add-keyfile-option-to-csproj.patch"
+	eapply "${FILESDIR}/add-keyfile-option-to-csproj-r1.patch"
 	sed -i -e "s/1.0.0/${PV}/g"  "${S}/XmlTransform/Properties/AssemblyInfo.cs" || die
+	default
 }
 
 src_configure() {

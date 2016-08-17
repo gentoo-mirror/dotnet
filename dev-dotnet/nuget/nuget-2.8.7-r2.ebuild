@@ -19,13 +19,13 @@ S=${WORKDIR}/nuget-Release-${PV}-MonoDevelop
 LICENSE="Apache-2.0"
 SLOT="0"
 
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="~amd64 ~x86 ~ppc"
 IUSE=""
 
 # Mask 3.2.0 because of mcs compiler bug : http://stackoverflow.com/a/17926731/238232
 # it fixed in 3.2.3
 DEPEND=">=dev-lang/mono-3.2.3
-	<=dev-dotnet/xdt-for-monodevelop-2.8.2
+	<=dev-dotnet/xdt-for-monodevelop-2.8.2[gac]
 	!dev-dotnet/nuget-codeplex
 	app-misc/ca-certificates"
 RDEPEND="${DEPEND}"
@@ -39,9 +39,10 @@ pkg_setup() {
 src_prepare() {
 	sed -i -e 's@RunTests@ @g' "${S}/Build/Build.proj" || die
 	cp "${FILESDIR}/rsa-4096.snk" "${S}/src/Core/" || die
-	epatch "${FILESDIR}/add-keyfile-option-to-csproj.patch"
+	eapply "${FILESDIR}/add-keyfile-option-to-csproj-r2.patch"
 	sed -i -E -e "s#(\[assembly: InternalsVisibleTo(.*)\])#/* \1 */#g" "src/Core/Properties/AssemblyInfo.cs" || die
-	epatch "${FILESDIR}/strongnames-for-ebuild-2.8.1.patch"
+	eapply "${FILESDIR}/strongnames-for-ebuild-2.8.1-r2.patch"
+	default
 }
 
 src_configure() {

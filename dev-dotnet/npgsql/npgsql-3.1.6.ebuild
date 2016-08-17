@@ -11,73 +11,81 @@ EAPI=6
 # gac = install into gac
 # pkg-config = register in pkg-config database
 USE_DOTNET="net45"
-IUSE="${USE_DOTNET} debug developer test +nupkg +gac +pkg-config"
+IUSE="${USE_DOTNET} debug developer test +pkg-config"
 
-inherit nupkg gac
+inherit gac machine nupkg
 
-NAME="Newtonsoft.Json"
+NAME="npgsql"
 NUSPEC_ID="${NAME}"
-HOMEPAGE="https://github.com/JamesNK/${NAME}"
+HOMEPAGE="https://github.com/npgsql/${NAME}"
 
-EGIT_COMMIT="1497343173a181d678b4c9bbf60250a12f783f1c"
-SRC_URI="${HOMEPAGE}/archive/${EGIT_COMMIT}.zip -> ${P}.zip
-	mirror://gentoo/mono.snk.bz2"
+EGIT_COMMIT="a7e147759c3756b6d22f07f5602aacd21f93d48d"
+SRC_URI="${HOMEPAGE}/archive/${EGIT_COMMIT}.tar.gz -> ${P}.tar.gz
+	nupkg? ( http://www.npgsql.org/css/img/postgresql-header.png )
+	gac? ( mirror://gentoo/mono.snk.bz2 )"
+RESTRICT="mirror"
 S="${WORKDIR}/${NAME}-${EGIT_COMMIT}"
 
 SLOT="0"
 
-DESCRIPTION="Json.NET is a popular high-performance JSON framework for .NET"
-LICENSE="MIT"
-LICENSE_URL="https://raw.github.com/JamesNK/Newtonsoft.Json/master/LICENSE.md"
+DESCRIPTION="allows any program developed for .NET framework to access a PostgreSQL database"
+LICENSE="npgsql"
+LICENSE_URL="https://github.com/npgsql/npgsql/blob/develop/LICENSE.txt"
 
-KEYWORDS="~amd64 ~x86"
-COMMON_DEPENDENCIES="|| ( >=dev-lang/mono-4.2 <dev-lang/mono-9999 )"
+KEYWORDS="~amd64"
+COMMON_DEPENDENCIES="|| ( >=dev-lang/mono-4.2 <dev-lang/mono-9999 )
+	nupkg? ( dev-dotnet/nuget )
+"
 RDEPEND="${COMMON_DEPENDENCIES}
 "
 DEPEND="${COMMON_DEPENDENCIES}
-	dev-util/nunit:2[nupkg]
+	nupkg? ( dev-util/nunit:2[nupkg] )
+	!nupkg? ( dev-util/nunit:2 )
 "
 
-METAFILETOBUILD=Src/Newtonsoft.Json.sln
+NPGSQL_CSPROJ=src/Npgsql/Npgsql.csproj
+METAFILETOBUILD=${NPGSQL_CSPROJ}
 
-NUSPEC_FILENAME="Newtonsoft.Json.nuspec"
+NUSPEC_FILENAME="npgsql.nuspec"
 COMMIT_DATE_INDEX=$(get_version_component_count ${PV} )
 COMMIT_DATE=$(get_version_component_range $COMMIT_DATE_INDEX ${PV} )
-NUSPEC_VERSION=$(get_version_component_range 1-3)
+NUSPEC_VERSION=$(get_version_component_range 1-3)"${COMMIT_DATE//p/.}${PR//r/}"
 
-ICON_FILENAME=nugeticon.png
+ICON_FILENAME=postgresql-header.png
+#ICON_URL=http://www.npgsql.org/css/img/postgresql-header.png
 ICON_URL=$(get_nuget_trusted_icons_location)/${NUSPEC_ID}.${NUSPEC_VERSION}.png
+
+src_unpack() {
+	# Installing 'NLog 3.2.0.0'.
+	# Installing 'AsyncRewriter 0.6.0'.
+	# Installing 'EntityFramework 5.0.0'.
+	# Installing 'EntityFramework 6.1.3'.
+	# Installing 'NUnit 2.6.4'.
+	enuget_download_rogue_binary "NLog" "3.2.0.0"
+	enuget_download_rogue_binary "AsyncRewriter" "0.6.0"
+	enuget_download_rogue_binary "EntityFramework" "5.0.0"
+	enuget_download_rogue_binary "EntityFramework" "6.1.3"
+	#enuget_download_rogue_binary "NUnit" "2.6.4"
+	default
+}
 
 src_prepare() {
 	elog "${S}/${NUSPEC_FILENAME}"
 
-	# replace 2.6.2 -> 2.6.4 (for NUnit)
-	egrep -lRZ '2\.6\.2' "${S}" | xargs -0 sed -i 's/2\.6\.2/2\.6\.4/g'  || die
-
 	enuget_restore "${METAFILETOBUILD}"
-	# Installing 'Autofac 3.5.0'.
-	# Installing 'NUnit 2.6.2'.
-	# Installing 'System.Collections.Immutable 1.1.36'.
-	# Installing 'FSharp.Core 4.0.0'.
-
-	if use gac; then
-		find . -iname "*.csproj" -print0 | xargs -0 \
-		sed -i 's/<DefineConstants>/<DefineConstants>SIGNED;/g' || die
-		#PUBLIC_KEY=`sn -q -p ${SNK_FILENAME} /dev/stdout | hexdump -e '"%02x"'`
-		#find . -iname "AssemblyInfo.cs" -print0 | xargs -0 sed -i "s/PublicKey=[0-9a-fA-F]*/PublicKey=${PUBLIC_KEY}/g" || die
-		find . -iname "AssemblyInfo.cs" -print0 | xargs -0 sed -i "/InternalsVisibleTo/d" || die
-	fi
 
 	cp "${FILESDIR}/${NUSPEC_FILENAME}" "${S}/${NUSPEC_FILENAME}" || die
 	patch_nuspec_file "${S}/${NUSPEC_FILENAME}"
 
 	default
-
-	echo '[assembly: InternalsVisibleTo("Newtonsoft.Json.Tests, PublicKey=002400000480000094000000060200000024000052534131000400000100010079159977d2d03a8e6bea7a2e74e8d1afcc93e8851974952bb480a12c9134474d04062447c37e0e68c080536fcf3c3fbe2ff9c979ce998475e506e8ce82dd5b0f350dc10e93bf2eeecf874b24770c5081dbea7447fddafa277b22de47d6ffea449674a4f9fccf84d15069089380284dbdd35f46cdff12a1bd78e4ef0065d016df")]' >>${S}/Src/Newtonsoft.Json/Properties/AssemblyInfo.cs
 }
 
 src_compile() {
+	#exbuild /t:RewriteAsync "${NPGSQL_CSPROJ}"
 	exbuild /p:SignAssembly=true "/p:AssemblyOriginatorKeyFile=${WORKDIR}/mono.snk" "${METAFILETOBUILD}"
+	if use test; then
+		exbuild /p:SignAssembly=true "/p:AssemblyOriginatorKeyFile=${WORKDIR}/mono.snk" "test/Npgsql.Tests/Npgsql.Tests.csproj"
+	fi
 
 	NUSPEC_PROPS+="nuget_version=${NUSPEC_VERSION};"
 	NUSPEC_PROPS+="nuget_id=${NUSPEC_ID};"
@@ -89,6 +97,10 @@ src_compile() {
 	enuspec -Prop "${NUSPEC_PROPS}" "${S}/${NUSPEC_FILENAME}"
 }
 
+src_test() {
+	default
+}
+
 src_install() {
 	if use debug; then
 		DIR="Debug"
@@ -96,14 +108,15 @@ src_install() {
 		DIR="Release"
 	fi
 
-	FINAL_DLL=Src/Newtonsoft.Json/bin/${DIR}/Net45/Newtonsoft.Json.dll
+	FINAL_DLL=src/Npgsql/bin/${DIR}/Npgsql.dll
 
-	if use gac; then
-		egacinstall "${FINAL_DLL}"
+	insinto ${PREFIX}/usr/lib/mono/${EBUILD_FRAMEWORK}
+	doins ${FINAL_DLL}
+
+	if use nupkg; then
+		insinto "$(get_nuget_trusted_icons_location)"
+		newins "${DISTDIR}/${ICON_FILENAME}" "${NUSPEC_ID}.${NUSPEC_VERSION}.png"
 	fi
-
-	insinto "$(get_nuget_trusted_icons_location)"
-	newins "${FILESDIR}/${ICON_FILENAME}" "${NUSPEC_ID}.${NUSPEC_VERSION}.png"
 
 	enupkg "${WORKDIR}/${NUSPEC_ID}.${NUSPEC_VERSION}.nupkg"
 
@@ -120,7 +133,7 @@ patch_nuspec_file()
 		fi
 		FILES_STRING=`sed 's/[\/&]/\\\\&/g' <<-EOF || die "escaping replacement string characters"
 		  <files> <!-- https://docs.nuget.org/create/nuspec-reference -->
-		    <file src="Src/Newtonsoft.Json/bin/${DIR}/Net45/Newtonsoft.Json.*" target="lib\net45\" />
+		    <file src="src/Npgsql/bin/${DIR}/Npgsql.dll" target="lib\net45\" />
 		  </files>
 		EOF
 		`
@@ -140,7 +153,7 @@ install_pc_file()
 			-e "s:@PACKAGENAME@:${PC_FILE_NAME}:" \
 			-e "s:@DESCRIPTION@:${DESCRIPTION}:" \
 			-e "s:@VERSION@:${PV}:" \
-			-e 's*@LIBS@*-r:${libdir}'"/mono/${PC_FILE_NAME}/Newtonsoft.Json.dll"'*' \
+			-e 's*@LIBS@*-r:${libdir}'"/mono/${PC_FILE_NAME}/npgsql.dll"'*' \
 			<<\EOF >"${D}/usr/$(get_libdir)/pkgconfig/${PC_FILE_NAME}.pc" || die
 prefix=${pcfiledir}/../..
 exec_prefix=${prefix}
@@ -155,4 +168,16 @@ EOF
 		PKG_CONFIG_PATH="${D}/usr/$(get_libdir)/pkgconfig/" pkg-config --exists "${PC_FILE_NAME}" || die ".pc file failed to validate."
 		eend $?
 	fi
+}
+
+pkg_postinst()
+{
+	egacadd "${PREFIX}/usr/lib/mono/${EBUILD_FRAMEWORK}/Npgsql.dll"
+	emachineadd "Npgsql" "Npgsql Data Provider" "${PREFIX}/usr/lib/mono/${EBUILD_FRAMEWORK}/Npgsql.dll"
+}
+
+pkg_prerm()
+{
+	egacdel "Npgsql"
+	emachinedel "Npgsql" "Npgsql Data Provider" "${PREFIX}/usr/lib/mono/${EBUILD_FRAMEWORK}/Npgsql.dll"
 }
