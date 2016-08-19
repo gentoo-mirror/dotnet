@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile configure install prepare setup test unpack
-DEPEND=>=dev-lang/mono-4.0.2.5 test? ( dev-util/nunit:2[nupkg] ) virtual/pkgconfig dev-lang/mono dev-lang/mono dev-dotnet/nuget dev-lang/mono
+DEPEND=>=dev-lang/mono-4.0.2.5 test? ( dev-util/nunit:2[nupkg] ) virtual/pkgconfig dev-lang/mono dev-lang/mono nupkg? ( dev-dotnet/nuget )
 DESCRIPTION=A library for handling big numbers and decimals under Mono/.NET frameworks
 EAPI=6
 HOMEPAGE=https://github.com/deveel/deveel-math/
-IUSE=net45 debug developer test +nupkg +gac +pkg-config debug developer debug developer +nupkg +gac
+IUSE=net45 debug developer test +nupkg +gac +pkg-config +gac debug developer +nupkg
 KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
-RDEPEND=>=dev-lang/mono-4.0.2.5 dev-dotnet/nuget dev-lang/mono
+RDEPEND=>=dev-lang/mono-4.0.2.5 dev-lang/mono nupkg? ( dev-dotnet/nuget )
 SLOT=0
 SRC_URI=https://github.com/ArsenShnurkov/deveel-math/archive/portage-packaging/4635fb321ac931d0b381547d06ca6625a57ea343.zip -> deveel-math-1.5.66-r201512290.zip mirror://gentoo/mono.snk.bz2
 _eclass_exported_funcs=pkg_setup:dotnet src_unpack:- src_prepare:- src_configure:- src_compile:- src_test:- src_install:-
-_eclasses_=dotnet	aa2d59a0b484df76bebc9a183cca2ba0	eutils	792f83d5ec9536cb5ccef375469d8bde	gac	ede0b507dcc250624641d78bfe79a467	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	d062ae4ba2fc40a19c11de2ad89b6616	nupkg	b77181c344a9f9032d22bb46ddff632b	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=cee25bae592d7ddb115637b6c4e42f00
+_eclasses_=dotnet	aa2d59a0b484df76bebc9a183cca2ba0	eutils	792f83d5ec9536cb5ccef375469d8bde	gac	ede0b507dcc250624641d78bfe79a467	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	d062ae4ba2fc40a19c11de2ad89b6616	nupkg	bbc4a05fc6c40f07b7a341f90adc6f0a	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=09e057958af1c990f1ef2e18a8e29cc3

@@ -1,14 +1,14 @@
-DEFINED_PHASES=compile configure install prepare setup unpack
-DEPEND=>=dev-lang/mono-4.0.2.5 net45? ( developer? ( debug? ( dev-dotnet/cecil[net45,gac,developer,debug] ) !debug? ( dev-dotnet/cecil[net45,gac,developer] ) ) !developer? ( debug? ( dev-dotnet/cecil[net45,gac,debug] ) !debug? ( dev-dotnet/cecil[net45,gac] ) ) ) net45? ( developer? ( debug? ( dev-util/nant[net45,nupkg,developer,debug] ) !debug? ( dev-util/nant[net45,nupkg,developer] ) ) !developer? ( debug? ( dev-util/nant[net45,nupkg,debug] ) !debug? ( dev-util/nant[net45,nupkg] ) ) ) dev-lang/mono dev-dotnet/nuget dev-lang/mono dev-lang/mono
+DEFINED_PHASES=compile install prepare setup
+DEPEND=>=dev-lang/mono-4.0.2.5 net45? ( developer? ( debug? ( dev-dotnet/cecil[net45,gac,developer,debug] ) !debug? ( dev-dotnet/cecil[net45,gac,developer] ) ) !developer? ( debug? ( dev-dotnet/cecil[net45,gac,debug] ) !debug? ( dev-dotnet/cecil[net45,gac] ) ) ) net45? ( developer? ( debug? ( dev-util/nant[net45,nupkg,developer,debug] ) !debug? ( dev-util/nant[net45,nupkg,developer] ) ) !developer? ( debug? ( dev-util/nant[net45,nupkg,debug] ) !debug? ( dev-util/nant[net45,nupkg] ) ) ) dev-lang/mono dev-lang/mono nupkg? ( dev-dotnet/nuget )
 DESCRIPTION=NUnit test suite for mono applications
 EAPI=6
 HOMEPAGE=https://github.com/nunit/nunit
-IUSE=+net45 developer debug nupkg gac doc debug developer +nupkg debug developer +gac
+IUSE=+net45 developer debug nupkg gac doc +gac debug developer +nupkg
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=>=dev-lang/mono-4.0.2.5 net45? ( developer? ( debug? ( dev-dotnet/cecil[net45,gac,developer,debug] ) !debug? ( dev-dotnet/cecil[net45,gac,developer] ) ) !developer? ( debug? ( dev-dotnet/cecil[net45,gac,debug] ) !debug? ( dev-dotnet/cecil[net45,gac] ) ) ) dev-dotnet/nuget dev-lang/mono
+RDEPEND=>=dev-lang/mono-4.0.2.5 net45? ( developer? ( debug? ( dev-dotnet/cecil[net45,gac,developer,debug] ) !debug? ( dev-dotnet/cecil[net45,gac,developer] ) ) !developer? ( debug? ( dev-dotnet/cecil[net45,gac,debug] ) !debug? ( dev-dotnet/cecil[net45,gac] ) ) ) dev-lang/mono nupkg? ( dev-dotnet/nuget )
 SLOT=3
 SRC_URI=https://github.com/nunit/nunit/archive/dd39deaa2c805783cb069878b58b0447d0849849.tar.gz -> nunit-3.0.1.tar.gz
-_eclass_exported_funcs=pkg_setup:dotnet src_unpack:nuget src_prepare:- src_configure:nuget src_compile:- src_install:-
-_eclasses_=dotnet	aa2d59a0b484df76bebc9a183cca2ba0	eutils	792f83d5ec9536cb5ccef375469d8bde	gac	ede0b507dcc250624641d78bfe79a467	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	d062ae4ba2fc40a19c11de2ad89b6616	nuget	03e2ddf821788a731e33dc41819f4490	nupkg	b77181c344a9f9032d22bb46ddff632b	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=750fb0eaf75bec240ca8d3f9a98ee215
+_eclass_exported_funcs=pkg_setup:dotnet src_prepare:- src_compile:- src_install:-
+_eclasses_=dotnet	aa2d59a0b484df76bebc9a183cca2ba0	eutils	792f83d5ec9536cb5ccef375469d8bde	gac	ede0b507dcc250624641d78bfe79a467	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	d062ae4ba2fc40a19c11de2ad89b6616	nupkg	bbc4a05fc6c40f07b7a341f90adc6f0a	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=da866948e1811f66bfd50ec66d4df94f
