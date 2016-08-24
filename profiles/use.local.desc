@@ -26,8 +26,9 @@ dev-dotnet/monotorrent:pkg-config - create .pc file(s) for .dll(s) installed to 
 dev-dotnet/newtonsoft-json:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-dotnet/npgsql:machine - регистрирует фабрику ADO .NET провайдера в файле machine.config
 dev-dotnet/npgsql:pkg-config - создаёт .pc файл для .dll-ки, устанавливаемой в gac
-dev-dotnet/slntools:developer - enables debug information for any of debug and release builds
-dev-dotnet/slntools:nupkg - creates local nuget package
+dev-dotnet/slntools:cli - устанавливает .exe-файлы. Без этого флага произойдёт только установка в gac, если она не запрещена
+dev-dotnet/slntools:developer - управляет генерированием и установкой .mdb-файлов, запуском mono с ключом --debug
+dev-dotnet/slntools:nupkg - создаёт локальный .nupkg-пакет для nuget
 dev-dotnet/x-pagedlist:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-lang/mono:pax_kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
 dev-lang/mono:xen - Make mono generate code that is considerably faster on xen VMs but slightly slower on for normal systems.
@@ -36,6 +37,8 @@ dev-libs/libgit2:ssh - Enable SSH transport support
 dev-libs/libgit2:trace - Enable tracing support
 dev-util/fsharpbinding:monodevelop - Install monodevelop binding
 dev-util/mono-docbrowser:gtkhtml - HTK HTML
+dev-util/mono-packaging-tools:aot - compile to machine code and store to disk during install, to save time later during startups
+dev-util/mono-packaging-tools:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-util/monodevelop:git - Enable Git version control support
 dev-util/monodevelop:gnome - Enable support gnome support (unsetting this flag is unsupported)
 dev-util/monodevelop:qtcurve - Remove qtcurve check (unsupported)
