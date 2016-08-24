@@ -63,4 +63,4 @@ media-sound/banshee 2.6.1-r1: Import, organize, play, and share your music in a 
 net-irc/smuxi 1.0 1.0.5 1.1_p201605280 9999: A flexible, irssi-like and user-friendly IRC client for the Gnome Desktop
 net-misc/sparkleshare 1.4: Git-based collaboration and file sharing tool
 www-apache/mod_mono 3.12-r1: Apache module for Mono
-www-servers/xsp 4.4_p2016011603-r1 9999: XSP is a small web server that can host ASP.NET pages
+www-servers/xsp 4.4_p2016022603 9999: XSP is a small web server that can host ASP.NET pages
