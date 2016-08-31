@@ -10,5 +10,5 @@ RDEPEND=|| ( >=dev-lang/mono-4.2 <dev-lang/mono-9999 ) dev-lang/mono nupkg? ( de
 SLOT=0
 SRC_URI=https://github.com/ArsenShnurkov/commandlineparser/archive/2203477397a68885fdf004ae4eb2300a2d271347.zip -> commandlineparser-0.6.0_p20160115.zip mirror://gentoo/mono.snk.bz2
 _eclass_exported_funcs=pkg_setup:- src_unpack:- src_prepare:- src_configure:- src_compile:- src_test:- src_install:-
-_eclasses_=dotnet	aa2d59a0b484df76bebc9a183cca2ba0	eutils	792f83d5ec9536cb5ccef375469d8bde	gac	ede0b507dcc250624641d78bfe79a467	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	d062ae4ba2fc40a19c11de2ad89b6616	nupkg	bbc4a05fc6c40f07b7a341f90adc6f0a	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=dotnet	aa2d59a0b484df76bebc9a183cca2ba0	eutils	b83a2420b796f7c6eff682679d08fe25	gac	ede0b507dcc250624641d78bfe79a467	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	d062ae4ba2fc40a19c11de2ad89b6616	nupkg	bbc4a05fc6c40f07b7a341f90adc6f0a	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=bbc7bae5c1fd2d10e34ccb58bb2feb2f
