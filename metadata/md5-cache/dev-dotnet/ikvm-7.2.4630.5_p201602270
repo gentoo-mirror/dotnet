@@ -10,5 +10,5 @@ RDEPEND=>=dev-lang/mono-2 dev-libs/glib:* >=dev-java/java-config-2.2.0-r3
 SLOT=0
 SRC_URI=http://www.frijters.net/openjdk-7u4-stripped.zip mirror://gentoo/mono.snk.bz2 https://api.github.com/repos/mono/ikvm-fork/zipball/00252c18fc0a4a206e45461736a890acb785a9d8 -> ikvm-fork-mono-7.2.4630.5_p201602270-00252c18fc0a4a206e45461736a890acb785a9d8.zip
 _eclass_exported_funcs=pkg_preinst:java-pkg-2 pkg_setup:java-pkg-2 src_unpack:- src_prepare:- src_configure:- src_compile:- src_install:-
-_eclasses_=dotnet	aa2d59a0b484df76bebc9a183cca2ba0	eutils	b83a2420b796f7c6eff682679d08fe25	java-pkg-2	b02dc1e46b3648e467b5fbdf7857cf28	java-utils-2	9a25f292ff66f8c2c00100ac0b15c54f	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=dotnet	aa2d59a0b484df76bebc9a183cca2ba0	eutils	b83a2420b796f7c6eff682679d08fe25	java-pkg-2	b02dc1e46b3648e467b5fbdf7857cf28	java-utils-2	9a25f292ff66f8c2c00100ac0b15c54f	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=cb9db48ed75685767524e0e47754a359
