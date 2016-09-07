@@ -10,7 +10,7 @@ HOMEPAGE="https://github.com/ASP-NET-MVC/aspnetwebstack"
 
 EGIT_BRANCH="master"
 EGIT_COMMIT="4e40cdef9c8a8226685f95ef03b746bc8322aa92"
-SRC_URI="${HOMEPAGE}/archive/${EGIT_BRANCH}/${EGIT_COMMIT}.tar.gz -> ${PF}.tar.gz"
+SRC_URI="${HOMEPAGE}/archive/${EGIT_BRANCH}/${EGIT_COMMIT}.tar.gz -> ${REPO_NAME}-${EGIT_COMMIT}.tar.gz"
 RESTRICT="mirror"
 #S="${WORKDIR}/${REPO_NAME}-${EGIT_COMMIT}"
 S="${WORKDIR}/${REPO_NAME}-${EGIT_BRANCH}"
@@ -26,19 +26,19 @@ USE_DOTNET="net45"
 IUSE="+${USE_DOTNET} developer debug"
 
 COMMON_DEPEND=">=dev-lang/mono-4.0.2.5
-	dev-dotnet/microsoft-web-infrastructure
+	dev-dotnet/system-web-webpages
 "
 RDEPEND="${COMMON_DEPEND}
 "
 DEPEND="${COMMON_DEPEND}
 "
 
-DLL_NAME=System.Web.Razor
+DLL_NAME=System.Web.Mvc
 DLL_PATH=bin
-FILE_TO_BUILD=./src/System.Web.Razor/System.Web.Razor.csproj
+FILE_TO_BUILD=./src/${DLL_NAME}/${DLL_NAME}.csproj
 METAFILETOBUILD="${S}/${FILE_TO_BUILD}"
 
-NUSPEC_ID=Microsoft.AspNet.Razor
+NUSPEC_ID=Microsoft.AspNet.Mvc
 
 COMMIT_DATE_INDEX="$(get_version_component_count ${PV} )"
 COMMIT_DATE="$(get_version_component_range $COMMIT_DATE_INDEX ${PV} )"
@@ -49,6 +49,7 @@ src_prepare() {
 	chmod -R +rw "${S}" || die
 	patch_nuspec_file "${S}/${NUSPEC_ID}.nuspec"
 	eapply "${FILESDIR}/disable-warning-as-error.patch"
+	eapply "${FILESDIR}/disable-warning-as-error-in-mvc.patch"
 	eapply_user
 }
 
@@ -63,7 +64,6 @@ patch_nuspec_file()
 		FILES_STRING=`sed 's/[\/&]/\\\\&/g' <<-EOF || die "escaping replacement string characters"
 		  <files> <!-- https://docs.nuget.org/create/nuspec-reference -->
 		    <file src="${DLL_PATH}/${DIR}/${DLL_NAME}.*" target="lib/net45/" />
-		    <file src="${DLL_PATH}/${DIR}/System.Web.WebPages.Razor.*" target="lib/net45/" />
 		  </files>
 		EOF
 		`
@@ -74,9 +74,6 @@ patch_nuspec_file()
 src_compile() {
 	exbuild "${METAFILETOBUILD}"
 	sn -R "${DLL_PATH}/${DIR}/${DLL_NAME}.dll" /var/lib/layman/dotnet/eclass/mono.snk || die
-
-	exbuild "${S}/src/System.Web.WebPages.Razor/System.Web.WebPages.Razor.csproj"
-	sn -R "${DLL_PATH}/${DIR}/System.Web.WebPages.Razor.dll" /var/lib/layman/dotnet/eclass/mono.snk || die
 
 	einfo nuspec: "${S}/${NUSPEC_ID}.nuspec"
 	einfo nupkg: "${WORKDIR}/${NUSPEC_ID}.${NUSPEC_VERSION}.nupkg"
@@ -92,7 +89,6 @@ src_install() {
 	fi
 
 	egacinstall "${DLL_PATH}/${DIR}/${DLL_NAME}.dll"
-	egacinstall "${DLL_PATH}/${DIR}/System.Web.WebPages.Razor.dll"
 
 	enupkg "${WORKDIR}/${NUSPEC_ID}.${NUSPEC_VERSION}.nupkg"
 }
