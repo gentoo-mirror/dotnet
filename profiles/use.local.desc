@@ -29,8 +29,13 @@ dev-dotnet/npgsql:pkg-config - создаёт .pc файл для .dll-ки, у�
 dev-dotnet/slntools:cli - устанавливает .exe-файлы. Без этого флага произойдёт только установка в gac, если она не запрещена
 dev-dotnet/slntools:developer - управляет генерированием и установкой .mdb-файлов, запуском mono с ключом --debug
 dev-dotnet/slntools:nupkg - создаёт локальный .nupkg-пакет для nuget
+dev-dotnet/system-web:pkg-config - create .pc file(s) for .dll(s) installed to gac
+dev-dotnet/system-web-mvc:developer - enables debug information for any of debug and release builds
+dev-dotnet/system-web-mvc:nupkg - creates local nuget package
 dev-dotnet/system-web-razor:developer - enables debug information for any of debug and release builds
 dev-dotnet/system-web-razor:nupkg - creates local nuget package
+dev-dotnet/system-web-webpages:developer - enables debug information for any of debug and release builds
+dev-dotnet/system-web-webpages:nupkg - creates local nuget package
 dev-dotnet/x-pagedlist:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-lang/mono:pax_kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
 dev-lang/mono:xen - Make mono generate code that is considerably faster on xen VMs but slightly slower on for normal systems.
@@ -48,10 +53,4 @@ dev-util/nant:developer - enables debug information for any of debug and release
 dev-util/nant:nupkg - creates local nuget package
 dev-util/nunit:developer - enables debug information for any of debug and release builds
 dev-util/nunit:nupkg - creates local nuget package
-media-sound/banshee:bpm - Build beats per minute detection extension
-media-sound/banshee:cdda - Build with audio CD support
-media-sound/banshee:daap - Build with Daap support
-media-sound/banshee:karma - Build with karma support
-media-sound/banshee:web - Enable support for plugins that access web-based services such as Amazon and wikipedia (requires net-libs/webkit-gtk)
-media-sound/banshee:youtube - Enable the Youtube plugin
 www-servers/xsp:developer - creates .mdb files for either Release and Debug
