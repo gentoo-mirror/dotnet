@@ -9,6 +9,7 @@ dev-dotnet/Open-NAT:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-dotnet/cecil:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-dotnet/commandlineparser:aot - compile to machine code and store to disk during install, to save time later during startups
 dev-dotnet/commandlineparser:pkg-config - create .pc file(s) for .dll(s) installed to gac
+dev-dotnet/conemu-control-winforms:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-dotnet/deveel-irony:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-dotnet/deveel-math:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-dotnet/deveeldb:pkg-config - create .pc file(s) for .dll(s) installed to gac
