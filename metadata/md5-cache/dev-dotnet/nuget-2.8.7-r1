@@ -3,12 +3,12 @@ DEPEND=>=dev-lang/mono-3.2.3 <=dev-dotnet/xdt-for-monodevelop-2.8.2 !dev-dotnet/
 DESCRIPTION=Nuget - .NET Package Manager
 EAPI=6
 HOMEPAGE=http://nuget.codeplex.com
-IUSE=debug developer net45 +gac
+IUSE=debug developer net45 +gac +pkg-config +symlink
 KEYWORDS=~x86 ~amd64
 LICENSE=Apache-2.0
 RDEPEND=>=dev-lang/mono-3.2.3 <=dev-dotnet/xdt-for-monodevelop-2.8.2 !dev-dotnet/nuget-codeplex app-misc/ca-certificates dev-lang/mono
 SLOT=0
 SRC_URI=https://github.com/mrward/nuget/archive/Release-2.8.7-MonoDevelop.tar.gz -> nuget-2.8.7.tar.gz
 _eclass_exported_funcs=pkg_setup:- src_prepare:- src_configure:- src_compile:- src_install:-
-_eclasses_=dotnet	aa2d59a0b484df76bebc9a183cca2ba0	eutils	b83a2420b796f7c6eff682679d08fe25	gac	aaceefe5a301ee1d00094593a2f916da	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=dotnet	a6f2dd84e753d8176c07f4d2b383982b	eutils	b83a2420b796f7c6eff682679d08fe25	gac	f77e8ae09c86c57a4b67f5329ce55b1e	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=41bad7dc9c8d5315e02b1841767c26c8

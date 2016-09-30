@@ -3,7 +3,7 @@ DEPEND=>=dev-lang/mono-4.0.2.5 dev-dotnet/system-web-razor dev-lang/mono dev-lan
 DESCRIPTION=parser and code generation infrastructure for Razor markup syntax
 EAPI=6
 HOMEPAGE=https://github.com/ASP-NET-MVC/aspnetwebstack
-IUSE=+net45 developer debug +gac debug developer +nupkg
+IUSE=+net45 developer debug +gac +pkg-config +symlink debug developer +nupkg
 KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
 RDEPEND=>=dev-lang/mono-4.0.2.5 dev-dotnet/system-web-razor dev-lang/mono nupkg? ( dev-dotnet/nuget )
@@ -11,5 +11,5 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/ASP-NET-MVC/aspnetwebstack/archive/master/4e40cdef9c8a8226685f95ef03b746bc8322aa92.tar.gz -> aspnetwebstack-4e40cdef9c8a8226685f95ef03b746bc8322aa92.tar.gz
 _eclass_exported_funcs=pkg_setup:dotnet src_prepare:- src_compile:- src_install:-
-_eclasses_=dotnet	aa2d59a0b484df76bebc9a183cca2ba0	eutils	b83a2420b796f7c6eff682679d08fe25	gac	aaceefe5a301ee1d00094593a2f916da	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	165fc17c38d1b11dac2008280dab6e80	nupkg	bbc4a05fc6c40f07b7a341f90adc6f0a	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=dotnet	a6f2dd84e753d8176c07f4d2b383982b	eutils	b83a2420b796f7c6eff682679d08fe25	gac	f77e8ae09c86c57a4b67f5329ce55b1e	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	165fc17c38d1b11dac2008280dab6e80	nupkg	bbc4a05fc6c40f07b7a341f90adc6f0a	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=8ce148f75b29b9291df534b083c9d9a4

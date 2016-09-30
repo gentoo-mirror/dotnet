@@ -13,6 +13,7 @@ dev-dotnet/conemu-control-winforms:pkg-config - create .pc file(s) for .dll(s) i
 dev-dotnet/deveel-irony:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-dotnet/deveel-math:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-dotnet/deveeldb:pkg-config - create .pc file(s) for .dll(s) installed to gac
+dev-dotnet/dotnetzip-semverd:developer - 
 dev-dotnet/dryioc:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-dotnet/gnome-desktop-sharp:gtksourceview - Build with support for gtksourceview
 dev-dotnet/gnome-desktop-sharp:print - Build with support for gnomeprint
