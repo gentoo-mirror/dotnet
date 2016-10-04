@@ -1,15 +1,15 @@
 DEFINED_PHASES=compile install prepare setup
 DEPEND=>=dev-lang/mono-4.0.2.5 dev-lang/mono dev-lang/mono
-DESCRIPTION=create, extract, or update zip files with C# (=DotNetZip+SemVer)
+DESCRIPTION=An addictive .NET IoC container
 EAPI=6
-HOMEPAGE=https://github.com/haf/DotNetZip.Semverd
-IUSE=net45 +gac +nupkg developer debug doc +gac +pkg-config +symlink debug developer net45
+HOMEPAGE=https://github.com/autofac/Autofac
+IUSE=+net45 +debug developer doc +gac +pkg-config +symlink debug developer net45
 KEYWORDS=~amd64 ~ppc ~x86
-LICENSE=MS-PL
+LICENSE=MIT
 RDEPEND=>=dev-lang/mono-4.0.2.5 dev-lang/mono
 RESTRICT=mirror
-SLOT=0
-SRC_URI=https://github.com/haf/DotNetZip.Semverd/archive/v1.9.3.tar.gz -> 1.9.3.tar.gz
+SLOT=3
+SRC_URI=https://github.com/Autofac/Autofac/archive/c985cda5483dcd4d2fbc395a4001be12cc07ee84.tar.gz -> autofac-3.5.2.tar.gz
 _eclass_exported_funcs=pkg_setup:dotnet src_prepare:- src_compile:- src_install:-
 _eclasses_=dotnet	a6f2dd84e753d8176c07f4d2b383982b	eutils	b83a2420b796f7c6eff682679d08fe25	gac	732ad199a265641b030060fc28620463	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=421c2bd4fa4c96548a80c9ca9be210bd
+_md5_=4f3304601427b0dfcf326f5ebbec6b4c

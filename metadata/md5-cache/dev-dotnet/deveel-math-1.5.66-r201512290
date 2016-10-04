@@ -10,5 +10,5 @@ RDEPEND=>=dev-lang/mono-4.0.2.5 dev-lang/mono nupkg? ( dev-dotnet/nuget )
 SLOT=0
 SRC_URI=https://github.com/ArsenShnurkov/deveel-math/archive/portage-packaging/4635fb321ac931d0b381547d06ca6625a57ea343.zip -> deveel-math-1.5.66-r201512290.zip mirror://gentoo/mono.snk.bz2
 _eclass_exported_funcs=pkg_setup:dotnet src_unpack:- src_prepare:- src_configure:- src_compile:- src_test:- src_install:-
-_eclasses_=dotnet	a6f2dd84e753d8176c07f4d2b383982b	eutils	b83a2420b796f7c6eff682679d08fe25	gac	f77e8ae09c86c57a4b67f5329ce55b1e	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	165fc17c38d1b11dac2008280dab6e80	nupkg	bbc4a05fc6c40f07b7a341f90adc6f0a	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=09e057958af1c990f1ef2e18a8e29cc3
+_eclasses_=dotnet	a6f2dd84e753d8176c07f4d2b383982b	eutils	b83a2420b796f7c6eff682679d08fe25	gac	732ad199a265641b030060fc28620463	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	165fc17c38d1b11dac2008280dab6e80	nupkg	bbc4a05fc6c40f07b7a341f90adc6f0a	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=47d66d35147c1cf450559f4084463078
