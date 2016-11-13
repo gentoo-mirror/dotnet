@@ -3,8 +3,6 @@
 # * generated automatically using pmaint *
 
 app-shells/pash:debug - Create .mdb files for release configuration
-dev-dotnet/NLog:developer - enables debug information for any of debug and release builds
-dev-dotnet/NLog:nupkg - creates local nuget package
 dev-dotnet/Open-NAT:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-dotnet/cecil:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-dotnet/commandlineparser:aot - compile to machine code and store to disk during install, to save time later during startups
