@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install prepare setup
+DEPEND=>=dev-lang/mono-4.0.2.5 virtual/pkgconfig dev-lang/mono dev-lang/mono nupkg? ( dev-dotnet/nuget )
+DESCRIPTION=System.Reflection alternative to generate and inspect .NET executables/libraries
+EAPI=6
+HOMEPAGE=http://cecil.pe/
+IUSE=+net45 net35 +gac +nupkg +pkg-config +debug +developer +gac +pkg-config +symlink debug developer net45 net35 +nupkg
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-lang/mono-4.0.2.5 dev-lang/mono nupkg? ( dev-dotnet/nuget )
+RESTRICT=mirror test
+SLOT=0
+SRC_URI=https://github.com/jbevain/cecil/archive/master/045b0f9729905dd456d46e33436a2dadc9e2a52d.zip -> cecil-0.10_beta1_p2016111002.zip mirror://gentoo/mono.snk.bz2
+_eclass_exported_funcs=pkg_setup:dotnet src_prepare:- src_configure:- src_compile:- src_install:-
+_eclasses_=dotnet	a6f2dd84e753d8176c07f4d2b383982b	eutils	b83a2420b796f7c6eff682679d08fe25	gac	24fc527806a0de6ca2df8947a5771f31	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	165fc17c38d1b11dac2008280dab6e80	nupkg	48249a52685fd9ba095c2321d341842d	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=5c2ddcf6e3b8c76e6f15076080bd477c
