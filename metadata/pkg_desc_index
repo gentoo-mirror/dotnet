@@ -8,7 +8,7 @@ dev-dotnet/aspnet-configuration 1.0.0: Interfaces and providers for accessing co
 dev-dotnet/autofac 3.5.2 4.1.1: An addictive .NET IoC container
 dev-dotnet/autofac-configuration 3.5.2 4.0.1: Configuration support for Autofac IoC
 dev-dotnet/castle-core 4.0.0_beta1: including Castle DynamicProxy, Logging Services and DictionaryAdapter
-dev-dotnet/cecil 0.9.6_p20160209 0.10_beta1_p2016102302 0.10_beta1_p2016111002: System.Reflection alternative to generate and inspect .NET executables/libraries
+dev-dotnet/cecil 0.9.6_p20160209-r1 0.10_beta1_p2016102302-r1 0.10_beta1_p2016111002-r1: System.Reflection alternative to generate and inspect .NET executables/libraries
 dev-dotnet/commandlineparser 0.6.0_p20160115: command line parser on System.ComponentModel.DataAnnotations
 dev-dotnet/conemu-control-winforms 1.0.0_p2016051802-r1: console emulator control, embeds a console view in a Windows Forms window
 dev-dotnet/dbus-sharp 0.7.0-r2 0.8.1: D-Bus for .NET
@@ -34,7 +34,7 @@ dev-dotnet/ikvm 7.2.4630.5 7.2.4630.5_p201602270: Java VM for .NET
 dev-dotnet/ikvm-bin 7.2.4630.5: Java VM for .NET
 dev-dotnet/irony-framework 1.0.0_p20131212-r1: parsing framework for C# on LALR(1)
 dev-dotnet/libgdiplus 2.10.9-r3 3.12 4.2-r2 9999: Library for using System.Drawing with mono
-dev-dotnet/libgit2sharp 0.22: A C# PInvoke wrapper library for LibGit2 C library
+dev-dotnet/libgit2sharp 0.22-r1: A C# PInvoke wrapper library for LibGit2 C library
 dev-dotnet/log4net 1.2.11-r2: tool to help the programmer output log statements to a variety of output targets
 dev-dotnet/microsoft-web-infrastructure 1.0.0.0: assembly that lets you dynamically register HTTP modules at run time
 dev-dotnet/mono-addins 0.6.2-r1 1.0-r1: A generic framework for creating extensible applications

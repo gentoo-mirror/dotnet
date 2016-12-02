@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install postinst postrm prepare setup unpack
+DEPEND=>=dev-lang/mono-4.9.0.729-r2 dev-libs/libgit2 dev-dotnet/nuget dev-lang/mono dev-lang/mono nupkg? ( dev-dotnet/nuget )
+DESCRIPTION=A C# PInvoke wrapper library for LibGit2 C library
+EAPI=6
+HOMEPAGE=https://github.com/libgit2/libgit2sharp
+IUSE=+net45 +gac +pkg-config +symlink debug developer net45 +nupkg
+KEYWORDS=~x86 ~amd64
+LICENSE=MIT
+RDEPEND=>=dev-lang/mono-4.9.0.729-r2 dev-libs/libgit2 dev-lang/mono nupkg? ( dev-dotnet/nuget )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://api.github.com/repos/libgit2/libgit2sharp/tarball/8daef23223e1374141bf496e4b310ded9ae4639e -> libgit2sharp-0.22.tar.gz
+_eclass_exported_funcs=pkg_postrm:- pkg_postinst:- pkg_setup:dotnet src_unpack:- src_prepare:- src_compile:- src_install:-
+_eclasses_=dotnet	84d41854ed63e146a9c39d6360b60af6	eutils	b83a2420b796f7c6eff682679d08fe25	gac	24fc527806a0de6ca2df8947a5771f31	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	165fc17c38d1b11dac2008280dab6e80	nupkg	48249a52685fd9ba095c2321d341842d	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=9800ae4b6063aa3b686b523c2496adab
