@@ -10,5 +10,5 @@ RDEPEND=>=dev-libs/glib-2.2.3:2 >=media-libs/freetype-2.3.7 >=media-libs/fontcon
 SLOT=0
 SRC_URI=http://download.mono-project.com/sources/libgdiplus/libgdiplus-4.2.tar.gz
 _eclass_exported_funcs=pkg_setup:dotnet src_configure:- src_install:-
-_eclasses_=dotnet	84d41854ed63e146a9c39d6360b60af6	eutils	b83a2420b796f7c6eff682679d08fe25	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=7673e26c465b989f1909d026e7b52a94
+_eclasses_=dotnet	f8e033eb07b7fe976336452aad9fcfc6	eutils	b83a2420b796f7c6eff682679d08fe25	mono-env	bbcd2c9fa99e5cdbdccdad231c70af6d	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=aef0d6e4d016c5af29031262a4c2530a

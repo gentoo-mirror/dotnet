@@ -10,5 +10,5 @@ RDEPEND=>=dev-lang/mono-4.4.0.40 !dev-dotnet/nant nupkg? ( dev-dotnet/nuget ) nu
 SLOT=0
 SRC_URI=https://api.github.com/repos/nant/nant/zipball/19bec6eca205af145e3c176669bbd57e1712be2a -> nant-nant-0.93.5019_p201511150-19bec6eca205af145e3c176669bbd57e1712be2a.zip mirror://gentoo/mono.snk.bz2
 _eclass_exported_funcs=pkg_setup:dotnet src_unpack:- src_compile:- src_install:-
-_eclasses_=dotnet	84d41854ed63e146a9c39d6360b60af6	eutils	b83a2420b796f7c6eff682679d08fe25	mono-env	e47f8cb975077b13cdc8db6bab66860c	multilib	165fc17c38d1b11dac2008280dab6e80	nupkg	48249a52685fd9ba095c2321d341842d	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=04b7ece6c611f89714002dbecd3c9877
+_eclasses_=dotnet	f8e033eb07b7fe976336452aad9fcfc6	eutils	b83a2420b796f7c6eff682679d08fe25	mono-env	bbcd2c9fa99e5cdbdccdad231c70af6d	multilib	165fc17c38d1b11dac2008280dab6e80	nupkg	abdb0d2c5c12d92c4e43d4881edcd3cb	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=d8f86146f4ffc14c7880410301434000

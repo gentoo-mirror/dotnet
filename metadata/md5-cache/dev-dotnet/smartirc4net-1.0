@@ -9,5 +9,5 @@ RDEPEND=>=dev-lang/mono-4.0.2.5 sys-fs/fuse
 SLOT=0
 SRC_URI=https://github.com/meebey/SmartIrc4net/archive/1.0.tar.gz
 _eclass_exported_funcs=pkg_setup:mono-env
-_eclasses_=mono-env	e47f8cb975077b13cdc8db6bab66860c
-_md5_=5e778ccfaccc8cef177f12129686d2fa
+_eclasses_=mono-env	bbcd2c9fa99e5cdbdccdad231c70af6d
+_md5_=74a05b63153b1637a6026f39ce65407b
