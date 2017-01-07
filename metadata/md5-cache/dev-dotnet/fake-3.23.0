@@ -10,5 +10,5 @@ RDEPEND=dev-lang/mono dev-lang/fsharp nuget? ( dev-dotnet/nuget ) nupkg? ( dev-d
 SLOT=0
 SRC_URI=https://github.com/fsharp/FAKE/archive/3.23.0.tar.gz
 _eclass_exported_funcs=pkg_setup:dotnet src_unpack:- src_prepare:- src_configure:nuget src_compile:- src_install:-
-_eclasses_=dotnet	f8e033eb07b7fe976336452aad9fcfc6	eutils	b83a2420b796f7c6eff682679d08fe25	mono-env	bbcd2c9fa99e5cdbdccdad231c70af6d	multilib	165fc17c38d1b11dac2008280dab6e80	nuget	ba30db539e26addedf044e6be4825981	nupkg	abdb0d2c5c12d92c4e43d4881edcd3cb	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=dotnet	f8e033eb07b7fe976336452aad9fcfc6	eutils	017377e73405d964cd0137088cddb9c3	mono-env	bbcd2c9fa99e5cdbdccdad231c70af6d	multilib	165fc17c38d1b11dac2008280dab6e80	nuget	ba30db539e26addedf044e6be4825981	nupkg	abdb0d2c5c12d92c4e43d4881edcd3cb	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=0380ebdbc5b23f7b0b659cd8ddc2dd27
