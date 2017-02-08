@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install prepare setup
+DEPEND=>=dev-lang/mono-4.0.2.5 virtual/pkgconfig >=dev-util/mono-packaging-tools-1.4.2.2 dev-lang/mono dev-lang/mono nupkg? ( dev-dotnet/nuget )
+DESCRIPTION=Nugget for easily paging through any IEnumerable/IQueryable in Asp.Net MVC
+EAPI=6
+HOMEPAGE=https://github.com/kpi-ua/X.PagedList/
+IUSE=net45 +gac +nupkg +pkg-config debug developer +gac +pkg-config +symlink debug developer net45 +nupkg
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-lang/mono-4.0.2.5 dev-lang/mono nupkg? ( dev-dotnet/nuget )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/ArsenShnurkov/X.PagedList/archive/master/c0521a4099c65efd3e964ea57129d5a61261f784.tar.gz -> x-pagedlist-5.3.0.8.tar.gz
+_eclass_exported_funcs=pkg_setup:dotnet src_prepare:- src_configure:- src_compile:- src_install:-
+_eclasses_=dotnet	f8e033eb07b7fe976336452aad9fcfc6	eutils	ea170b525f6a38a006be05c9d9429f13	gac	836dddaf857b43453fd7c1ac50ac7f63	mono-env	bbcd2c9fa99e5cdbdccdad231c70af6d	multilib	165fc17c38d1b11dac2008280dab6e80	nupkg	abdb0d2c5c12d92c4e43d4881edcd3cb	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=c6408784e3504244c5db0d9eb94f36b5
