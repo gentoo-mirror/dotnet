@@ -75,6 +75,7 @@ dev-util/nant 0.93.5019_p201511150: .NET build tool
 dev-util/nunit 2.6.4_p2015011102-r1 3.0.1-r1: NUnit test suite for mono applications
 media-gfx/pinta 1.6: Simple Painting for Gtk
 net-irc/smuxi 1.0.6.130 9999: A flexible, irssi-like and user-friendly IRC client for the Gnome Desktop
+net-misc/simpleDLNA 1.0.2: A simple, zero-config DLNA media server, that you can just fire up and be done with it.
 net-misc/sparkleshare 1.4: Git-based collaboration and file sharing tool
 www-apache/mod_mono 3.12-r1: Apache module for Mono
 www-servers/xsp 4.4_p2016022603 9999: XSP is a small web server that can host ASP.NET pages
