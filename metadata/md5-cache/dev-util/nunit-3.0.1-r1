@@ -10,5 +10,5 @@ RDEPEND=>=dev-lang/mono-4.0.2.5 net45? ( developer? ( debug? ( dev-dotnet/cecil[
 SLOT=3
 SRC_URI=https://github.com/nunit/nunit/archive/dd39deaa2c805783cb069878b58b0447d0849849.tar.gz -> nunit-3.0.1.tar.gz
 _eclass_exported_funcs=pkg_setup:dotnet src_prepare:- src_compile:- src_install:-
-_eclasses_=dotnet	f8e033eb07b7fe976336452aad9fcfc6	eutils	ea170b525f6a38a006be05c9d9429f13	gac	836dddaf857b43453fd7c1ac50ac7f63	mono-env	bbcd2c9fa99e5cdbdccdad231c70af6d	multilib	165fc17c38d1b11dac2008280dab6e80	nupkg	abdb0d2c5c12d92c4e43d4881edcd3cb	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=dotnet	f8e033eb07b7fe976336452aad9fcfc6	eutils	708f85bc1bf00876604e223fb56e062a	gac	836dddaf857b43453fd7c1ac50ac7f63	mono-env	bbcd2c9fa99e5cdbdccdad231c70af6d	multilib	165fc17c38d1b11dac2008280dab6e80	nupkg	abdb0d2c5c12d92c4e43d4881edcd3cb	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=10f45fcd0c17ec587843f818bb195593
