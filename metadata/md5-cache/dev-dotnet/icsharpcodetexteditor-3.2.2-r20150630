@@ -10,5 +10,5 @@ RDEPEND=|| ( >=dev-lang/mono-3.4.0 <dev-lang/mono-9999 ) dev-lang/mono nupkg? ( 
 SLOT=0
 SRC_URI=https://github.com/ArsenShnurkov/ICSharpCode.TextEditor/archive/24903d58cddab7d0ff17fc96a8bb25f66e6eea56.zip -> icsharpcodetexteditor-3.2.2-r20150630.zip
 _eclass_exported_funcs=pkg_setup:dotnet src_compile:- src_install:-
-_eclasses_=dotnet	f8e033eb07b7fe976336452aad9fcfc6	eutils	3c847a0129fed780bd709b98e426f89c	gac	836dddaf857b43453fd7c1ac50ac7f63	mono-env	bbcd2c9fa99e5cdbdccdad231c70af6d	multilib	0236be304ee52e7f179ed2f337075515	nupkg	abdb0d2c5c12d92c4e43d4881edcd3cb	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	versionator	c80ccf29e90adea7c5cae94b42eb76d0
+_eclasses_=dotnet	f8e033eb07b7fe976336452aad9fcfc6	epatch	122e1264e67c4f59a1482f2095e0b35d	estack	5ac2a138d0b33354b764d84f9e835db8	eutils	1ef31aee2bd63ffbfcae8a1843c9208d	gac	836dddaf857b43453fd7c1ac50ac7f63	ltprune	2770eed66a9b8ef944714cd0e968182e	mono-env	bbcd2c9fa99e5cdbdccdad231c70af6d	multilib	0236be304ee52e7f179ed2f337075515	nupkg	abdb0d2c5c12d92c4e43d4881edcd3cb	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	versionator	c80ccf29e90adea7c5cae94b42eb76d0
 _md5_=b24173f41d9a0539a90fded48161ffcc
