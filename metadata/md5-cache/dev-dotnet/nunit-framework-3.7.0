@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install setup
+DEPEND=>=dev-lang/mono-5.0.1.1 net45? ( developer? ( debug? ( dev-dotnet/cecil[net45,gac,developer,debug] ) !debug? ( dev-dotnet/cecil[net45,gac,developer] ) ) !developer? ( debug? ( dev-dotnet/cecil[net45,gac,debug] ) !debug? ( dev-dotnet/cecil[net45,gac] ) ) ) net45? ( developer? ( debug? ( dev-util/nant[net45,nupkg,developer,debug] ) !debug? ( dev-util/nant[net45,nupkg,developer] ) ) !developer? ( debug? ( dev-util/nant[net45,nupkg,debug] ) !debug? ( dev-util/nant[net45,nupkg] ) ) ) dev-lang/mono dev-lang/mono nupkg? ( dev-dotnet/nuget )
+DESCRIPTION=NUnit test suite for mono applications
+EAPI=6
+HOMEPAGE=https://github.com/nunit/nunit
+IUSE=+net45 developer debug nupkg gac doc +gac +pkg-config +symlink debug developer net45 +nupkg
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-lang/mono-5.0.1.1 net45? ( developer? ( debug? ( dev-dotnet/cecil[net45,gac,developer,debug] ) !debug? ( dev-dotnet/cecil[net45,gac,developer] ) ) !developer? ( debug? ( dev-dotnet/cecil[net45,gac,debug] ) !debug? ( dev-dotnet/cecil[net45,gac] ) ) ) dev-lang/mono nupkg? ( dev-dotnet/nuget )
+RESTRICT=mirror
+SLOT=370
+SRC_URI=https://github.com/nunit/nunit/archive/aa669b7e142954541d25fbb1a4ef660ca5f97f1a.tar.gz -> nunit-framework-3.7.0.tar.gz
+_eclass_exported_funcs=pkg_setup:dotnet src_compile:- src_install:-
+_eclasses_=dotnet	f8e033eb07b7fe976336452aad9fcfc6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	gac	12eb060ab73e8d2848f7abea19da16ca	ltprune	2770eed66a9b8ef944714cd0e968182e	mono-env	bbcd2c9fa99e5cdbdccdad231c70af6d	multilib	97f470f374f2e94ccab04a2fb21d811e	nupkg	b94be7a9ff06739d4130b5c3987e4f29	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	versionator	c80ccf29e90adea7c5cae94b42eb76d0
+_md5_=9ec8220f921c05db081bd5ab5d691b00

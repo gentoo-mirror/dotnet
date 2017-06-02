@@ -10,5 +10,5 @@ RDEPEND=>=dev-lang/mono-4.0.2.5 nupkg? ( dev-dotnet/nuget )
 SLOT=0
 SRC_URI=https://github.com/ArsenShnurkov/deveeldb/archive/7ad0b1563ae111535715dbf6d1f25034887720c5.zip -> deveeldb-2.0_pre_alpha_p20160101.zip mirror://gentoo/mono.snk.bz2
 _eclass_exported_funcs=pkg_setup:dotnet src_unpack:- src_prepare:- src_configure:- src_compile:- src_test:- src_install:-
-_eclasses_=dotnet	f8e033eb07b7fe976336452aad9fcfc6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	mono-env	bbcd2c9fa99e5cdbdccdad231c70af6d	multilib	97f470f374f2e94ccab04a2fb21d811e	nupkg	abdb0d2c5c12d92c4e43d4881edcd3cb	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	versionator	c80ccf29e90adea7c5cae94b42eb76d0
+_eclasses_=dotnet	f8e033eb07b7fe976336452aad9fcfc6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	mono-env	bbcd2c9fa99e5cdbdccdad231c70af6d	multilib	97f470f374f2e94ccab04a2fb21d811e	nupkg	b94be7a9ff06739d4130b5c3987e4f29	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	versionator	c80ccf29e90adea7c5cae94b42eb76d0
 _md5_=324d065110e8c02f4d413430327ca332
