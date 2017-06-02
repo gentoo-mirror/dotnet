@@ -34,7 +34,7 @@ HOMEPAGE="http://arsenshnurkov.github.io/mono-packaging-tools"
 
 REPOSITORY_URL="https://github.com/ArsenShnurkov/${NAME}"
 
-EGIT_COMMIT="92b9ac4cb83e52a5b679f139ff536da29c321456"
+EGIT_COMMIT="98dfea6ddcc47de78a59014728f823bfe773fb25"
 SRC_URI="${REPOSITORY_URL}/archive/${EGIT_COMMIT}.tar.gz -> ${PN}-${PV}.tar.gz"
 S="${WORKDIR}/${NAME}-${EGIT_COMMIT}"
 
@@ -69,6 +69,8 @@ NUSPEC_FILENAME="${PN}.nuspec"
 #ICON_PATH="$(get_nuget_trusted_icons_location)/${ICON_FINALNAME}"
 
 src_prepare() {
+	eapply "${FILESDIR}/MSBuildExtensionsPath.patch"
+
 	#change version in .nuspec
 	# PV = Package version (excluding revision, if any), for example 6.3.
 	# It should reflect the upstream versioning scheme
