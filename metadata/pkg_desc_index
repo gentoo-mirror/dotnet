@@ -3,10 +3,11 @@ app-emacs/dash 9999: A modern list api for Emacs. No 'cl required.
 app-emacs/s 9999: The long lost Emacs string manipulation library
 app-shells/pash 0.0-r20150618: An Open Source reimplementation of Windows PowerShell
 dev-dotnet/Open-NAT 1.0.0-r201510290: Class library to use port forwarding in NAT devices with UPNP and/or PMP
-dev-dotnet/aspnet-common 1.0.0: A repository for shared files to be consumed across the ASPNET repos
-dev-dotnet/aspnet-configuration 1.0.0: Interfaces and providers for accessing configuration files
+dev-dotnet/antlr3-runtime 3.2: C# runtime for ANTLR (ANother Tool for Language Recognition)
+dev-dotnet/aspnet-common 1.0.0-r5: A repository for shared files to be consumed across the ASPNET repos
+dev-dotnet/aspnet-configuration 1.0.0-r5: Interfaces and providers for accessing configuration files
 dev-dotnet/autofac 3.5.2 4.1.1: An addictive .NET IoC container
-dev-dotnet/autofac-configuration 3.5.2 4.0.1: Configuration support for Autofac IoC
+dev-dotnet/autofac-configuration 4.0.1-r5: Configuration support for Autofac IoC
 dev-dotnet/castle-core 4.0.0_beta1: including Castle DynamicProxy, Logging Services and DictionaryAdapter
 dev-dotnet/cecil 0.9.6_p20160209-r1 0.10_beta1_p2016102302-r1 0.10_beta1_p2016111002-r1: System.Reflection alternative to generate and inspect .NET executables/libraries
 dev-dotnet/commandlineparser 0.6.0_p20160115: command line parser on System.ComponentModel.DataAnnotations
@@ -25,7 +26,7 @@ dev-dotnet/gio-sharp 0.3-r1: GIO API C# binding
 dev-dotnet/gkeyfile-sharp 0.1-r1: C# binding for gkeyfile
 dev-dotnet/gnome-desktop-sharp 2.26.0-r3: gnome-desktop mono bindings
 dev-dotnet/gnome-sharp 2.24.2-r2: gnome bindings for mono
-dev-dotnet/gtk-sharp 2.12.21-r1 2.99.1-r1 2.99.3-r1: gtk bindings for mono
+dev-dotnet/gtk-sharp 2.12.21-r1 2.12.45 2.99.1-r1 2.99.3-r1: gtk bindings for mono
 dev-dotnet/gtk-sharp-beans 2.14.0-r2: GTK+ API C# binding
 dev-dotnet/gudev-sharp 3.0-r1: GUDEV API C# binding
 dev-dotnet/hyena 0.5: Library used to make awesome applications.
@@ -44,17 +45,18 @@ dev-dotnet/msbuildcontrib 2014.06.05.01: A project for tasks and tools that aren
 dev-dotnet/msbuildtasks 1.5.0.235 1.5.0.240: The MSBuild Community Tasks Project is an open source project for MSBuild tasks.
 dev-dotnet/ndepend-path 0.0_p20151123: C# framework for paths operations: Absolute, Drive Letter, UNC, Relative, prefixed
 dev-dotnet/newtonsoft-json 6.0.8 7.0.1_p20150831 8.0.1_p20151229: Json.NET is a popular high-performance JSON framework for .NET
+dev-dotnet/nhibernate-iesi-collections 4.0.2: C#, LinkedHashSet<T>, SynchronizedSet<T>, ReadOnlySet<T>
 dev-dotnet/nini 1.1.0-r5: Nini - A configuration library for .NET
 dev-dotnet/nlog 4.3.11_p2016110901: NLog - Advanced .NET and Silverlight Logging
 dev-dotnet/notify-sharp 0.4.1 3.0.3: a C# client implementation for Desktop Notifications
 dev-dotnet/npgsql 3.1.6: allows any program developed for .NET framework to access a PostgreSQL database
-dev-dotnet/nuget 2.8.1 2.8.3 2.8.7 2.8.7-r1 2.8.7-r2: Nuget - .NET Package Manager
+dev-dotnet/nuget 2.8.1 2.8.3 2.8.7 2.8.7-r1 2.8.7-r2 2.8.7-r3: Nuget - .NET Package Manager
 dev-dotnet/nunit-framework 3.7.0: NUnit test suite for mono applications
 dev-dotnet/pliant 0.5.0.1: modified Earley parser in C# inspired by the Marpa Parser project
 dev-dotnet/referenceassemblies-pcl 4.6: .NET Portable Class Library reference assemblies
 dev-dotnet/sharpziplib 0.86.0-r20150714: Zip, GZip, Tar and BZip2 library written entirely in C# for the .NET platform
 dev-dotnet/slntools 1.1.3_p201508170-r1: Validator.nu HTML Parser, a HTML5 parser, port from Java Version 1.4 to C#
-dev-dotnet/smartirc4net 1.0: Multi-threaded and thread-safe IRC library written in C#
+dev-dotnet/smartirc4net 1.0 1.1: Multi-threaded and thread-safe IRC library written in C#
 dev-dotnet/soup-sharp 2.42.2: C# Bindings for libsoup2.4
 dev-dotnet/system-web 4.6.0.150 4.6.0.182-r2: Framework for developing web-applications
 dev-dotnet/system-web-mvc 5.2.3_p2014092400: parser and code generation infrastructure for Razor markup syntax
@@ -62,7 +64,7 @@ dev-dotnet/system-web-razor 3.2.3_p2014092400: parser and code generation infras
 dev-dotnet/system-web-webpages 3.2.3_p2014092400: parser and code generation infrastructure for Razor markup syntax
 dev-dotnet/webkitgtk-sharp 2.0.0: C# bindings for WebKitGTK+ 3.0 using GObject Introspection
 dev-dotnet/x-pagedlist 1.24.0.23549-r201512120 5.3.0.8: Nugget for easily paging through any IEnumerable/IQueryable in Asp.Net MVC
-dev-dotnet/xdt-for-monodevelop 2.8.1 2.8.1-r1 2.8.3: Microsoft's Xml Document Transformation library
+dev-dotnet/xdt-for-monodevelop 2.8.1 2.8.1-r1 2.8.1-r2 2.8.3 2.8.3-r1: Microsoft's Xml Document Transformation library
 dev-lang/ironscheme 0.9.99659: R6RS conforming Scheme-like implementation based on the Microsoft DLR
 dev-lang/mono 5.0.1.1 5.2.0.196 9999: Mono runtime and class libraries, a C# compiler/interpreter
 dev-libs/libgit2 0.24.1: A linkable library for Git
@@ -79,7 +81,7 @@ dev-util/nunit 2.6.4_p2015011102-r2 3.0.1-r2: NUnit test suite for mono applicat
 dev-util/nunit-console 3.7.0: NUnit Console runner and test engine
 dev-util/nunit-gui 3.7.0: NUnit test suite for mono applications
 media-gfx/pinta 1.6: Simple Painting for Gtk
-net-irc/smuxi 1.0.6.130 9999: A flexible, irssi-like and user-friendly IRC client for the Gnome Desktop
+net-irc/smuxi 1.0.6.130 1.0.7 9999: A flexible, irssi-like and user-friendly IRC client for the Gnome Desktop
 net-misc/simpleDLNA 1.0.2: A simple, zero-config DLNA media server, that you can just fire up and be done with it.
 net-misc/sparkleshare 1.4: Git-based collaboration and file sharing tool
 www-apache/mod_mono 3.12-r1: Apache module for Mono
