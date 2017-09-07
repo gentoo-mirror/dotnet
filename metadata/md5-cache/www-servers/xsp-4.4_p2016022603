@@ -10,6 +10,5 @@ RDEPEND=dev-db/sqlite:3 !dev-dotnet/xsp
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://github.com/mono/xsp/archive/c98e068f5647fb06ff2fbef7cd5f1b35417362b1.tar.gz -> xsp-4.4_p2016022603.tar.gz
-_eclass_exported_funcs=pkg_preinst:- pkg_setup:dotnet src_prepare:- src_configure:- src_compile:- src_install:-
 _eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	dotnet	f8e033eb07b7fe976336452aad9fcfc6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	libtool	0081a71a261724730ec4c248494f044d	ltprune	2770eed66a9b8ef944714cd0e968182e	mono-env	bbcd2c9fa99e5cdbdccdad231c70af6d	multilib	97f470f374f2e94ccab04a2fb21d811e	systemd	34815d3b76e745c5ca33eec9f95074c2	toolchain-funcs	185a06792159ca143528e7010368e8af	user	e4b567c44272a719fabf53f0f885d3f7	versionator	c80ccf29e90adea7c5cae94b42eb76d0
 _md5_=27a5828c39e8cda9c2418087f80c616d
