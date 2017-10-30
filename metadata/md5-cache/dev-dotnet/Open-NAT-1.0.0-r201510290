@@ -3,11 +3,11 @@ DEPEND=>=dev-lang/mono-4.0.2.5 virtual/pkgconfig dev-lang/mono dev-lang/mono nup
 DESCRIPTION=Class library to use port forwarding in NAT devices with UPNP and/or PMP
 EAPI=6
 HOMEPAGE=https://lontivero.github.io/Open.NAT
-IUSE=net45 +gac +nupkg +pkg-config debug developer +gac +pkg-config +symlink debug developer +nupkg
+IUSE=net45 +gac +nupkg +pkg-config debug developer +gac pkg-config debug developer +nupkg
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=>=dev-lang/mono-4.0.2.5 dev-lang/mono nupkg? ( dev-dotnet/nuget )
 SLOT=0
 SRC_URI=https://github.com/ArsenShnurkov/Open.NAT/archive/gentoo-mono4/8b1120fa0f2d457fa2c703718bbf3ce079ac5aae.zip -> Open-NAT-1.0.0-r201510290.zip mirror://gentoo/mono.snk.bz2
-_eclasses_=dotnet	f8e033eb07b7fe976336452aad9fcfc6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	227b041a120d309fdefbebb3b8c1dfa9	gac	12eb060ab73e8d2848f7abea19da16ca	ltprune	2770eed66a9b8ef944714cd0e968182e	mono-env	bbcd2c9fa99e5cdbdccdad231c70af6d	multilib	97f470f374f2e94ccab04a2fb21d811e	nupkg	b94be7a9ff06739d4130b5c3987e4f29	toolchain-funcs	185a06792159ca143528e7010368e8af	versionator	c80ccf29e90adea7c5cae94b42eb76d0
+_eclasses_=dotnet	f8e033eb07b7fe976336452aad9fcfc6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	227b041a120d309fdefbebb3b8c1dfa9	gac	218bce427af679c6cddbac50aa9634d7	ltprune	2770eed66a9b8ef944714cd0e968182e	mono-env	bbcd2c9fa99e5cdbdccdad231c70af6d	multilib	97f470f374f2e94ccab04a2fb21d811e	nupkg	b94be7a9ff06739d4130b5c3987e4f29	toolchain-funcs	185a06792159ca143528e7010368e8af	versionator	c80ccf29e90adea7c5cae94b42eb76d0
 _md5_=35aed2bb6c90328c76e4410fbb1fa0d2

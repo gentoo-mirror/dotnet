@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst preinst prepare prerm
+DEPEND=|| ( >=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 ) dev-util/msbuild dev-lang/mono
+DESCRIPTION=parsing framework for C# on LALR(1)
+EAPI=6
+HOMEPAGE=https://github.com/daxnet/irony
+IUSE=+{USE_DOTNET} debug developer +gac pkg-config
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=|| ( >=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 ) dev-lang/mono
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/daxnet/irony/archive/ed2aa3ed74b53b1655a2b196d34a1bc20d4e6ce1.tar.gz -> irony-daxnet-1.0.0_p2017083101.tar.gz https://github.com/mono/mono/raw/master/mcs/class/mono.snk
+_eclasses_=gac	218bce427af679c6cddbac50aa9634d7	msbuild	b2bfee6c90f5a4440a2871251c6dadc5
+_md5_=7d6f7ea91652c2a55f93a0e04a1a00d7

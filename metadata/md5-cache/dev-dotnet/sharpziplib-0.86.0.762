@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst preinst prepare prerm
+DEPEND=|| ( >=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 ) >=dev-dotnet/msbuildtasks-1.5.0.240 dev-util/msbuild dev-lang/mono
+DESCRIPTION=Zip, GZip, Tar and BZip2 library written entirely in C# for the .NET platform
+EAPI=6
+HOMEPAGE=https://github.com/icsharpcode/SharpZipLib
+IUSE=+net45 debug developer +gac pkg-config
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=MIT
+RDEPEND=|| ( >=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 ) dev-lang/mono
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/icsharpcode/SharpZipLib/archive/4ad264b562579fc8d0c1f73812f69b78b49ebdee.tar.gz -> sharpziplib-0.86.0.762.tar.gz https://github.com/mono/mono/raw/master/mcs/class/mono.snk
+_eclasses_=gac	218bce427af679c6cddbac50aa9634d7	msbuild	b2bfee6c90f5a4440a2871251c6dadc5
+_md5_=e114097a292e82dcb618d8de42ca0ac5

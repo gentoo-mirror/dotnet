@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install prepare setup
+DEPEND=>=dev-lang/mono-5.2.0.196 dev-dotnet/msbuild-tasks-api =dev-dotnet/newtonsoft-json-6.0.8-r1[gac] >=dev-dotnet/msbuildtasks-1.5.0.240 dev-lang/mono dev-lang/mono dev-lang/mono
+DESCRIPTION=Build tools that are necessary for building the .NET Core projects
+EAPI=6
+HOMEPAGE=https://github.com/dotnet/buildtools
+IUSE=+net45 +gac developer debug doc +symlink debug developer net45 +gac pkg-config pkg-config symlink
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-lang/mono-5.2.0.196 dev-dotnet/msbuild-tasks-api =dev-dotnet/newtonsoft-json-6.0.8-r1[gac] dev-lang/mono dev-lang/mono
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/dotnet/buildtools/archive/a177c85d78799e6c2407ce88e857546e490d83c2.tar.gz -> buildtools-dotnet-1.0.27.tar.gz
+_eclasses_=dotnet	f8e033eb07b7fe976336452aad9fcfc6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	227b041a120d309fdefbebb3b8c1dfa9	gac	218bce427af679c6cddbac50aa9634d7	ltprune	2770eed66a9b8ef944714cd0e968182e	mono-env	bbcd2c9fa99e5cdbdccdad231c70af6d	mono-pkg-config	7f50f342d7b3bc169f28b698dfde96c0	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af	versionator	c80ccf29e90adea7c5cae94b42eb76d0
+_md5_=abf1c47642096c17d884d499d9e82f93

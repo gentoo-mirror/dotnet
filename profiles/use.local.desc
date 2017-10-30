@@ -18,7 +18,6 @@ dev-dotnet/gnome-desktop-sharp:print - Build with support for gnomeprint
 dev-dotnet/gnome-desktop-sharp:rsvg - Build with support for rsvg
 dev-dotnet/gnome-desktop-sharp:vte - Build with support for vte
 dev-dotnet/gnome-desktop-sharp:wnck - Build with support for wnck
-dev-dotnet/irony-framework:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-dotnet/mono-options:developer - n/a
 dev-dotnet/mono-options:gac - n/a
 dev-dotnet/mono-options:nupkg - n/a

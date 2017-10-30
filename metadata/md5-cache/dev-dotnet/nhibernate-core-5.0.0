@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst preinst prepare prerm
+DEPEND=|| ( >=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 ) dev-util/antlrcs >=dev-dotnet/msbuildtasks-1.5.0.240 dev-util/msbuild dev-lang/mono
+DESCRIPTION=NHibernate Object Relational Mapper
+EAPI=6
+HOMEPAGE=http://nhibernate.info/
+IUSE=+net45 debug developer +gac pkg-config
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=LGPL-2.1
+RDEPEND=|| ( >=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 ) dev-lang/mono
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/nhibernate/nhibernate-core/archive/c2c93d979611463b5a3fb12c4d27bb78d86de9d4.tar.gz -> nhibernate-core-5.0.0.tar.gz https://github.com/mono/mono/raw/master/mcs/class/mono.snk
+_eclasses_=gac	218bce427af679c6cddbac50aa9634d7	msbuild	b2bfee6c90f5a4440a2871251c6dadc5
+_md5_=aeac1f741c175b0985c3ada42632e23c
