@@ -23,6 +23,7 @@ dev-dotnet/dotnetzip-semverd 1.9.3 1.9.3-r1 1.9.3-r2: create, extract, or update
 dev-dotnet/dryioc 2.1.0_p201512110-r1: fast, small, full-featured IoC Container for .NET
 dev-dotnet/eto-parse 1.4.0_p20150907-r1: CLI parser with API, recursive descent, LL(k), for BNF, EBNF and Gold Grammars
 dev-dotnet/fake 3.23.0 9999: FAKE - F# Make
+dev-dotnet/fluent-nhibernate 2.0.2: XML-less, compile safe, automated, convention-based mappings for NHibernate
 dev-dotnet/gio-sharp 0.3-r1: GIO API C# binding
 dev-dotnet/gkeyfile-sharp 0.1-r1: C# binding for gkeyfile
 dev-dotnet/gnome-desktop-sharp 2.26.0-r3: gnome-desktop mono bindings
@@ -46,11 +47,12 @@ dev-dotnet/msbuild-defaulttasks 15.3-r2: default tasks for Microsoft Build Engin
 dev-dotnet/msbuild-roslyn-csc 15.3: C# compiler with rich code analysis APIs
 dev-dotnet/msbuild-tasks-api 15.3-r1: msbuild libraries for writing Task-derived classes
 dev-dotnet/msbuildcontrib 2014.06.05.01: A project for tasks and tools that aren't part of the main MSBuild release.
-dev-dotnet/msbuildtasks 1.5.0.235 1.5.0.240 1.5.0.240-r2: The MSBuild Community Tasks Project is an open source project for MSBuild tasks.
+dev-dotnet/msbuildtasks 1.5.0.235 1.5.0.240 1.5.0.240-r2 1.5.0.240-r3: The MSBuild Community Tasks Project is an open source project for MSBuild tasks.
 dev-dotnet/ndepend-path 0.0_p20151123: C# framework for paths operations: Absolute, Drive Letter, UNC, Relative, prefix
 dev-dotnet/newtonsoft-json 6.0.8 6.0.8-r1 7.0.1_p20150831 8.0.1_p20151229: Json.NET is a popular high-performance JSON framework for .NET
 dev-dotnet/nhibernate-core 5.0.0: NHibernate Object Relational Mapper
 dev-dotnet/nhibernate-iesi-collections 4.0.2: C#, LinkedHashSet<T>, SynchronizedSet<T>, ReadOnlySet<T>
+dev-dotnet/nhibernate-linq 1.0.0.0_p2010050601: Contributions to NHibernate
 dev-dotnet/nini 1.1.0-r5: Nini - A configuration library for .NET
 dev-dotnet/nlog 4.3.11_p2016110901: NLog - Advanced .NET and Silverlight Logging
 dev-dotnet/notify-sharp 0.4.1 3.0.3: a C# client implementation for Desktop Notifications
@@ -71,6 +73,7 @@ dev-dotnet/system-web 4.6.0.150 4.6.0.182-r2: Framework for developing web-appli
 dev-dotnet/system-web-mvc 5.2.3_p2014092400: parser and code generation infrastructure for Razor markup syntax
 dev-dotnet/system-web-razor 3.2.3_p2014092400: parser and code generation infrastructure for Razor markup syntax
 dev-dotnet/system-web-webpages 3.2.3_p2014092400: parser and code generation infrastructure for Razor markup syntax
+dev-dotnet/techtalk-specflow 1.2.0.0: Binding business requirements to .Net code
 dev-dotnet/webkitgtk-sharp 2.0.0: C# bindings for WebKitGTK+ 3.0 using GObject Introspection
 dev-dotnet/x-pagedlist 1.24.0.23549-r201512120 5.3.0.8: Nugget for easily paging through any IEnumerable/IQueryable in Asp.Net MVC
 dev-dotnet/xdt-for-monodevelop 2.8.1 2.8.1-r1 2.8.1-r2 2.8.3 2.8.3-r1: Microsoft's Xml Document Transformation library

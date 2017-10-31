@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst preinst prepare prerm
+DEPEND=|| ( >=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 ) dev-dotnet/nhibernate-core dev-util/msbuild dev-lang/mono
+DESCRIPTION=Contributions to NHibernate
+EAPI=6
+HOMEPAGE=https://github.com/pruiz/nhibernate-contrib-old
+IUSE=+net45 debug developer +gac pkg-config
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=LGPL-2.0
+RDEPEND=|| ( >=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 ) dev-dotnet/nhibernate-core dev-lang/mono
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/pruiz/nhibernate-contrib-old/archive/eada73cce086a6457e5e64b0413b97a8f53863ac.tar.gz -> nhibernate-linq-1.0.0.0_p2010050601.tar.gz https://github.com/mono/mono/raw/master/mcs/class/mono.snk
+_eclasses_=gac	218bce427af679c6cddbac50aa9634d7	msbuild	b2bfee6c90f5a4440a2871251c6dadc5
+_md5_=8f02286273a27b35339d0aa8bb67a4d6

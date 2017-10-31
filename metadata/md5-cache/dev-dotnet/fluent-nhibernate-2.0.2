@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst preinst prepare prerm
+DEPEND=|| ( >=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 ) dev-dotnet/nhibernate-core dev-util/antlrcs >=dev-dotnet/msbuildtasks-1.5.0.240 dev-util/msbuild dev-lang/mono
+DESCRIPTION=XML-less, compile safe, automated, convention-based mappings for NHibernate
+EAPI=6
+HOMEPAGE=http://www.fluentnhibernate.org/
+IUSE=+net45 debug developer +gac pkg-config
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=BSD
+RDEPEND=|| ( >=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 ) dev-dotnet/nhibernate-core dev-lang/mono
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/jagregory/fluent-nhibernate/archive/0ac6335d2068798f6b38b98aacade07bc702d68f.tar.gz -> fluent-nhibernate-2.0.2.tar.gz https://github.com/mono/mono/raw/master/mcs/class/mono.snk
+_eclasses_=gac	218bce427af679c6cddbac50aa9634d7	msbuild	b2bfee6c90f5a4440a2871251c6dadc5
+_md5_=934b4e5bdddca582a4c9693c6e39b973
