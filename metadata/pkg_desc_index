@@ -10,6 +10,7 @@ dev-dotnet/autofac 3.5.2 4.1.1: An addictive .NET IoC container
 dev-dotnet/autofac-configuration 4.0.1-r5: Configuration support for Autofac IoC
 dev-dotnet/buildtools 1.0.27: Build tools that are necessary for building the .NET Core projects
 dev-dotnet/castle-core 4.0.0_beta1: including Castle DynamicProxy, Logging Services and DictionaryAdapter
+dev-dotnet/castle-dynamicproxy 2.1.0.0: simple set of tools to speed up the development
 dev-dotnet/cecil 0.9.6_p20160209-r1 0.10_beta1_p2016102302-r1 0.10_beta1_p2016111002-r1: System.Reflection alternative to generate and inspect .NET executables/libraries
 dev-dotnet/commandlineparser 0.6.0_p20160115: command line parser on System.ComponentModel.DataAnnotations
 dev-dotnet/conemu-control-winforms 1.0.0_p2016051802-r1: console emulator control, embeds a console view in a Windows Forms window
