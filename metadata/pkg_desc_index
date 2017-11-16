@@ -79,7 +79,7 @@ dev-dotnet/webkitgtk-sharp 2.0.0: C# bindings for WebKitGTK+ 3.0 using GObject I
 dev-dotnet/x-pagedlist 1.24.0.23549-r201512120 5.3.0.8: Nugget for easily paging through any IEnumerable/IQueryable in Asp.Net MVC
 dev-dotnet/xdt-for-monodevelop 2.8.1 2.8.1-r1 2.8.1-r2 2.8.3 2.8.3-r1: Microsoft's Xml Document Transformation library
 dev-lang/ironscheme 0.9.99659: R6RS conforming Scheme-like implementation based on the Microsoft DLR
-dev-lang/mono 5.0.1.1 5.2.0.196 5.2.0.224 5.4.0.167 9999: Mono runtime and class libraries, a C# compiler/interpreter
+dev-lang/mono 5.0.1.1 5.2.0.196 5.2.0.224 5.4.0.167 5.8.0.22 9999: Mono runtime and class libraries, a C# compiler/interpreter
 dev-lang/oscript 1.0.19.0_p2017102608: 1C script language interpreter
 dev-libs/libgit2 0.24.1: A linkable library for Git
 dev-util/antlrcs 3.5.2_beta1_p2017080216: The C# port of ANTLR 3
