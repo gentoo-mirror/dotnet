@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile install prepare setup
-DEPEND=>=dev-lang/mono-4.0.2.5 net45? ( developer? ( debug? ( dev-dotnet/cecil[net45,gac,developer,debug] ) !debug? ( dev-dotnet/cecil[net45,gac,developer] ) ) !developer? ( debug? ( dev-dotnet/cecil[net45,gac,debug] ) !debug? ( dev-dotnet/cecil[net45,gac] ) ) ) net45? ( developer? ( debug? ( dev-util/nant[net45,nupkg,developer,debug] ) !debug? ( dev-util/nant[net45,nupkg,developer] ) ) !developer? ( debug? ( dev-util/nant[net45,nupkg,debug] ) !debug? ( dev-util/nant[net45,nupkg] ) ) ) dev-lang/mono dev-lang/mono nupkg? ( dev-dotnet/nuget )
+DEPEND=>=dev-lang/mono-4.0.2.5 net45? ( developer? ( debug? ( dev-dotnet/cecil[net45,gac,developer,debug] ) !debug? ( dev-dotnet/cecil[net45,gac,developer] ) ) !developer? ( debug? ( dev-dotnet/cecil[net45,gac,debug] ) !debug? ( dev-dotnet/cecil[net45,gac] ) ) ) net45? ( developer? ( debug? ( dev-util/nant[net45,nupkg,developer,debug] ) !debug? ( dev-util/nant[net45,nupkg,developer] ) ) !developer? ( debug? ( dev-util/nant[net45,nupkg,debug] ) !debug? ( dev-util/nant[net45,nupkg] ) ) ) dev-lang/mono dev-lang/mono dev-lang/mono nupkg? ( dev-dotnet/nuget )
 DESCRIPTION=NUnit test suite for mono applications
 EAPI=6
 HOMEPAGE=https://github.com/nunit/nunit
-IUSE=+net45 developer debug nupkg gac doc +gac pkg-config debug developer +nupkg
+IUSE=+net45 developer debug nupkg gac doc debug developer net45 +gac pkg-config debug developer net45 +nupkg
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=>=dev-lang/mono-4.0.2.5 net45? ( developer? ( debug? ( dev-dotnet/cecil[net45,gac,developer,debug] ) !debug? ( dev-dotnet/cecil[net45,gac,developer] ) ) !developer? ( debug? ( dev-dotnet/cecil[net45,gac,debug] ) !debug? ( dev-dotnet/cecil[net45,gac] ) ) ) dev-lang/mono nupkg? ( dev-dotnet/nuget )
 RESTRICT=mirror
 SLOT=3
 SRC_URI=https://github.com/nunit/nunit/archive/dd39deaa2c805783cb069878b58b0447d0849849.tar.gz -> nunit-3.0.1.tar.gz
-_eclasses_=desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	dotnet	f8e033eb07b7fe976336452aad9fcfc6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e7258392d5eda499c1cfa94db650b61	gac	218bce427af679c6cddbac50aa9634d7	ltprune	2770eed66a9b8ef944714cd0e968182e	mono-env	bbcd2c9fa99e5cdbdccdad231c70af6d	multilib	97f470f374f2e94ccab04a2fb21d811e	nupkg	b94be7a9ff06739d4130b5c3987e4f29	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	versionator	ce21313503c41896ebcd7d58b0607e37
-_md5_=085b8b1fa77ffda6c45da9c4419b8903
+_eclasses_=desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	dotnet	a880581c98b0c75b3a7aa1949f9d61de	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e7258392d5eda499c1cfa94db650b61	gac	218bce427af679c6cddbac50aa9634d7	ltprune	2770eed66a9b8ef944714cd0e968182e	mono-env	19800b8d105a543602e5b9da72d9b0c3	multilib	97f470f374f2e94ccab04a2fb21d811e	nupkg	b94be7a9ff06739d4130b5c3987e4f29	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	versionator	ce21313503c41896ebcd7d58b0607e37	xbuild	d5252ad49602f9de8739244847fe9e3d
+_md5_=f4e09211e4ed9e1c29248a588c538cbb

@@ -8,5 +8,5 @@ LICENSE=LGPL-2.1
 RDEPEND=dev-dotnet/gtk-sharp:3 virtual/udev virtual/libgudev
 SLOT=0
 SRC_URI=https://github.com/mono/gudev-sharp/releases/download/3.0.0/gudev-sharp-3.0.tar.gz
-_eclasses_=mono-env	bbcd2c9fa99e5cdbdccdad231c70af6d
+_eclasses_=mono-env	19800b8d105a543602e5b9da72d9b0c3
 _md5_=c3a557329e1ea88d81ed23f19ba07a16
