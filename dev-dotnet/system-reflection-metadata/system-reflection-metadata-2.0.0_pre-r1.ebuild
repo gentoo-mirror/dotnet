@@ -1,8 +1,9 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
-EAPI=6
+EAPI="6"
+
 RESTRICT="mirror"
 KEYWORDS="~amd64"
 SLOT="0"
@@ -10,7 +11,7 @@ SLOT="0"
 USE_DOTNET="net45"
 IUSE="+${USE_DOTNET} +gac developer debug doc"
 
-inherit gac dotnet
+inherit dotnet xbuild gac
 
 GITHUB_ACCOUNT="dotnet"
 GITHUB_PROJECTNAME="corefx"
@@ -18,20 +19,20 @@ EGIT_COMMIT="247068fbd97c534dc13b3b9d037f67b03dbe57a5"
 SRC_URI="https://github.com/${GITHUB_ACCOUNT}/${GITHUB_PROJECTNAME}/archive/${EGIT_COMMIT}.tar.gz -> ${GITHUB_PROJECTNAME}-${GITHUB_ACCOUNT}-${PV}.tar.gz"
 S="${WORKDIR}/${GITHUB_PROJECTNAME}-${EGIT_COMMIT}"
 
-HOMEPAGE="https://github.com/dotnet/corefx/tree/master/src/System.Collections.Immutable"
+HOMEPAGE="https://github.com/dotnet/corefx/tree/master/src/System.Reflection.Metadata"
 DESCRIPTION="part of CoreFX"
 LICENSE="MIT" # https://github.com/dotnet/corefx/blob/master/LICENSE.TXT
 
 COMMON_DEPEND=">=dev-lang/mono-5.2.0.196
+	dev-dotnet/system-collections-immutable
 "
 RDEPEND="${COMMON_DEPEND}
 "
 DEPEND="${COMMON_DEPEND}
 	dev-dotnet/buildtools
-	>=dev-dotnet/msbuildtasks-1.5.0.240
 "
 
-PROJ1=System.Collections.Immutable
+PROJ1=System.Reflection.Metadata
 PROJ1_DIR=src/${PROJ1}/src
 
 src_prepare() {
