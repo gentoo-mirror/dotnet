@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=.NET Core SDK - binary precompiled for glibc
+EAPI=6
+HOMEPAGE=https://www.microsoft.com/net/core
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=sys-apps/lsb-release-1.4 >=sys-devel/llvm-4.0 >=dev-util/lldb-4.0 >=sys-libs/libunwind-1.1-r1 >=dev-libs/icu-57.1 >=dev-util/lttng-ust-2.8.1 >=dev-libs/openssl-1.0.2h-r2 >=net-misc/curl-7.49.0 >=app-crypt/mit-krb5-1.14.2 >=sys-libs/zlib-1.2.8-r1 !dev-dotnet/dotnetcore-sdk !dev-dotnet/dotnetcore-runtime-bin !dev-dotnet/dotnetcore-aspnet-bin
+SLOT=0
+SRC_URI=amd64? ( https://download.microsoft.com/download/1/2/E/12E2BC14-7A9F-4497-A351-02B7C2DDD599/dotnet-sdk-2.1.102-linux-x64.tar.gz -> dotnet-sdk-2.1.102-linux-x64.tar.gz )
+_eclasses_=desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	63392afb034aad67f17fa129019eb4d9	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=32c8b09299e65cc62306ae1de7907e1d
