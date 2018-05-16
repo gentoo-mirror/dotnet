@@ -2,19 +2,19 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
+KEYWORDS="~amd64 ~ppc ~ppc64 ~x86 ~amd64-linux"
+RESTRICT="mirror"
+SLOT="0"
 
-inherit autotools eutils linux-info mono-env flag-o-matic pax-utils versionator multilib-minimal
+IUSE="nls minimal pax_kernel xen doc"
+
+inherit autotools eutils linux-info mono-env flag-o-matic pax-utils multilib-minimal
 
 DESCRIPTION="Mono runtime and class libraries, a C# compiler/interpreter"
 HOMEPAGE="http://www.mono-project.com/Main_Page"
-SRC_URI="http://download.mono-project.com/sources/${PN}/${P}.tar.bz2"
-
 LICENSE="MIT LGPL-2.1 GPL-2 BSD-4 NPL-1.1 Ms-PL GPL-2-with-linking-exception IDPL"
-SLOT="0"
 
-KEYWORDS="~amd64 ~ppc ~ppc64 ~x86 ~amd64-linux"
-
-IUSE="nls minimal pax_kernel xen doc"
+SRC_URI="http://download.mono-project.com/sources/mono/${P}.tar.bz2"
 
 COMMONDEPEND="
 	!minimal? ( >=dev-dotnet/libgdiplus-2.10 )
@@ -34,9 +34,8 @@ DEPEND="${COMMONDEPEND}
 
 PATCHES=(
 	"${FILESDIR}"/${PN}-5.0.1.1-x86_32.patch
+	"${FILESDIR}"/try-catch.patch
 )
-
-#S="${WORKDIR}/${PN}-$(get_version_component_range 1-3)"
 
 pkg_pretend() {
 	linux-info_pkg_setup
