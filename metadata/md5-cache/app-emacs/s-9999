@@ -5,7 +5,8 @@ EAPI=5
 HOMEPAGE=https://github.com/magnars/s.el
 KEYWORDS=~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~x86 ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
 LICENSE=GPL-3+
+PROPERTIES=live
 RDEPEND=>=virtual/emacs-23
 SLOT=0
-_eclasses_=elisp	f8026e46da659669c11e50c306d1aeb8	elisp-common	23f47b2e1de7abf387105eddd1318738	epatch	a1bf4756dba418a7238f3be0cb010c54	git-2	249c1a0962573f4ce2c28f0d5b6b35d4
+_eclasses_=elisp	f8026e46da659669c11e50c306d1aeb8	elisp-common	23f47b2e1de7abf387105eddd1318738	epatch	a1bf4756dba418a7238f3be0cb010c54	git-2	3aabf18eba60687bbe6855eba271f688
 _md5_=7cd3def11833a00d4b76f1e84f66ea34
