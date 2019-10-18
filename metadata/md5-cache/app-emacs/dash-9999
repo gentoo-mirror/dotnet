@@ -3,10 +3,10 @@ DEPEND=dev-vcs/git >=virtual/emacs-23
 DESCRIPTION=A modern list api for Emacs. No 'cl required.
 EAPI=5
 HOMEPAGE=https://github.com/magnars/dash.el
-KEYWORDS=~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~x86 ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
+KEYWORDS=~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
 LICENSE=GPL-3+
 PROPERTIES=live
 RDEPEND=>=virtual/emacs-23
 SLOT=0
 _eclasses_=elisp	11f1230b542918f2de1aef02bfbb3539	elisp-common	23f47b2e1de7abf387105eddd1318738	epatch	a1bf4756dba418a7238f3be0cb010c54	git-2	3aabf18eba60687bbe6855eba271f688
-_md5_=e0700fbc95f1e15399764c3f11df4530
+_md5_=5aa7f2d77d26d0971a29edb04b119aea
