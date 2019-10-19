@@ -4,11 +4,11 @@ DESCRIPTION=C# compiler with rich code analysis APIs
 EAPI=6
 HOMEPAGE=https://github.com/dotnet/roslyn
 IUSE=+net45 +debug developer doc debug developer net45 debug developer net45
-KEYWORDS=~amd64 ~ppc ~x86
+KEYWORDS=~amd64
 LICENSE=Apache-2.0
 RDEPEND=>=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 dev-dotnet/msbuild-tasks-api developer? ( dev-dotnet/msbuild-tasks-api[developer] ) dev-dotnet/msbuild-defaulttasks developer? ( dev-dotnet/msbuild-defaulttasks[developer] )
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dotnet/roslyn/archive/ec1cde8b77c7bca654888681037f55aa0e62dd19.tar.gz -> roslyn-15.3.tar.gz https://github.com/mono/mono/raw/master/mcs/class/mono.snk
 _eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	dotnet	64f068d4decd2bc8cae2cf56b4daa62f	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	mono-env	19800b8d105a543602e5b9da72d9b0c3	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	2f8b8f320bee13b71a8a54cc6d09e08a	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf	versionator	2352c3fc97241f6a02042773c8287748	xbuild	b43886a504069e8d51f16ba1f182bbef
-_md5_=07ed00e6a603037f61b909f0311e40ea
+_md5_=a9742987c78ddc605f2fea7b0a473db4

@@ -84,7 +84,6 @@ dev-dotnet/techtalk-specflow 1.2.0.0: Binding business requirements to .Net code
 dev-dotnet/webkitgtk-sharp 2.0.0: C# bindings for WebKitGTK+ 3.0 using GObject Introspection
 dev-dotnet/x-pagedlist 1.24.0.23549-r201512120 5.3.0.8: Nugget for easily paging through any IEnumerable/IQueryable in Asp.Net MVC
 dev-dotnet/xdt-for-monodevelop 2.8.1 2.8.1-r1 2.8.1-r2 2.8.3 2.8.3-r1: Microsoft's Xml Document Transformation library
-dev-lang/fsharp 10.2.1: The F# Compiler
 dev-lang/ironscheme 0.9.99659: R6RS conforming Scheme-like implementation based on the Microsoft DLR
 dev-lang/mono 9999: Mono runtime and class libraries, a C# compiler/interpreter
 dev-lang/oscript 1.0.19.0_p2017102608: 1C script language interpreter
