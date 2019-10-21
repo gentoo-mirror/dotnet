@@ -4,9 +4,9 @@ EAPI=7
 HOMEPAGE=https://www.microsoft.com/net/core
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND==dev-dotnet/dotnetcore-sdk-bin-2.1.802 !dev-dotnet/dotnetcore-sdk-bin:0
+RDEPEND=~dev-dotnet/dotnetcore-sdk-bin-2.1.802 !dev-dotnet/dotnetcore-sdk-bin:0
 RESTRICT=splitdebug
 SLOT=0
 SRC_URI=amd64? ( https://download.visualstudio.microsoft.com/download/pr/8029a774-0cc8-4c62-945e-169a473b51d3/2c3f6a18aed152e5e498035695ed816f/dotnet-sdk-2.1.802-linux-x64.tar.gz )
 _eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8
-_md5_=11ab2694b3a121a893d7d7cdc9545006
+_md5_=cc8050de3871ba1b669d82a7ce119fca
