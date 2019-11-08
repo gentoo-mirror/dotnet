@@ -1,5 +1,5 @@
 app-editors/mypad 1.0.3_p201606130-r1: mypad text editor
-app-editors/visual-studio-code 1.39.2: Multiplatform Visual Studio Code from Microsoft
+app-editors/visual-studio-code 1.39.2 1.40.0: Multiplatform Visual Studio Code from Microsoft
 app-emacs/dash 9999: A modern list api for Emacs. No 'cl required.
 app-emacs/s 9999: The long lost Emacs string manipulation library
 app-shells/pash 0.0-r20150618 0.0_p2016060606: An Open Source reimplementation of Windows PowerShell
