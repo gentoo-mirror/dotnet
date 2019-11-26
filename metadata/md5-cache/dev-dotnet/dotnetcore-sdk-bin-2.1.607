@@ -8,5 +8,5 @@ RDEPEND=>=dev-dotnet/dotnetcore-sdk-bin-common-2.1.607 >=sys-apps/lsb-release-1.
 RESTRICT=splitdebug
 SLOT=2.1
 SRC_URI=amd64? ( https://download.visualstudio.microsoft.com/download/pr/39e68289-0364-4173-a12b-c6234e94c527/92f3eb83bfca8b7cd360868996763125/dotnet-sdk-2.1.607-linux-x64.tar.gz )
-_eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5
 _md5_=bdbe4023ed4261031cb3c9a913ea913a
