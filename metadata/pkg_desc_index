@@ -3,7 +3,7 @@ app-editors/visual-studio-code 1.39.2 1.40.2: Multiplatform Visual Studio Code f
 app-emacs/dash 9999: A modern list api for Emacs. No 'cl required.
 app-emacs/s 9999: The long lost Emacs string manipulation library
 app-shells/pash 0.0-r20150618 0.0_p2016060606: An Open Source reimplementation of Windows PowerShell
-app-shells/pwsh-bin 6.2.3: PowerShell - binary precompiled for glibc
+app-shells/pwsh-bin 6.2.3 7.0.0_pre6: PowerShell - binary precompiled for glibc
 dev-dotnet/Open-NAT 1.0.0-r201510290: Class library to use port forwarding in NAT devices with UPNP and/or PMP
 dev-dotnet/antlr3-runtime 3.5.2_beta1_p2017080216: The C# port of ANTLR 3 (Rubtime library)
 dev-dotnet/aspnet-common 1.0.0-r5: A repository for shared files to be consumed across the ASPNET repos
