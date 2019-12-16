@@ -8,11 +8,11 @@ HOMEPAGE="https://powershell.org/"
 LICENSE="MIT"
 
 SRC_URI="
-amd64? ( https://github.com/PowerShell/PowerShell/releases/download/v${PV}/powershell-${PV}-linux-x64.tar.gz )
+amd64? ( https://github.com/PowerShell/PowerShell/releases/download/v7.0.0-preview.6/powershell-7.0.0-preview.6-linux-x64.tar.gz )
 "
 
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS=""
 
 QA_PREBUILT="*"
 
