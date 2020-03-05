@@ -30,7 +30,7 @@ dev-dotnet/dotnetcore-sdk-bin-common 2.1.804 2.2.207 3.0.103 3.1.102: Common fil
 dev-dotnet/dotnetzip-semverd 1.9.3-r2: create, extract, or update zip files with C# (=DotNetZip+SemVer)
 dev-dotnet/dryioc 2.1.0_p201512110-r1: fast, small, full-featured IoC Container for .NET
 dev-dotnet/eto-parse 1.4.0_p20150907-r1: CLI parser with API, recursive descent, LL(k), for BNF, EBNF and Gold Grammars
-dev-dotnet/fake 3.23.0 9999: FAKE - F# Make
+dev-dotnet/fake 3.23.0: FAKE - F# Make
 dev-dotnet/fluent-nhibernate 2.0.2: XML-less, compile safe, automated, convention-based mappings for NHibernate
 dev-dotnet/gio-sharp 0.3-r1: GIO API C# binding
 dev-dotnet/gkeyfile-sharp 0.1-r1: C# binding for gkeyfile
