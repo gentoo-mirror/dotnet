@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=Common files shared between multiple slots of .NET Core
+EAPI=7
+HOMEPAGE=https://www.microsoft.com/net/core
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=~dev-dotnet/dotnetcore-sdk-bin-3.1.301 !dev-dotnet/dotnetcore-sdk-bin:0
+RESTRICT=splitdebug
+SLOT=0
+SRC_URI=amd64? ( https://download.visualstudio.microsoft.com/download/pr/8db2b522-7fa2-4903-97ec-d6d04d297a01/f467006b9098c2de256e40d2e2f36fea/dotnet-sdk-3.1.301-linux-x64.tar.gz )
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5
+_md5_=9869a778fee0b355582b987455da38f1
