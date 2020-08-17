@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=Common files shared between multiple slots of .NET Core
+EAPI=7
+HOMEPAGE=https://www.microsoft.com/net/core
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=~dev-dotnet/dotnetcore-sdk-bin-2.1.809 !dev-dotnet/dotnetcore-sdk-bin:0
+RESTRICT=splitdebug
+SLOT=0
+SRC_URI=amd64? ( https://download.visualstudio.microsoft.com/download/pr/a44fb0b1-2c91-41d6-8970-321872341326/7e150d5bc0d3d96ae8c7cbd9e6b890fe/dotnet-sdk-2.1.809-linux-x64.tar.gz )
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5
+_md5_=f1c15eb0603ba7e10cadd4acf515d9b0
