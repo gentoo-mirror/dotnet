@@ -25,8 +25,8 @@ dev-dotnet/deveeldb 2.0_pre_alpha_p20160101: DeveelDB is a complete SQL DBMS, pr
 dev-dotnet/dotnetcore-aspnet-bin 2.0.3: .NET Core ASP.NET Runtime Store - binary precompiled for glibct
 dev-dotnet/dotnetcore-runtime-bin 2.0.4 2.0.6 2.0.7: .NET Core Runtime - binary precompiled for glibc
 dev-dotnet/dotnetcore-sdk 1.0.0_pre2_p003121 1.0.0_pre2_p003131 1.1.1 1.1.1-r1 1.1.1-r2: .NET Core cli utility for building, testing, packaging and running projects
-dev-dotnet/dotnetcore-sdk-bin 2.1.810 2.2.207 3.0.103 3.1.402 5.0.100_pre8: .NET Core SDK - binary precompiled for glibc
-dev-dotnet/dotnetcore-sdk-bin-common 2.1.810 2.2.207 3.0.103 3.1.402 5.0.100_pre8: Common files shared between multiple slots of .NET Core
+dev-dotnet/dotnetcore-sdk-bin 2.1.810 2.2.207 3.0.103 3.1.402 5.0.100_rc1: .NET Core SDK - binary precompiled for glibc
+dev-dotnet/dotnetcore-sdk-bin-common 2.1.810 2.2.207 3.0.103 3.1.402 5.0.100_rc1: Common files shared between multiple slots of .NET Core
 dev-dotnet/dotnetzip-semverd 1.9.3-r2: create, extract, or update zip files with C# (=DotNetZip+SemVer)
 dev-dotnet/dryioc 2.1.0_p201512110-r1: fast, small, full-featured IoC Container for .NET
 dev-dotnet/eto-parse 1.4.0_p20150907-r1: CLI parser with API, recursive descent, LL(k), for BNF, EBNF and Gold Grammars

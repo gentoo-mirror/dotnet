@@ -4,9 +4,9 @@ EAPI=7
 HOMEPAGE=https://www.microsoft.com/net/core
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=>=dev-dotnet/dotnetcore-sdk-bin-common-2.1.810 >=sys-apps/lsb-release-1.4 >=sys-devel/llvm-4.0 >=dev-util/lldb-4.0 >=sys-libs/libunwind-1.1-r1 >=dev-libs/icu-57.1 >=dev-util/lttng-ust-2.8.1 >=dev-libs/openssl-1.0.2h-r2 >=net-misc/curl-7.49.0 >=app-crypt/mit-krb5-1.14.2 >=sys-libs/zlib-1.2.8-r1 !dev-dotnet/dotnetcore-sdk !dev-dotnet/dotnetcore-sdk-bin:0 !dev-dotnet/dotnetcore-runtime-bin !dev-dotnet/dotnetcore-aspnet-bin
+RDEPEND=>=dev-dotnet/dotnetcore-sdk-bin-common-2.1.810 >=sys-apps/lsb-release-1.4 >=sys-devel/llvm-4.0 >=dev-util/lldb-4.0 >=sys-libs/libunwind-1.1-r1 >=dev-libs/icu-57.1 >=dev-util/lttng-ust-2.8.1 || ( >=dev-libs/openssl-1.0.2h-r2 >=dev-libs/openssl-compat-1.0.2h-r2 ) >=net-misc/curl-7.49.0 >=app-crypt/mit-krb5-1.14.2 >=sys-libs/zlib-1.2.8-r1 !dev-dotnet/dotnetcore-sdk !dev-dotnet/dotnetcore-sdk-bin:0 !dev-dotnet/dotnetcore-runtime-bin !dev-dotnet/dotnetcore-aspnet-bin
 RESTRICT=splitdebug
 SLOT=2.1
 SRC_URI=amd64? ( https://download.visualstudio.microsoft.com/download/pr/eb1b19f5-3c42-4f7b-b36a-67fae2040506/40cc70f95b6485b0b87bcbc655b7c855/dotnet-sdk-2.1.810-linux-x64.tar.gz )
 _eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=ec193d50711fca22da72f390844558f0
+_md5_=575fd024f9be335b88e680520f641905
