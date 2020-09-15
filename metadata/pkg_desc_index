@@ -1,9 +1,9 @@
 app-editors/mypad 1.0.3_p201606130-r1: mypad text editor
-app-editors/visual-studio-code 1.48.2: Multiplatform Visual Studio Code from Microsoft
+app-editors/visual-studio-code 1.49.0: Multiplatform Visual Studio Code from Microsoft
 app-emacs/dash 9999: A modern list api for Emacs. No 'cl required.
 app-emacs/s 9999: The long lost Emacs string manipulation library
 app-shells/pash 0.0-r20150618 0.0_p2016060606: An Open Source reimplementation of Windows PowerShell
-app-shells/pwsh-bin 6.2.3 7.0.0: PowerShell - binary precompiled for glibc
+app-shells/pwsh-bin 7.0.3: PowerShell - binary precompiled for glibc
 dev-dotnet/Open-NAT 1.0.0-r201510290: Class library to use port forwarding in NAT devices with UPNP and/or PMP
 dev-dotnet/antlr3-runtime 3.5.2_beta1_p2017080216: The C# port of ANTLR 3 (Rubtime library)
 dev-dotnet/aspnet-common 1.0.0-r5: A repository for shared files to be consumed across the ASPNET repos
