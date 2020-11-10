@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=Common files shared between multiple slots of .NET Core
+EAPI=7
+HOMEPAGE=https://www.microsoft.com/net/core
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=~dev-dotnet/dotnetcore-sdk-bin-5.0.100 !dev-dotnet/dotnetcore-sdk-bin:0
+RESTRICT=splitdebug
+SLOT=0
+SRC_URI=amd64? ( https://download.visualstudio.microsoft.com/download/pr/820db713-c9a5-466e-b72a-16f2f5ed00e2/628aa2a75f6aa270e77f4a83b3742fb8/dotnet-sdk-5.0.100-linux-x64.tar.gz ) arm? ( https://download.visualstudio.microsoft.com/download/pr/e8912d3b-483b-4d6f-bd3a-3066b3194313/20f2261fe4e16e55df4bbe03c65a7648/dotnet-sdk-5.0.100-linux-arm.tar.gz ) arm64? ( https://download.visualstudio.microsoft.com/download/pr/27840e8b-d61c-472d-8e11-c16784d40091/ae9780ccda4499405cf6f0924f6f036a/dotnet-sdk-5.0.100-linux-arm64.tar.gz )
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=5893a37410b9309f214d65d958fc95e1
