@@ -98,12 +98,14 @@ dev-util/mono-debugger 9999: Debugger for .NET managed and unmanaged application
 dev-util/mono-docbrowser 2.20130821-r2 9999: monodoc stripped from mono-tools
 dev-util/mono-packaging-tools 1.4.3: Command line utilities for packaging mono assemblies with portage
 dev-util/mono-tools 9999: Set of useful Mono related utilities
+dev-util/monodevelop 5.10.3.51 6.0.0.4761 9999: Integrated Development Environment for .NET
 dev-util/msbuild 15.3-r3: Microsoft Build Engine (MSBuild), XML-based platform for building applications
 dev-util/nant 0.93.5019_p2016101703: .NET build tool
 dev-util/nunit 2.6.4_p2015011102-r2 3.0.1-r2: NUnit test suite for mono applications
 dev-util/nunit-console 3.7.0: NUnit Console runner and test engine
 dev-util/nunit-gui 3.7.0: NUnit test suite for mono applications
 dev-util/tartool 1.0.0.0: command line tool to uncompress and untar .tar.gz (.tgz) files
+media-gfx/pinta 1.6: Simple Painting for Gtk
 net-irc/smuxi 1.0.6.130 1.0.7 9999: A flexible, irssi-like and user-friendly IRC client for the Gnome Desktop
 net-misc/simpleDLNA 1.0.2: A simple, zero-config DLNA media server, just fire up and be done with it.
 net-misc/sparkleshare 1.4: Git-based collaboration and file sharing tool
