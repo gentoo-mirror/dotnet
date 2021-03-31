@@ -3,6 +3,7 @@ DEPEND=dev-dotnet/gtk-sharp:3 virtual/udev virtual/libgudev virtual/pkgconfig
 DESCRIPTION=GUDEV API C# binding
 EAPI=5
 HOMEPAGE=https://github.com/mono/gudev-sharp
+INHERIT=mono-env
 KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2.1
 RDEPEND=dev-dotnet/gtk-sharp:3 virtual/udev virtual/libgudev
