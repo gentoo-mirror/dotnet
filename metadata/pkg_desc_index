@@ -1,5 +1,5 @@
 app-editors/mypad 1.0.3_p201606130-r1: mypad text editor
-app-editors/visual-studio-code 1.56.0: Multiplatform Visual Studio Code from Microsoft
+app-editors/visual-studio-code 1.56.1: Multiplatform Visual Studio Code from Microsoft
 app-shells/pash 0.0-r20150618 0.0_p2016060606: An Open Source reimplementation of Windows PowerShell
 app-shells/pwsh-bin 7.0.3: PowerShell - binary precompiled for glibc
 dev-dotnet/Open-NAT 1.0.0-r201510290: Class library to use port forwarding in NAT devices with UPNP and/or PMP
@@ -23,8 +23,8 @@ dev-dotnet/deveeldb 2.0_pre_alpha_p20160101: DeveelDB is a complete SQL DBMS, pr
 dev-dotnet/dotnetcore-aspnet-bin 2.0.3: .NET Core ASP.NET Runtime Store - binary precompiled for glibct
 dev-dotnet/dotnetcore-runtime-bin 2.0.4 2.0.6 2.0.7: .NET Core Runtime - binary precompiled for glibc
 dev-dotnet/dotnetcore-sdk 1.0.0_pre2_p003121 1.0.0_pre2_p003131 1.1.1 1.1.1-r1 1.1.1-r2: .NET Core cli utility for building, testing, packaging and running projects
-dev-dotnet/dotnetcore-sdk-bin 2.1.814 3.1.407 5.0.202 6.0.100_pre3: .NET Core SDK - binary precompiled for glibc
-dev-dotnet/dotnetcore-sdk-bin-common 2.1.814 3.1.407 5.0.202 6.0.100_pre3: Common files shared between multiple slots of .NET Core
+dev-dotnet/dotnetcore-sdk-bin 2.1.816 3.1.409 5.0.203 6.0.100_pre3: .NET Core SDK - binary precompiled for glibc
+dev-dotnet/dotnetcore-sdk-bin-common 2.1.816 3.1.409 5.0.203 6.0.100_pre3: Common files shared between multiple slots of .NET Core
 dev-dotnet/dotnetzip-semverd 1.9.3-r2: create, extract, or update zip files with C# (=DotNetZip+SemVer)
 dev-dotnet/dryioc 2.1.0_p201512110-r1: fast, small, full-featured IoC Container for .NET
 dev-dotnet/eto-parse 1.4.0_p20150907-r1: CLI parser with API, recursive descent, LL(k), for BNF, EBNF and Gold Grammars
