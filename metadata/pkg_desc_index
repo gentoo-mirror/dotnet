@@ -19,8 +19,8 @@ dev-dotnet/dbus-sharp-glib 0.6: D-Bus for .NET: GLib integration module
 dev-dotnet/deveel-irony 1.0.0_p20150328: parsing framework for C# on LALR(1)
 dev-dotnet/deveel-math 1.5.66-r201512290: A library for handling big numbers and decimals under Mono/.NET frameworks
 dev-dotnet/deveeldb 2.0_pre_alpha_p20160101: DeveelDB is a complete SQL DBMS, primarly developed for CLR/CLI frameworks
-dev-dotnet/dotnetcore-sdk-bin 2.1.818 3.1.416 5.0.404 6.0.101: .NET Core SDK - binary precompiled for glibc
-dev-dotnet/dotnetcore-sdk-bin-common 2.1.818 3.1.416 5.0.404 6.0.101: Common files shared between multiple slots of .NET Core
+dev-dotnet/dotnetcore-sdk-bin 2.1.818 3.1.416 5.0.405 6.0.102: .NET Core SDK - binary precompiled for glibc
+dev-dotnet/dotnetcore-sdk-bin-common 2.1.818 3.1.416 5.0.405 6.0.102: Common files shared between multiple slots of .NET Core
 dev-dotnet/dotnetzip-semverd 1.9.3-r2: create, extract, or update zip files with C# (=DotNetZip+SemVer)
 dev-dotnet/dryioc 2.1.0_p201512110-r1: fast, small, full-featured IoC Container for .NET
 dev-dotnet/eto-parse 1.4.0_p20150907-r1: CLI parser with API, recursive descent, LL(k), for BNF, EBNF and Gold Grammars
