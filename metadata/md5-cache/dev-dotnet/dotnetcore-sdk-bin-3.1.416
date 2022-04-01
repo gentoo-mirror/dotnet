@@ -8,5 +8,5 @@ RDEPEND=app-crypt/mit-krb5 >=dev-dotnet/dotnetcore-sdk-bin-common-3.1.416 dev-li
 RESTRICT=splitdebug
 SLOT=3.1
 SRC_URI=amd64? ( https://dotnetcli.azureedge.net/dotnet/Sdk/3.1.416/dotnet-sdk-3.1.416-linux-x64.tar.gz ) arm? ( https://dotnetcli.azureedge.net/dotnet/Sdk/3.1.416/dotnet-sdk-3.1.416-linux-arm.tar.gz ) arm64? ( https://dotnetcli.azureedge.net/dotnet/Sdk/3.1.416/dotnet-sdk-3.1.416-linux-arm64.tar.gz )
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff
 _md5_=c642fa517c67f2932b0554ec70912566
