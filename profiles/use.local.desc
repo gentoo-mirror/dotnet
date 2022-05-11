@@ -41,7 +41,6 @@ dev-lang/mono:xen - Make mono generate code that is considerably faster on xen V
 dev-libs/libgit2:gssapi - Enable GSSAPI support for SPNEGO auth
 dev-libs/libgit2:ssh - Enable SSH transport support
 dev-libs/libgit2:trace - Enable tracing support
-dev-util/fsharpbinding:monodevelop - Install monodevelop binding
 dev-util/mono-docbrowser:gtkhtml - HTK HTML
 dev-util/mono-packaging-tools:aot - compile to machine code and store to disk during install, to save time later during startups
 dev-util/mono-packaging-tools:pkg-config - create .pc file(s) for .dll(s) installed to gac
