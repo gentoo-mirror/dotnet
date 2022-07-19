@@ -36,8 +36,6 @@ dev-dotnet/system-web-razor:nupkg - creates local nuget package
 dev-dotnet/system-web-webpages:developer - enables debug information for any of debug and release builds
 dev-dotnet/system-web-webpages:nupkg - creates local nuget package
 dev-dotnet/x-pagedlist:pkg-config - create .pc file(s) for .dll(s) installed to gac
-dev-lang/mono:pax_kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
-dev-lang/mono:xen - Make mono generate code that is considerably faster on xen VMs but slightly slower on for normal systems.
 dev-libs/libgit2:gssapi - Enable GSSAPI support for SPNEGO auth
 dev-libs/libgit2:ssh - Enable SSH transport support
 dev-libs/libgit2:trace - Enable tracing support
