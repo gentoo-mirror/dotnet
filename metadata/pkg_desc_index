@@ -1,5 +1,4 @@
 app-editors/mypad 1.0.3_p201606130-r1: mypad text editor
-app-shells/pash 0.0-r20150618 0.0_p2016060606: An Open Source reimplementation of Windows PowerShell
 app-shells/pwsh-bin 7.0.3: PowerShell - binary precompiled for glibc
 dev-dotnet/Open-NAT 1.0.0-r201510290: Class library to use port forwarding in NAT devices with UPNP and/or PMP
 dev-dotnet/antlr3-runtime 3.5.2_beta1_p2017080216: The C# port of ANTLR 3 (Rubtime library)
