@@ -5,10 +5,10 @@ EAPI=6
 HOMEPAGE=https://github.com/deveel/irony
 INHERIT=versionator gac nupkg
 IUSE=net45 debug +developer test +nupkg +gac +pkg-config +gac pkg-config net45 +nupkg
-KEYWORDS=~amd64 ~x86
+KEYWORDS=~amd64
 LICENSE=MIT
 RDEPEND=>=dev-lang/mono-4.0.2.5 dev-lang/mono nupkg? ( dev-dotnet/nuget )
 SLOT=0
 SRC_URI=https://github.com/deveel/irony/archive/7bc3f3e70af5bdd6a095ba06de31e0929751b48e.zip -> deveel-irony-1.0.0_p20150328.zip mirror://gentoo/mono.snk.bz2
 _eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	versionator	d3fb3ba33acc3bbbdc4d7970227c100d	gac	392a37451ddb37df9938f4870e5c50e1	eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961	mono-env	87888393b1c1b882d0543087e28ec0b0	dotnet	b5d9e65edb57355919e7f5d438b04ea8	nupkg	b94be7a9ff06739d4130b5c3987e4f29
-_md5_=be4289ff8da4f76008d60b5e086d3aa7
+_md5_=38f07017b9ab061b9fc89a17b9c0b352

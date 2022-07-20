@@ -5,11 +5,11 @@ EAPI=6
 HOMEPAGE=https://github.com/haf/DotNetZip.Semverd
 INHERIT=dotnet gac mono-pkg-config xbuild
 IUSE=net45 +gac +nupkg developer debug doc net45 +gac pkg-config pkg-config symlink net45
-KEYWORDS=~amd64 ~ppc ~x86
+KEYWORDS=~amd64
 LICENSE=MS-PL
 RDEPEND=>=dev-lang/mono-4.0.2.5 dev-lang/mono dev-lang/mono
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/haf/DotNetZip.Semverd/archive/v1.9.3.tar.gz -> 1.9.3.tar.gz https://github.com/mono/mono/raw/main/mcs/class/mono.snk
 _eclasses_=eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961	mono-env	87888393b1c1b882d0543087e28ec0b0	dotnet	b5d9e65edb57355919e7f5d438b04ea8	gac	392a37451ddb37df9938f4870e5c50e1	mono-pkg-config	7f50f342d7b3bc169f28b698dfde96c0	xbuild	b43886a504069e8d51f16ba1f182bbef
-_md5_=7411bb4a64f14ec83791503e2f9ba4de
+_md5_=8282abcf9c51a351c6b514978bdc0937
