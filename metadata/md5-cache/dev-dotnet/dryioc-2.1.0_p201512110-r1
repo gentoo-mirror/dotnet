@@ -4,11 +4,11 @@ DESCRIPTION=fast, small, full-featured IoC Container for .NET
 EAPI=6
 HOMEPAGE=https://bitbucket.org/dadhi/dryioc
 INHERIT=versionator vcs-snapshot gac nupkg
-IUSE=net45 debug developer test +nupkg +pkg-config +gac pkg-config debug developer +nupkg
+IUSE=net45 debug developer test +nupkg +pkg-config +gac pkg-config +nupkg
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=>=dev-lang/mono-4.0.2.5 dev-lang/mono nupkg? ( dev-dotnet/nuget )
 SLOT=0
 SRC_URI=https://bitbucket.org/dadhi/dryioc/get/9f1954dd.tar.gz -> dryioc-2.1.0_p201512110-r1.tar.gz nupkg? ( https://raw.githubusercontent.com/ArsenShnurkov/dotnet/dryioc/dev-dotnet/dryioc/files/icon.png -> dryioc-2.1.0_p201512110-r1.icon.png ) gac? ( mirror://gentoo/mono.snk.bz2 )
-_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	versionator	d3fb3ba33acc3bbbdc4d7970227c100d	vcs-snapshot	19dc666868420457132a7514d4621476	gac	392a37451ddb37df9938f4870e5c50e1	desktop	22952d8f27cac191d75529d4c38e6bfa	edos2unix	33e347e171066657f91f8b0c72ec8773	epatch	447396341f5f896d722e435a06f87a4f	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	ltprune	97143780d341cc8d8f1d4c6187a36d29	preserve-libs	a8e50acee31b5759b4df1f7707cae54b	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	vcs-clean	d271b7bc7e6a009758d7d4ef749174e3	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	23cb2d46c80c12aa8b25973b4cdcb257	mono-env	19800b8d105a543602e5b9da72d9b0c3	dotnet	4dc854898d000c223f7177b53a49d766	nupkg	b94be7a9ff06739d4130b5c3987e4f29
+_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	versionator	d3fb3ba33acc3bbbdc4d7970227c100d	vcs-snapshot	19dc666868420457132a7514d4621476	gac	392a37451ddb37df9938f4870e5c50e1	eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961	mono-env	87888393b1c1b882d0543087e28ec0b0	dotnet	b5d9e65edb57355919e7f5d438b04ea8	nupkg	b94be7a9ff06739d4130b5c3987e4f29
 _md5_=026dbffd4a4b64e394d9218ed2af4f07

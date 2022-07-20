@@ -1,0 +1,14 @@
+BDEPEND=virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4 dev-lang/mono
+DEFINED_PHASES=compile prepare setup
+DEPEND=>=dev-lang/mono-4.0.2.5 sys-apps/dbus
+DESCRIPTION=D-Bus for .NET
+EAPI=7
+HOMEPAGE=https://github.com/mono/dbus-sharp
+INHERIT=autotools mono-env dotnet
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=MIT
+RDEPEND=>=dev-lang/mono-4.0.2.5 sys-apps/dbus
+SLOT=0
+SRC_URI=https://github.com/mono/dbus-sharp/archive/v0.8.1.tar.gz -> dbus-sharp-0.8.1.tar.gz
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	9e6965bfaa00f52cc61e0d4bc44c87b3	mono-env	87888393b1c1b882d0543087e28ec0b0	dotnet	b5d9e65edb57355919e7f5d438b04ea8
+_md5_=6e2ae5fb49cb49da815e483790d12207

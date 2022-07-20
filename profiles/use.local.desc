@@ -12,11 +12,6 @@ dev-dotnet/deveel-math:pkg-config - create .pc file(s) for .dll(s) installed to 
 dev-dotnet/deveeldb:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-dotnet/dotnetzip-semverd:developer - 
 dev-dotnet/dryioc:pkg-config - create .pc file(s) for .dll(s) installed to gac
-dev-dotnet/gnome-desktop-sharp:gtksourceview - Build with support for gtksourceview
-dev-dotnet/gnome-desktop-sharp:print - Build with support for gnomeprint
-dev-dotnet/gnome-desktop-sharp:rsvg - Build with support for rsvg
-dev-dotnet/gnome-desktop-sharp:vte - Build with support for vte
-dev-dotnet/gnome-desktop-sharp:wnck - Build with support for wnck
 dev-dotnet/mono-options:developer - n/a
 dev-dotnet/mono-options:gac - n/a
 dev-dotnet/mono-options:nupkg - n/a
@@ -38,7 +33,6 @@ dev-dotnet/x-pagedlist:pkg-config - create .pc file(s) for .dll(s) installed to 
 dev-libs/libgit2:gssapi - Enable GSSAPI support for SPNEGO auth
 dev-libs/libgit2:ssh - Enable SSH transport support
 dev-libs/libgit2:trace - Enable tracing support
-dev-util/mono-docbrowser:gtkhtml - HTK HTML
 dev-util/mono-packaging-tools:aot - compile to machine code and store to disk during install, to save time later during startups
 dev-util/mono-packaging-tools:pkg-config - create .pc file(s) for .dll(s) installed to gac
 dev-util/nant:developer - enables debug information for any of debug and release builds
