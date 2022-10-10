@@ -11,5 +11,5 @@ RDEPEND=>=dev-lang/mono-5.2.0.196 dev-dotnet/system-collections-immutable dev-la
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dotnet/corefx/archive/247068fbd97c534dc13b3b9d037f67b03dbe57a5.tar.gz -> corefx-dotnet-2.0.0_pre.tar.gz
-_eclasses_=eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961	mono-env	87888393b1c1b882d0543087e28ec0b0	dotnet	b5d9e65edb57355919e7f5d438b04ea8	xbuild	b43886a504069e8d51f16ba1f182bbef	gac	392a37451ddb37df9938f4870e5c50e1
+_eclasses_=eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	mono-env	87888393b1c1b882d0543087e28ec0b0	dotnet	b5d9e65edb57355919e7f5d438b04ea8	xbuild	b43886a504069e8d51f16ba1f182bbef	gac	392a37451ddb37df9938f4870e5c50e1
 _md5_=1ebcf2e448f7c90e6162d17820315066
