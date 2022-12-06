@@ -11,5 +11,5 @@ RDEPEND=>=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 dev-dotnet/msbuild-tasks-a
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dotnet/roslyn/archive/ec1cde8b77c7bca654888681037f55aa0e62dd19.tar.gz -> roslyn-15.3.tar.gz https://github.com/mono/mono/raw/main/mcs/class/mono.snk
-_eclasses_=eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	mono-env	87888393b1c1b882d0543087e28ec0b0	dotnet	b5d9e65edb57355919e7f5d438b04ea8	xbuild	b43886a504069e8d51f16ba1f182bbef
+_eclasses_=eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	959e1d99122907eb98a3a660297a967e	mono-env	87888393b1c1b882d0543087e28ec0b0	dotnet	b5d9e65edb57355919e7f5d438b04ea8	xbuild	b43886a504069e8d51f16ba1f182bbef
 _md5_=f5e8fd4ddcb295ee3c0e0b8bb0a70642

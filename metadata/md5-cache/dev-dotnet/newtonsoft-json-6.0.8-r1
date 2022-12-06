@@ -12,5 +12,5 @@ RDEPEND=|| ( >=dev-lang/mono-4.2 <dev-lang/mono-9999 ) dev-lang/mono
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/JamesNK/Newtonsoft.Json/archive/1497343173a181d678b4c9bbf60250a12f783f1c.zip -> newtonsoft-json-6.0.8.zip https://github.com/mono/mono/raw/main/mcs/class/mono.snk
-_eclasses_=eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	mono-env	87888393b1c1b882d0543087e28ec0b0	dotnet	b5d9e65edb57355919e7f5d438b04ea8	gac	392a37451ddb37df9938f4870e5c50e1	xbuild	b43886a504069e8d51f16ba1f182bbef	estack	055c42df72f76a4f45ec92b35e83cd56	versionator	d3fb3ba33acc3bbbdc4d7970227c100d
+_eclasses_=eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	959e1d99122907eb98a3a660297a967e	mono-env	87888393b1c1b882d0543087e28ec0b0	dotnet	b5d9e65edb57355919e7f5d438b04ea8	gac	392a37451ddb37df9938f4870e5c50e1	xbuild	b43886a504069e8d51f16ba1f182bbef	estack	055c42df72f76a4f45ec92b35e83cd56	versionator	d3fb3ba33acc3bbbdc4d7970227c100d
 _md5_=778a8ba28d53a2f78964b8754c2a9d87
