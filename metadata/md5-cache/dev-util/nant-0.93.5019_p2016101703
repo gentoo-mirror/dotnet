@@ -11,5 +11,5 @@ RDEPEND=>=dev-lang/mono-4.4.0.40 !dev-dotnet/nant nupkg? ( dev-dotnet/nuget ) nu
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://api.github.com/repos/nant/nant/zipball/e3644541bf083d8e33f450bfbd1a4147e494769c -> nant-nant-0.93.5019_p2016101703-e3644541bf083d8e33f450bfbd1a4147e494769c.zip
-_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	versionator	d3fb3ba33acc3bbbdc4d7970227c100d	eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	959e1d99122907eb98a3a660297a967e	mono-env	87888393b1c1b882d0543087e28ec0b0	dotnet	b5d9e65edb57355919e7f5d438b04ea8	xbuild	b43886a504069e8d51f16ba1f182bbef	nupkg	b94be7a9ff06739d4130b5c3987e4f29
+_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	versionator	d3fb3ba33acc3bbbdc4d7970227c100d	eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	mono-env	87888393b1c1b882d0543087e28ec0b0	dotnet	b5d9e65edb57355919e7f5d438b04ea8	xbuild	b43886a504069e8d51f16ba1f182bbef	nupkg	b94be7a9ff06739d4130b5c3987e4f29
 _md5_=f8b4a1bf07a88c518fdb7d2911bba6bc

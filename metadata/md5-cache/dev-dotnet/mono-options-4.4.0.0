@@ -11,5 +11,5 @@ RDEPEND=nupkg? ( dev-dotnet/nuget )
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/ArsenShnurkov/shnurise-tarballs/raw/master/mono-4.5.2_p2016061606.tar.bz2
-_eclasses_=eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	959e1d99122907eb98a3a660297a967e	mono-env	87888393b1c1b882d0543087e28ec0b0	dotnet	b5d9e65edb57355919e7f5d438b04ea8	nupkg	b94be7a9ff06739d4130b5c3987e4f29
+_eclasses_=eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	mono-env	87888393b1c1b882d0543087e28ec0b0	dotnet	b5d9e65edb57355919e7f5d438b04ea8	nupkg	b94be7a9ff06739d4130b5c3987e4f29
 _md5_=610615e019a63af0af0ca060b822f562

@@ -11,5 +11,5 @@ RDEPEND=|| ( >=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 ) dev-lang/mono
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/nhibernate/nhibernate-core/archive/c2c93d979611463b5a3fb12c4d27bb78d86de9d4.tar.gz -> nhibernate-core-5.0.0.tar.gz https://github.com/mono/mono/raw/main/mcs/class/mono.snk
-_eclasses_=eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	959e1d99122907eb98a3a660297a967e	mono-env	87888393b1c1b882d0543087e28ec0b0	dotnet	b5d9e65edb57355919e7f5d438b04ea8	msbuild	4528bd247f66aef2808290da46b78404	gac	392a37451ddb37df9938f4870e5c50e1
+_eclasses_=eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	mono-env	87888393b1c1b882d0543087e28ec0b0	dotnet	b5d9e65edb57355919e7f5d438b04ea8	msbuild	4528bd247f66aef2808290da46b78404	gac	392a37451ddb37df9938f4870e5c50e1
 _md5_=f4f081d15482473729b5b529dbcefbcc
