@@ -76,4 +76,3 @@ dev-util/nunit-console 3.7.0: NUnit Console runner and test engine
 dev-util/nunit-gui 3.7.0: NUnit test suite for mono applications
 dev-util/tartool 1.0.0.0: command line tool to uncompress and untar .tar.gz (.tgz) files
 net-irc/smuxi 1.0.6.130 1.0.7: A flexible, irssi-like and user-friendly IRC client for the Gnome Desktop
-www-servers/xsp 4.6: XSP is a small web server that can host ASP.NET pages
